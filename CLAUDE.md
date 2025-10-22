@@ -5,7 +5,8 @@ Guidelines for agents and developers working in this repository.
 ## Structure
 
 Bun + Turbo monorepo with:
-- **Apps**: `apps/*` (empty, to be added)
+- **Apps**:
+  - `apps/website` - Main website application
 - **Packages**:
   - `packages/ui` - Shared UI components (shadcn/ui + TailwindCSS v4)
   - `packages/db` - Drizzle ORM database schema
