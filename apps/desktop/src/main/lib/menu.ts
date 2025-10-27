@@ -1,0 +1,119 @@
+import { app, dialog, Menu, type BrowserWindow } from 'electron'
+import workspaceManager from './workspace-manager'
+
+export function createApplicationMenu(mainWindow: BrowserWindow) {
+  const template: Electron.MenuItemConstructorOptions[] = [
+    {
+      label: 'File',
+      submenu: [
+        {
+          label: 'Open Repository...',
+          accelerator: 'CmdOrCtrl+O',
+          click: async () => {
+            // Show directory picker
+            const result = await dialog.showOpenDialog(mainWindow, {
+              properties: ['openDirectory'],
+              title: 'Select Repository',
+            })
+
+            if (result.canceled || result.filePaths.length === 0) {
+              return
+            }
+
+            const repoPath = result.filePaths[0]
+
+            // Get current branch
+            const worktreeManager = (await import('./worktree-manager')).default
+            if (!worktreeManager.isGitRepo(repoPath)) {
+              dialog.showErrorBox('Not a Git Repository', 'The selected directory is not a git repository.')
+              return
+            }
+
+            const currentBranch = worktreeManager.getCurrentBranch(repoPath)
+            if (!currentBranch) {
+              dialog.showErrorBox('Error', 'Could not determine current branch.')
+              return
+            }
+
+            // Create workspace with repo name and current branch
+            const repoName = repoPath.split('/').pop() || 'Repository'
+
+            const createResult = await workspaceManager.create({
+              name: repoName,
+              repoPath,
+              branch: currentBranch,
+            })
+
+            if (!createResult.success) {
+              dialog.showErrorBox('Error', createResult.error || 'Failed to open repository')
+              return
+            }
+
+            // Notify renderer to reload workspaces
+            console.log('[Menu] Sending workspace-opened event:', createResult.workspace)
+            mainWindow.webContents.send('workspace-opened', createResult.workspace)
+            console.log('[Menu] Event sent')
+          },
+        },
+        { type: 'separator' },
+        { role: 'quit' },
+      ],
+    },
+    {
+      label: 'Edit',
+      submenu: [
+        { role: 'undo' },
+        { role: 'redo' },
+        { type: 'separator' },
+        { role: 'cut' },
+        { role: 'copy' },
+        { role: 'paste' },
+        { role: 'selectAll' },
+      ],
+    },
+    {
+      label: 'View',
+      submenu: [
+        { role: 'reload' },
+        { role: 'forceReload' },
+        { role: 'toggleDevTools' },
+        { type: 'separator' },
+        { role: 'resetZoom' },
+        { role: 'zoomIn' },
+        { role: 'zoomOut' },
+        { type: 'separator' },
+        { role: 'togglefullscreen' },
+      ],
+    },
+    {
+      label: 'Window',
+      submenu: [
+        { role: 'minimize' },
+        { role: 'zoom' },
+        { type: 'separator' },
+        { role: 'close' },
+      ],
+    },
+  ]
+
+  // Add About menu on macOS
+  if (process.platform === 'darwin') {
+    template.unshift({
+      label: app.name,
+      submenu: [
+        { role: 'about' },
+        { type: 'separator' },
+        { role: 'services' },
+        { type: 'separator' },
+        { role: 'hide' },
+        { role: 'hideOthers' },
+        { role: 'unhide' },
+        { type: 'separator' },
+        { role: 'quit' },
+      ],
+    })
+  }
+
+  const menu = Menu.buildFromTemplate(template)
+  Menu.setApplicationMenu(menu)
+}

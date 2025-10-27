@@ -5,6 +5,8 @@ import { createWindow } from "lib/electron-app/factories/windows/create";
 import { ENVIRONMENT } from "shared/constants";
 import { displayName } from "~/package.json";
 import { registerTerminalIPCs } from "../lib/terminal-ipcs";
+import { registerWorkspaceIPCs } from "../lib/workspace-ipcs";
+import { createApplicationMenu } from "../lib/menu";
 
 export async function MainWindow() {
 	const { width, height } = screen.getPrimaryDisplay().workAreaSize;
@@ -29,8 +31,12 @@ export async function MainWindow() {
 		},
 	});
 
-	// Register terminal IPC handlers
+	// Register IPC handlers
 	const cleanupTerminal = registerTerminalIPCs(window);
+	registerWorkspaceIPCs();
+
+	// Create application menu
+	createApplicationMenu(window);
 
 	window.webContents.on("did-finish-load", () => {
 		window.show();
