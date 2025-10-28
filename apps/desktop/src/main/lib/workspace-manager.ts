@@ -4,7 +4,7 @@ import type {
 	CreateScreenInput,
 	CreateWorkspaceInput,
 	CreateWorktreeInput,
-	LayoutNode,
+	GridLayout,
 	Screen,
 	UpdateWorkspaceInput,
 	Workspace,
@@ -14,25 +14,19 @@ import type {
 import configManager from "./config-manager";
 import worktreeManager from "./worktree-manager";
 
-// Default 4-pane layout
-const DEFAULT_LAYOUT: LayoutNode = {
-	type: "split",
-	direction: "vertical",
-	ratio: [1, 1, 1],
-	children: [
-		{ type: "pane", command: null },
-		{ type: "pane", command: null },
-		{
-			type: "split",
-			direction: "horizontal",
-			ratio: [1, 1],
-			children: [
-				{ type: "pane", command: null },
-				{ type: "pane", command: null },
-			],
-		},
-	],
-};
+// Function to create default 2x2 grid layout
+function createDefaultLayout(): GridLayout {
+	return {
+		rows: 2,
+		cols: 2,
+		terminals: [
+			{ id: randomUUID(), row: 0, col: 0, command: null },
+			{ id: randomUUID(), row: 0, col: 1, command: null },
+			{ id: randomUUID(), row: 1, col: 0, command: null },
+			{ id: randomUUID(), row: 1, col: 1, command: null },
+		],
+	};
+}
 
 class WorkspaceManager {
 	private static instance: WorkspaceManager;
@@ -148,7 +142,7 @@ class WorkspaceManager {
 			const defaultScreen: Screen = {
 				id: randomUUID(),
 				name: "default",
-				layout: DEFAULT_LAYOUT,
+				layout: createDefaultLayout(),
 				createdAt: now,
 			};
 
@@ -383,7 +377,7 @@ class WorkspaceManager {
 					const defaultScreen: Screen = {
 						id: randomUUID(),
 						name: "default",
-						layout: DEFAULT_LAYOUT,
+						layout: createDefaultLayout(),
 						createdAt: now,
 					};
 

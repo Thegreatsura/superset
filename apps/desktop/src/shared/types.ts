@@ -17,25 +17,26 @@ export interface WindowCreationByIPC {
 	callback(window: BrowserWindow, event: IpcMainInvokeEvent): void;
 }
 
-// Workspace types
-export interface TerminalPane {
-	type: "pane";
+// Workspace types - Simple Grid Layout
+export interface GridTerminal {
+	id: string;
 	command?: string | null;
+	row: number;
+	col: number;
+	rowSpan?: number;
+	colSpan?: number;
 }
 
-export interface TerminalSplit {
-	type: "split";
-	direction: "horizontal" | "vertical";
-	ratio: number[]; // e.g., [1, 1, 1] for equal splits
-	children: (TerminalPane | TerminalSplit)[];
+export interface GridLayout {
+	rows: number;
+	cols: number;
+	terminals: GridTerminal[];
 }
-
-export type LayoutNode = TerminalPane | TerminalSplit;
 
 export interface Screen {
 	id: string;
 	name: string;
-	layout: LayoutNode;
+	layout: GridLayout;
 	createdAt: string;
 }
 
@@ -78,7 +79,7 @@ export interface CreateScreenInput {
 	workspaceId: string;
 	worktreeId: string;
 	name: string;
-	layout: LayoutNode;
+	layout: GridLayout;
 }
 
 export interface UpdateWorkspaceInput {

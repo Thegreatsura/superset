@@ -1,18 +1,18 @@
 import { useEffect, useState } from "react";
-import type { LayoutNode, TerminalPane, TerminalSplit } from "shared/types";
+import type { GridLayout, GridTerminal } from "shared/types";
 import Terminal from "./Terminal";
 
 interface TerminalLayoutProps {
-    layout: LayoutNode;
+    layout: GridLayout;
     workingDirectory: string;
 }
 
 interface TerminalInstanceProps {
-    pane: TerminalPane;
+    terminal: GridTerminal;
     workingDirectory: string;
 }
 
-function TerminalInstance({ pane, workingDirectory }: TerminalInstanceProps) {
+function TerminalInstance({ terminal, workingDirectory }: TerminalInstanceProps) {
     const [terminalId, setTerminalId] = useState<string | null>(null);
 
     useEffect(() => {
@@ -25,11 +25,11 @@ function TerminalInstance({ pane, workingDirectory }: TerminalInstanceProps) {
                 setTerminalId(id);
 
                 // Execute startup command if specified
-                if (pane.command && id) {
+                if (terminal.command && id) {
                     setTimeout(() => {
                         window.ipcRenderer.invoke("terminal-execute-command", {
                             id,
-                            command: pane.command,
+                            command: terminal.command,
                         });
                     }, 500); // Small delay to ensure terminal is ready
                 }
@@ -46,7 +46,7 @@ function TerminalInstance({ pane, workingDirectory }: TerminalInstanceProps) {
                 window.ipcRenderer.invoke("terminal-kill", terminalId);
             }
         };
-    }, [workingDirectory, pane.command]);
+    }, [workingDirectory, terminal.command]);
 
     return (
         <div className="w-full h-full">
@@ -55,62 +55,43 @@ function TerminalInstance({ pane, workingDirectory }: TerminalInstanceProps) {
     );
 }
 
-interface SplitLayoutProps {
-    split: TerminalSplit;
-    workingDirectory: string;
-}
-
-function SplitLayout({ split, workingDirectory }: SplitLayoutProps) {
-    const totalRatio = split.ratio.reduce((sum, r) => sum + r, 0);
-    const isVertical = split.direction === "vertical";
-
-    return (
-        <div
-            className={`flex ${isVertical ? "flex-row" : "flex-col"} w-full h-full gap-1`}
-        >
-            {split.children.map((child, index) => {
-                const flexBasis = `${(split.ratio[index] / totalRatio) * 100}%`;
-
-                return (
-                    <div
-                        key={index}
-                        style={{ flexBasis }}
-                        className="grow shrink overflow-hidden rounded border border-neutral-800"
-                    >
-                        <LayoutNodeRenderer
-                            node={child}
-                            workingDirectory={workingDirectory}
-                        />
-                    </div>
-                );
-            })}
-        </div>
-    );
-}
-
-interface LayoutNodeRendererProps {
-    node: LayoutNode;
-    workingDirectory: string;
-}
-
-function LayoutNodeRenderer({
-    node,
-    workingDirectory,
-}: LayoutNodeRendererProps) {
-    if (node.type === "pane") {
-        return <TerminalInstance pane={node} workingDirectory={workingDirectory} />;
-    }
-
-    return <SplitLayout split={node} workingDirectory={workingDirectory} />;
-}
-
 export default function TerminalLayout({
     layout,
     workingDirectory,
 }: TerminalLayoutProps) {
+    // Safety check: ensure layout has the expected structure
+    if (!layout || !layout.terminals || !Array.isArray(layout.terminals)) {
+        return (
+            <div className="w-full h-full flex items-center justify-center text-gray-400">
+                <div className="text-center">
+                    <p>Invalid layout structure</p>
+                    <p className="text-sm text-gray-500 mt-2">Please rescan worktrees or create a new screen</p>
+                </div>
+            </div>
+        );
+    }
+
     return (
-        <div className="w-full h-full">
-            <LayoutNodeRenderer node={layout} workingDirectory={workingDirectory} />
+        <div
+            className="w-full h-full gap-1 p-1"
+            style={{
+                display: 'grid',
+                gridTemplateRows: `repeat(${layout.rows}, 1fr)`,
+                gridTemplateColumns: `repeat(${layout.cols}, 1fr)`,
+            }}
+        >
+            {layout.terminals.map((terminal) => (
+                <div
+                    key={terminal.id}
+                    className="overflow-hidden rounded border border-neutral-800"
+                    style={{
+                        gridRow: `${terminal.row + 1} / span ${terminal.rowSpan || 1}`,
+                        gridColumn: `${terminal.col + 1} / span ${terminal.colSpan || 1}`,
+                    }}
+                >
+                    <TerminalInstance terminal={terminal} workingDirectory={workingDirectory} />
+                </div>
+            ))}
         </div>
     );
 }
