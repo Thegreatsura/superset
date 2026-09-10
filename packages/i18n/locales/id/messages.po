@@ -2111,6 +2111,15 @@ msgstr "lampiran"
 msgid "Attachment"
 msgstr "Lampiran"
 
+msgid "Attachment is no longer available"
+msgstr "Lampiran tidak lagi tersedia"
+
+msgid "Attachment is too large"
+msgstr "Lampiran terlalu besar"
+
+msgid "Attachment not found"
+msgstr "Lampiran tidak ditemukan"
+
 msgid "attachment preview"
 msgstr "pratinjau lampiran"
 
@@ -2122,6 +2131,9 @@ msgstr "Unggahan lampiran gagal ({0}): {1}"
 #. placeholder {0}: first.message
 msgid "Attachment upload failed: {0}"
 msgstr "Unggahan lampiran gagal: {0}"
+
+msgid "Attachment was not uploaded — send the bytes first"
+msgstr "Lampiran belum diunggah — kirim datanya terlebih dahulu"
 
 msgid "Attachments are not wired yet"
 msgstr "Lampiran belum terhubung"
@@ -5339,6 +5351,10 @@ msgstr "mis. Engineering"
 
 msgid "Each agent runs in its own isolated Git worktree. No merge conflicts, no stepping on each other's changes. Review and merge work when you're ready."
 msgstr "Tiap agen berjalan di worktree Git terisolasi sendiri. Tanpa konflik merge, tanpa saling menimpa perubahan. Review dan merge saat Anda siap."
+
+#. placeholder {0}: formatNumber(MAX_ATTACHMENT_BYTES / 1024 / 1024)
+msgid "Each attachment is at most {0} MB."
+msgstr "Setiap lampiran maksimal {0} MB."
 
 msgid "Each in its own new tab"
 msgstr "Masing-masing di tab barunya sendiri"
@@ -15394,6 +15410,9 @@ msgstr "Pembaruan Diperlukan"
 msgid "Update Superset on that device. In-app updates require a supported standalone install and a released app version."
 msgstr "Perbarui Superset di perangkat tersebut. Pembaruan dari aplikasi memerlukan instalasi mandiri yang didukung dan versi aplikasi yang telah dirilis."
 
+msgid "Update Superset on this machine to attach files"
+msgstr "Perbarui Superset di mesin ini untuk melampirkan file"
+
 msgid "update the branch prefix"
 msgstr "memperbarui prefix branch"
 
@@ -16232,6 +16251,9 @@ msgstr "Anda satu-satunya pemilik organisasi yang punya anggota lain. Alihkan ke
 #. placeholder {0}: String(MIN_ACTIVE_DAYS)
 msgid "You are unranked until {0} days carry usage. Scoring starts once the board can see a full picture."
 msgstr "Anda tanpa peringkat sampai ada {0} hari dengan penggunaan. Penilaian dimulai setelah gambaran utuh terlihat."
+
+msgid "You can attach up to {MAX_ATTACHMENTS} files"
+msgstr "Anda dapat melampirkan hingga {MAX_ATTACHMENTS} file"
 
 #. placeholder {0}: COMPANY.DOMAIN
 msgid "You can't change this subscription in the app. Your organization's plan is managed by its owner at {0}."

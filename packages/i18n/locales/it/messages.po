@@ -2111,6 +2111,15 @@ msgstr "allegato"
 msgid "Attachment"
 msgstr "Allegato"
 
+msgid "Attachment is no longer available"
+msgstr "L'allegato non è più disponibile"
+
+msgid "Attachment is too large"
+msgstr "L'allegato è troppo grande"
+
+msgid "Attachment not found"
+msgstr "Allegato non trovato"
+
 msgid "attachment preview"
 msgstr "anteprima dell'allegato"
 
@@ -2122,6 +2131,9 @@ msgstr "Caricamento dell'allegato non riuscito ({0}): {1}"
 #. placeholder {0}: first.message
 msgid "Attachment upload failed: {0}"
 msgstr "Caricamento dell'allegato non riuscito: {0}"
+
+msgid "Attachment was not uploaded — send the bytes first"
+msgstr "L'allegato non è stato caricato — invia prima i dati"
 
 msgid "Attachments are not wired yet"
 msgstr "Gli allegati non sono ancora collegati"
@@ -5339,6 +5351,10 @@ msgstr "es. Engineering"
 
 msgid "Each agent runs in its own isolated Git worktree. No merge conflicts, no stepping on each other's changes. Review and merge work when you're ready."
 msgstr "Ogni agente gira nel proprio worktree Git isolato. Niente conflitti di merge, nessuno che pesta le modifiche degli altri. Rivedi e unisci il lavoro quando sei pronto."
+
+#. placeholder {0}: formatNumber(MAX_ATTACHMENT_BYTES / 1024 / 1024)
+msgid "Each attachment is at most {0} MB."
+msgstr "Ogni allegato può essere al massimo {0} MB."
 
 msgid "Each in its own new tab"
 msgstr "Ognuno in una nuova scheda"
@@ -15394,6 +15410,9 @@ msgstr "Aggiornamento richiesto"
 msgid "Update Superset on that device. In-app updates require a supported standalone install and a released app version."
 msgstr "Aggiorna Superset su quel dispositivo. Gli aggiornamenti dall’app richiedono un’installazione autonoma supportata e una versione rilasciata dell’app."
 
+msgid "Update Superset on this machine to attach files"
+msgstr "Aggiorna Superset su questa macchina per allegare file"
+
 msgid "update the branch prefix"
 msgstr "aggiornare il prefisso dei branch"
 
@@ -16232,6 +16251,9 @@ msgstr "Sei l'unico proprietario di un'organizzazione che ha altri membri. Trasf
 #. placeholder {0}: String(MIN_ACTIVE_DAYS)
 msgid "You are unranked until {0} days carry usage. Scoring starts once the board can see a full picture."
 msgstr "Non sei classificato finché {0} giorni non registrano attività. Il punteggio parte quando il quadro è completo."
+
+msgid "You can attach up to {MAX_ATTACHMENTS} files"
+msgstr "Puoi allegare fino a {MAX_ATTACHMENTS} file"
 
 #. placeholder {0}: COMPANY.DOMAIN
 msgid "You can't change this subscription in the app. Your organization's plan is managed by its owner at {0}."

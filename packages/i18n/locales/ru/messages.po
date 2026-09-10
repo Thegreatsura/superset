@@ -2111,6 +2111,15 @@ msgstr "вложение"
 msgid "Attachment"
 msgstr "Вложение"
 
+msgid "Attachment is no longer available"
+msgstr "Вложение больше недоступно"
+
+msgid "Attachment is too large"
+msgstr "Вложение слишком большое"
+
+msgid "Attachment not found"
+msgstr "Вложение не найдено"
+
 msgid "attachment preview"
 msgstr "предпросмотр вложения"
 
@@ -2122,6 +2131,9 @@ msgstr "Не удалось загрузить вложение ({0}): {1}"
 #. placeholder {0}: first.message
 msgid "Attachment upload failed: {0}"
 msgstr "Не удалось загрузить вложение: {0}"
+
+msgid "Attachment was not uploaded — send the bytes first"
+msgstr "Вложение не было загружено — сначала отправьте данные"
 
 msgid "Attachments are not wired yet"
 msgstr "Вложения ещё не подключены"
@@ -5339,6 +5351,10 @@ msgstr "например: Разработка"
 
 msgid "Each agent runs in its own isolated Git worktree. No merge conflicts, no stepping on each other's changes. Review and merge work when you're ready."
 msgstr "Каждый агент работает в собственном изолированном Git worktree. Никаких конфликтов слияния и наступаний на чужие изменения. Проверяйте и объединяйте работу, когда будете готовы."
+
+#. placeholder {0}: formatNumber(MAX_ATTACHMENT_BYTES / 1024 / 1024)
+msgid "Each attachment is at most {0} MB."
+msgstr "Каждое вложение — не более {0} МБ."
 
 msgid "Each in its own new tab"
 msgstr "Каждая в своей новой вкладке"
@@ -15394,6 +15410,9 @@ msgstr "Требуется обновление"
 msgid "Update Superset on that device. In-app updates require a supported standalone install and a released app version."
 msgstr "Обновите Superset на этом устройстве. Для обновления из приложения нужны поддерживаемая автономная установка и выпущенная версия приложения."
 
+msgid "Update Superset on this machine to attach files"
+msgstr "Обновите Superset на этой машине, чтобы прикреплять файлы"
+
 msgid "update the branch prefix"
 msgstr "обновить префикс ветки"
 
@@ -16232,6 +16251,9 @@ msgstr "Вы единственный владелец организации, �
 #. placeholder {0}: String(MIN_ACTIVE_DAYS)
 msgid "You are unranked until {0} days carry usage. Scoring starts once the board can see a full picture."
 msgstr "Вы вне рейтинга, пока не наберётся дней с активностью: {0}. Подсчёт очков начнётся, когда картина станет полной."
+
+msgid "You can attach up to {MAX_ATTACHMENTS} files"
+msgstr "Можно прикрепить не более {MAX_ATTACHMENTS} файлов"
 
 #. placeholder {0}: COMPANY.DOMAIN
 msgid "You can't change this subscription in the app. Your organization's plan is managed by its owner at {0}."

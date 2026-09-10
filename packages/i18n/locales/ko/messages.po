@@ -2111,6 +2111,15 @@ msgstr "첨부 파일"
 msgid "Attachment"
 msgstr "첨부 파일"
 
+msgid "Attachment is no longer available"
+msgstr "첨부 파일을 더 이상 사용할 수 없습니다"
+
+msgid "Attachment is too large"
+msgstr "첨부 파일이 너무 큽니다"
+
+msgid "Attachment not found"
+msgstr "첨부 파일을 찾을 수 없습니다"
+
 msgid "attachment preview"
 msgstr "첨부 파일 미리보기"
 
@@ -2122,6 +2131,9 @@ msgstr "첨부 파일 업로드 실패 ({0}): {1}"
 #. placeholder {0}: first.message
 msgid "Attachment upload failed: {0}"
 msgstr "첨부 파일 업로드 실패: {0}"
+
+msgid "Attachment was not uploaded — send the bytes first"
+msgstr "첨부 파일이 업로드되지 않았습니다 — 먼저 데이터를 전송하세요"
 
 msgid "Attachments are not wired yet"
 msgstr "첨부 파일은 아직 연결되지 않았습니다"
@@ -5339,6 +5351,10 @@ msgstr "예: Engineering"
 
 msgid "Each agent runs in its own isolated Git worktree. No merge conflicts, no stepping on each other's changes. Review and merge work when you're ready."
 msgstr "각 에이전트가 격리된 자체 Git worktree에서 실행됩니다. 머지 충돌도, 서로의 변경을 건드리는 일도 없습니다. 준비되면 리뷰하고 머지하세요."
+
+#. placeholder {0}: formatNumber(MAX_ATTACHMENT_BYTES / 1024 / 1024)
+msgid "Each attachment is at most {0} MB."
+msgstr "첨부 파일은 각각 최대 {0} MB입니다."
 
 msgid "Each in its own new tab"
 msgstr "각각 새 탭에서"
@@ -15394,6 +15410,9 @@ msgstr "업데이트 필요"
 msgid "Update Superset on that device. In-app updates require a supported standalone install and a released app version."
 msgstr "해당 기기에서 Superset을 업데이트하세요. 앱 내 업데이트에는 지원되는 독립 실행형 설치와 정식으로 출시된 앱 버전이 필요합니다."
 
+msgid "Update Superset on this machine to attach files"
+msgstr "파일을 첨부하려면 이 컴퓨터에서 Superset을 업데이트하세요"
+
 msgid "update the branch prefix"
 msgstr "브랜치 접두사를 업데이트할"
 
@@ -16232,6 +16251,9 @@ msgstr "다른 멤버가 있는 조직의 유일한 소유자입니다. 먼저 �
 #. placeholder {0}: String(MIN_ACTIVE_DAYS)
 msgid "You are unranked until {0} days carry usage. Scoring starts once the board can see a full picture."
 msgstr "{0}일치 사용 기록이 쌓이기 전까지는 순위가 없습니다. 전체 그림이 보이면 점수 산정이 시작됩니다."
+
+msgid "You can attach up to {MAX_ATTACHMENTS} files"
+msgstr "파일은 최대 {MAX_ATTACHMENTS}개까지 첨부할 수 있습니다"
 
 #. placeholder {0}: COMPANY.DOMAIN
 msgid "You can't change this subscription in the app. Your organization's plan is managed by its owner at {0}."

@@ -2111,6 +2111,15 @@ msgstr "anexo"
 msgid "Attachment"
 msgstr "Anexo"
 
+msgid "Attachment is no longer available"
+msgstr "O anexo não está mais disponível"
+
+msgid "Attachment is too large"
+msgstr "O anexo é muito grande"
+
+msgid "Attachment not found"
+msgstr "Anexo não encontrado"
+
 msgid "attachment preview"
 msgstr "prévia do anexo"
 
@@ -2122,6 +2131,9 @@ msgstr "Falha no envio do anexo ({0}): {1}"
 #. placeholder {0}: first.message
 msgid "Attachment upload failed: {0}"
 msgstr "Falha no envio do anexo: {0}"
+
+msgid "Attachment was not uploaded — send the bytes first"
+msgstr "O anexo não foi enviado — envie os dados primeiro"
 
 msgid "Attachments are not wired yet"
 msgstr "Os anexos ainda não estão habilitados"
@@ -5339,6 +5351,10 @@ msgstr "ex.: Engenharia"
 
 msgid "Each agent runs in its own isolated Git worktree. No merge conflicts, no stepping on each other's changes. Review and merge work when you're ready."
 msgstr "Cada agente roda na própria worktree isolada do Git. Sem conflito de merge, sem pisar nas mudanças do outro. Revise e mescle quando você quiser."
+
+#. placeholder {0}: formatNumber(MAX_ATTACHMENT_BYTES / 1024 / 1024)
+msgid "Each attachment is at most {0} MB."
+msgstr "Cada anexo tem no máximo {0} MB."
 
 msgid "Each in its own new tab"
 msgstr "Cada um em sua própria aba"
@@ -15394,6 +15410,9 @@ msgstr "Atualização necessária"
 msgid "Update Superset on that device. In-app updates require a supported standalone install and a released app version."
 msgstr "Atualize o Superset nesse dispositivo. As atualizações pelo aplicativo exigem uma instalação independente compatível e uma versão publicada do aplicativo."
 
+msgid "Update Superset on this machine to attach files"
+msgstr "Atualize o Superset nesta máquina para anexar arquivos"
+
 msgid "update the branch prefix"
 msgstr "atualizar o prefixo da branch"
 
@@ -16232,6 +16251,9 @@ msgstr "Você é o único proprietário de uma organização que tem outros memb
 #. placeholder {0}: String(MIN_ACTIVE_DAYS)
 msgid "You are unranked until {0} days carry usage. Scoring starts once the board can see a full picture."
 msgstr "Você fica sem classificação até que {0} dias tenham atividade. A pontuação começa quando o quadro enxerga o quadro completo."
+
+msgid "You can attach up to {MAX_ATTACHMENTS} files"
+msgstr "Você pode anexar até {MAX_ATTACHMENTS} arquivos"
 
 #. placeholder {0}: COMPANY.DOMAIN
 msgid "You can't change this subscription in the app. Your organization's plan is managed by its owner at {0}."
