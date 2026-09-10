@@ -3368,11 +3368,12 @@ msgstr "Il cloud sta arrivando. Diventa partner di progettazione"
 msgid "Cloud sandboxes"
 msgstr "Sandbox nel cloud"
 
+#. js-lingui-explicit-id
+msgid "serverError.cloudWorkspace.cloudSandboxesAreInternalOnly"
+msgstr "Le sandbox nel cloud non sono abilitate per {account}. Richiedi l'accesso al team Superset."
+
 msgid "Cloud workspace"
 msgstr "Workspace cloud"
-
-msgid "Cloud workspaces are not available yet"
-msgstr "I workspace cloud non sono ancora disponibili"
 
 msgid "Code"
 msgstr "Codice"

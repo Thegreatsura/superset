@@ -3368,11 +3368,12 @@ msgstr "Bulut sürümü yakında. Geliştirme ortağı olun"
 msgid "Cloud sandboxes"
 msgstr "Bulut sandbox'ları"
 
+#. js-lingui-explicit-id
+msgid "serverError.cloudWorkspace.cloudSandboxesAreInternalOnly"
+msgstr "Bulut sandbox'ları {account} için etkin değil. Erişim için Superset ekibine başvurun."
+
 msgid "Cloud workspace"
 msgstr "Bulut çalışma alanı"
-
-msgid "Cloud workspaces are not available yet"
-msgstr "Bulut çalışma alanları henüz kullanılamıyor"
 
 msgid "Code"
 msgstr "Kod"

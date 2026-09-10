@@ -3368,11 +3368,12 @@ msgstr "De cloud komt eraan. Word ontwerppartner"
 msgid "Cloud sandboxes"
 msgstr "Cloudsandboxen"
 
+#. js-lingui-explicit-id
+msgid "serverError.cloudWorkspace.cloudSandboxesAreInternalOnly"
+msgstr "Cloudsandboxen zijn niet ingeschakeld voor {account}. Vraag het Superset-team om toegang."
+
 msgid "Cloud workspace"
 msgstr "Cloudwerkruimte"
-
-msgid "Cloud workspaces are not available yet"
-msgstr "Cloudwerkruimtes zijn nog niet beschikbaar"
 
 msgid "Code"
 msgstr "Code"

@@ -3368,11 +3368,12 @@ msgstr "クラウド版が近日登場。共同開発パートナーを募集中
 msgid "Cloud sandboxes"
 msgstr "クラウドサンドボックス"
 
+#. js-lingui-explicit-id
+msgid "serverError.cloudWorkspace.cloudSandboxesAreInternalOnly"
+msgstr "クラウドサンドボックスは {account} では有効になっていません。Superset チームにアクセス権をリクエストしてください。"
+
 msgid "Cloud workspace"
 msgstr "クラウドワークスペース"
-
-msgid "Cloud workspaces are not available yet"
-msgstr "クラウドワークスペースはまだ利用できません"
 
 msgid "Code"
 msgstr "コード"

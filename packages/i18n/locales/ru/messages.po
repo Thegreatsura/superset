@@ -3368,11 +3368,12 @@ msgstr "Облачная версия скоро появится. Станьт�
 msgid "Cloud sandboxes"
 msgstr "Облачные песочницы"
 
+#. js-lingui-explicit-id
+msgid "serverError.cloudWorkspace.cloudSandboxesAreInternalOnly"
+msgstr "Облачные песочницы не включены для {account}. Запросите доступ у команды Superset."
+
 msgid "Cloud workspace"
 msgstr "Облачная рабочая область"
-
-msgid "Cloud workspaces are not available yet"
-msgstr "Облачные рабочие области пока недоступны"
 
 msgid "Code"
 msgstr "Код"

@@ -3368,11 +3368,12 @@ msgstr "云端版本即将推出。成为共创伙伴"
 msgid "Cloud sandboxes"
 msgstr "云端沙箱"
 
+#. js-lingui-explicit-id
+msgid "serverError.cloudWorkspace.cloudSandboxesAreInternalOnly"
+msgstr "{account} 尚未启用云端沙箱。请向 Superset 团队申请访问权限。"
+
 msgid "Cloud workspace"
 msgstr "云端工作区"
-
-msgid "Cloud workspaces are not available yet"
-msgstr "云端工作区尚不可用"
 
 msgid "Code"
 msgstr "代码"

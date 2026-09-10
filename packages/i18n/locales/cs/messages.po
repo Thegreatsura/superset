@@ -3368,11 +3368,12 @@ msgstr "Cloud přichází. Staňte se partnerem pro vývoj"
 msgid "Cloud sandboxes"
 msgstr "Cloudové sandboxy"
 
+#. js-lingui-explicit-id
+msgid "serverError.cloudWorkspace.cloudSandboxesAreInternalOnly"
+msgstr "Cloudové sandboxy nejsou pro {account} povoleny. Požádejte tým Superset o přístup."
+
 msgid "Cloud workspace"
 msgstr "Cloudový pracovní prostor"
-
-msgid "Cloud workspaces are not available yet"
-msgstr "Cloudové pracovní prostory zatím nejsou dostupné"
 
 msgid "Code"
 msgstr "Kód"

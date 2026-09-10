@@ -3368,11 +3368,12 @@ msgstr "Phiên bản đám mây sắp ra mắt. Trở thành đối tác đồng
 msgid "Cloud sandboxes"
 msgstr "Sandbox trên cloud"
 
+#. js-lingui-explicit-id
+msgid "serverError.cloudWorkspace.cloudSandboxesAreInternalOnly"
+msgstr "Sandbox trên cloud chưa được bật cho {account}. Hãy yêu cầu nhóm Superset cấp quyền truy cập."
+
 msgid "Cloud workspace"
 msgstr "Workspace cloud"
-
-msgid "Cloud workspaces are not available yet"
-msgstr "Workspace trên cloud chưa khả dụng"
 
 msgid "Code"
 msgstr "Code"

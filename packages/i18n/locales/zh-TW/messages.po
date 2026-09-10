@@ -3368,11 +3368,12 @@ msgstr "雲端版本即將推出。成為共創夥伴"
 msgid "Cloud sandboxes"
 msgstr "雲端沙箱"
 
+#. js-lingui-explicit-id
+msgid "serverError.cloudWorkspace.cloudSandboxesAreInternalOnly"
+msgstr "{account} 尚未啟用雲端沙箱。請向 Superset 團隊申請存取權限。"
+
 msgid "Cloud workspace"
 msgstr "雲端工作區"
-
-msgid "Cloud workspaces are not available yet"
-msgstr "雲端工作區尚不可用"
 
 msgid "Code"
 msgstr "程式碼"

@@ -3368,11 +3368,12 @@ msgstr "클라우드 버전이 곧 출시됩니다. 공동 개발 파트너가 �
 msgid "Cloud sandboxes"
 msgstr "클라우드 샌드박스"
 
+#. js-lingui-explicit-id
+msgid "serverError.cloudWorkspace.cloudSandboxesAreInternalOnly"
+msgstr "{account}에는 클라우드 샌드박스가 활성화되어 있지 않습니다. Superset 팀에 액세스를 요청하세요."
+
 msgid "Cloud workspace"
 msgstr "클라우드 워크스페이스"
-
-msgid "Cloud workspaces are not available yet"
-msgstr "클라우드 워크스페이스는 아직 사용할 수 없습니다"
 
 msgid "Code"
 msgstr "코드"

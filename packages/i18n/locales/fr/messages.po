@@ -3368,11 +3368,12 @@ msgstr "Le cloud arrive. Devenez partenaire de conception"
 msgid "Cloud sandboxes"
 msgstr "Bacs à sable cloud"
 
+#. js-lingui-explicit-id
+msgid "serverError.cloudWorkspace.cloudSandboxesAreInternalOnly"
+msgstr "Les bacs à sable cloud ne sont pas activés pour {account}. Demandez l'accès à l'équipe Superset."
+
 msgid "Cloud workspace"
 msgstr "Espace de travail cloud"
-
-msgid "Cloud workspaces are not available yet"
-msgstr "Les espaces de travail cloud ne sont pas encore disponibles"
 
 msgid "Code"
 msgstr "Code"
