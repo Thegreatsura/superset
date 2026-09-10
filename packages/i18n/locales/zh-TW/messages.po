@@ -382,10 +382,6 @@ msgstr "{0} 已在本機設定，但未在你的帳戶中設定"
 msgid "{0} last full week"
 msgstr "最近完整週 {0}"
 
-#. placeholder {0}: formatNumber(v, undefined)
-msgid "{0} mo"
-msgstr "{0}個月"
-
 #. placeholder {0}: matches.length - VISIBLE_LIMIT
 msgid "{0} more — refine your search"
 msgstr "還有{0}個——請細化搜尋"
@@ -1056,11 +1052,6 @@ msgstr "上一週期${0}（{1}）"
 msgid "${0}/yr across {1} logos — already inside MRR, not additive"
 msgstr "{1}家客戶合計${0}/年 — 已計入MRR，不額外累加"
 
-#. placeholder {0}: (data.totalCashUsd / 1_000_000).toFixed(2)
-#. placeholder {1}: data.avgMonthlyNetBurnUsd == null ? "—" : formatNumber(data.avgMonthlyNetBurnUsd)
-msgid "${0}M cash ÷ ${1}/mo net burn, last 3 complete months. Cash includes raised capital; no growth assumed."
-msgstr "${0}M現金 ÷ 每月${1}淨支出，取最近3個完整月。現金包含已募集資金；未假設任何成長。"
-
 msgid "${balance} credits"
 msgstr "${balance}額度"
 
@@ -1315,6 +1306,9 @@ msgstr "{0}的操作"
 
 msgid "activation rate"
 msgstr "啟用率"
+
+msgid "Activation, how much people use it once they are in, and whether they come back."
+msgstr "啟用情況、進來之後的使用量，以及他們是否會回來。"
 
 msgid "Active"
 msgstr "啟用中"
@@ -2815,9 +2809,6 @@ msgstr "輪播"
 msgid "Cash — total balance (Mercury)"
 msgstr "現金 — 總餘額（Mercury）"
 
-msgid "Cash ÷ net burn at the current run rate"
-msgstr "按目前速率計算的現金 ÷ 淨支出"
-
 msgid "Category"
 msgstr "分類"
 
@@ -3387,9 +3378,6 @@ msgstr "同期群"
 
 msgid "Cohort retention"
 msgstr "同期群留存"
-
-msgid "cohort size"
-msgstr "同期群人數"
 
 msgid "Collapse"
 msgstr "摺疊"
@@ -5990,9 +5978,6 @@ msgstr "退出團隊失敗"
 #. placeholder {0}: errorMessage(error)
 msgid "Failed to list worktrees: {0}"
 msgstr "列出worktree失敗：{0}"
-
-msgid "Failed to load"
-msgstr "載入失敗"
 
 msgid "Failed to load branches"
 msgstr "載入分支失敗"
@@ -9006,9 +8991,6 @@ msgstr "不錯，準備好就開個PR。"
 msgid "No {0} logins on this host — sign in and usage appears here."
 msgstr "此主機上沒有{0}登入——登入後用量會顯示在這裡。"
 
-msgid "No {gaps} events in this window yet."
-msgstr "此時間範圍內尚無 {gaps} 事件。"
-
 msgid "No access to this host"
 msgstr "沒有此主機的存取權限"
 
@@ -9583,6 +9565,9 @@ msgstr "未連線：{unavailableReason}。請將 Google 服務帳號加入 Searc
 
 msgid "Not demoed here"
 msgstr "此處未做演示"
+
+msgid "Not every client emits {gaps} yet, so that stage is under-counted."
+msgstr "並非所有用戶端都已傳送 {gaps}，因此該階段的計數偏低。"
 
 msgid "Not found"
 msgstr "未找到"
@@ -10360,8 +10345,8 @@ msgstr "組織：<0>{0}</0>"
 msgid "Organizations"
 msgstr "組織"
 
-msgid "Organizations that gained a second member, against the single-member accounts everyone starts with (Neon). Bars are the team count; the line is teams per 1,000 organizations. Removing a member deletes the row, so a team that shrank back to one person is missing from past weeks."
-msgstr "已加入第二位成員的組織，與每個人最初擁有的單人帳戶的對比（Neon）。柱狀為團隊數量，折線為每 1,000 個組織中的團隊數。移除成員會直接刪除紀錄，因此縮回到一人的團隊不會出現在過去的週次中。"
+msgid "Organizations with a second member vs single-member accounts; the line is teams per 1,000."
+msgstr "擁有第二名成員的組織與單一成員帳戶的對比；折線為每 1,000 個組織的團隊數。"
 
 msgid "Organize your work into teams. Tasks and integrations can sync per-team."
 msgstr "把工作組織到團隊中。任務和整合可以按團隊同步。"
@@ -10603,9 +10588,6 @@ msgstr "支付成功"
 
 msgid "Paywall → paid"
 msgstr "付費牆 → 付費"
-
-msgid "Paywall conversion over time"
-msgstr "付費牆轉化率趨勢"
 
 msgid "PDF"
 msgstr "PDF"
@@ -12063,6 +12045,9 @@ msgstr "在側邊欄中顯示"
 msgid "Reveal my rank"
 msgstr "顯示我的排名"
 
+msgid "Revenue first, then how many people are actually using it, then what it costs to run."
+msgstr "先看營收，再看實際使用人數，最後看營運成本。"
+
 msgid "Review"
 msgstr "審查"
 
@@ -12297,9 +12282,6 @@ msgstr "建立新工作區時執行。"
 
 msgid "Runs when a workspace is deleted."
 msgstr "刪除工作區時執行。"
-
-msgid "Runway"
-msgstr "現金跑道"
 
 msgid "Same version as this app."
 msgstr "與此應用程式版本相同。"
@@ -14219,8 +14201,8 @@ msgstr "團隊"
 msgid "teams per 1,000 organizations"
 msgstr "每 1,000 個組織中的團隊數"
 
-msgid "Teams vs individual accounts"
-msgstr "團隊與個人帳戶"
+msgid "Teams vs individual accounts (Neon)"
+msgstr "團隊與個人帳戶（Neon）"
 
 msgid "Teardown"
 msgstr "清理"
@@ -15740,12 +15722,6 @@ msgstr "檢視{count}個拉取請求"
 msgid "View {name}"
 msgstr "檢視{name}"
 
-msgid "view → paid"
-msgstr "瀏覽 → 付費"
-
-msgid "view → upgrade click"
-msgstr "瀏覽 → 點擊升級"
-
 msgid "View all"
 msgstr "檢視全部"
 
@@ -15959,9 +15935,6 @@ msgstr "每週"
 
 msgid "Weekly at {time}"
 msgstr "每週{time}"
-
-msgid "Weekly cohorts by first paywall view. Bars are cohort size; the current week is still filling."
-msgstr "依首次看到付費牆的週劃分的同期群。柱狀為同期群人數；本週仍在累積。"
 
 msgid "Weekly cohorts by first real workspace; % returning with another workspace each week"
 msgstr "按首個真實工作區劃分的週同期群；每週再次建立工作區的回訪比例"

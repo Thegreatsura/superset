@@ -382,10 +382,6 @@ msgstr "{0} настроен на этом компьютере, но не в в
 msgid "{0} last full week"
 msgstr "{0} за последнюю полную неделю"
 
-#. placeholder {0}: formatNumber(v, undefined)
-msgid "{0} mo"
-msgstr "{0} мес."
-
 #. placeholder {0}: matches.length - VISIBLE_LIMIT
 msgid "{0} more — refine your search"
 msgstr "ещё {0} — уточните запрос"
@@ -1056,11 +1052,6 @@ msgstr "${0} за предыдущий период ({1})"
 msgid "${0}/yr across {1} logos — already inside MRR, not additive"
 msgstr "${0}/год по {1} клиентам — уже входит в MRR, не добавляется сверху"
 
-#. placeholder {0}: (data.totalCashUsd / 1_000_000).toFixed(2)
-#. placeholder {1}: data.avgMonthlyNetBurnUsd == null ? "—" : formatNumber(data.avgMonthlyNetBurnUsd)
-msgid "${0}M cash ÷ ${1}/mo net burn, last 3 complete months. Cash includes raised capital; no growth assumed."
-msgstr "${0} млн денег ÷ ${1}/мес чистого расхода, последние 3 полных месяца. Деньги включают привлечённый капитал; рост не заложен."
-
 msgid "${balance} credits"
 msgstr "${balance} кредитов"
 
@@ -1315,6 +1306,9 @@ msgstr "Действия для {0}"
 
 msgid "activation rate"
 msgstr "доля активации"
+
+msgid "Activation, how much people use it once they are in, and whether they come back."
+msgstr "Активация, насколько активно им пользуются после входа и возвращаются ли."
 
 msgid "Active"
 msgstr "Активна"
@@ -2815,9 +2809,6 @@ msgstr "Карусель"
 msgid "Cash — total balance (Mercury)"
 msgstr "Деньги — общий остаток (Mercury)"
 
-msgid "Cash ÷ net burn at the current run rate"
-msgstr "Деньги ÷ чистый расход при текущем темпе"
-
 msgid "Category"
 msgstr "Категория"
 
@@ -3387,9 +3378,6 @@ msgstr "Когорта"
 
 msgid "Cohort retention"
 msgstr "Удержание по когортам"
-
-msgid "cohort size"
-msgstr "размер когорты"
 
 msgid "Collapse"
 msgstr "Свернуть"
@@ -5990,9 +5978,6 @@ msgstr "Не удалось покинуть команду"
 #. placeholder {0}: errorMessage(error)
 msgid "Failed to list worktrees: {0}"
 msgstr "Не удалось получить список worktree: {0}"
-
-msgid "Failed to load"
-msgstr "Не удалось загрузить"
 
 msgid "Failed to load branches"
 msgstr "Не удалось загрузить ветки"
@@ -9006,9 +8991,6 @@ msgstr "Отлично, открой PR, когда будет готово."
 msgid "No {0} logins on this host — sign in and usage appears here."
 msgstr "На этом хосте нет входов {0} — войдите, и данные появятся здесь."
 
-msgid "No {gaps} events in this window yet."
-msgstr "В этом периоде пока нет событий {gaps}."
-
 msgid "No access to this host"
 msgstr "Нет доступа к этому хосту"
 
@@ -9583,6 +9565,9 @@ msgstr "Не подключено: {unavailableReason}. Добавьте сер�
 
 msgid "Not demoed here"
 msgstr "Здесь не показано"
+
+msgid "Not every client emits {gaps} yet, so that stage is under-counted."
+msgstr "Не все клиенты пока отправляют {gaps}, поэтому этот этап недоучтён."
 
 msgid "Not found"
 msgstr "Не найдено"
@@ -10360,8 +10345,8 @@ msgstr "Организация: <0>{0}</0>"
 msgid "Organizations"
 msgstr "Организации"
 
-msgid "Organizations that gained a second member, against the single-member accounts everyone starts with (Neon). Bars are the team count; the line is teams per 1,000 organizations. Removing a member deletes the row, so a team that shrank back to one person is missing from past weeks."
-msgstr "Организации, в которых появился второй участник, по сравнению с аккаунтами из одного человека, с которых все начинают (Neon). Столбцы — количество команд, линия — команд на 1000 организаций. Удаление участника стирает запись, поэтому команда, снова ставшая одиночной, отсутствует в прошлых неделях."
+msgid "Organizations with a second member vs single-member accounts; the line is teams per 1,000."
+msgstr "Организации со вторым участником в сравнении с аккаунтами из одного человека; линия — команды на 1000."
 
 msgid "Organize your work into teams. Tasks and integrations can sync per-team."
 msgstr "Организуйте работу по командам. Задачи и интеграции можно синхронизировать отдельно для каждой команды."
@@ -10603,9 +10588,6 @@ msgstr "Платёж прошёл"
 
 msgid "Paywall → paid"
 msgstr "Пейволл → оплата"
-
-msgid "Paywall conversion over time"
-msgstr "Конверсия пейволла со временем"
 
 msgid "PDF"
 msgstr "PDF"
@@ -12063,6 +12045,9 @@ msgstr "Показать в боковой панели"
 msgid "Reveal my rank"
 msgstr "Показать моё место"
 
+msgid "Revenue first, then how many people are actually using it, then what it costs to run."
+msgstr "Сначала выручка, затем сколько людей действительно им пользуются, затем во что обходится работа."
+
 msgid "Review"
 msgstr "Ревью"
 
@@ -12297,9 +12282,6 @@ msgstr "Выполняется при создании рабочего прос
 
 msgid "Runs when a workspace is deleted."
 msgstr "Выполняется при удалении рабочего пространства."
-
-msgid "Runway"
-msgstr "Запас хода"
 
 msgid "Same version as this app."
 msgstr "Та же версия, что и у этого приложения."
@@ -14219,8 +14201,8 @@ msgstr "Команды"
 msgid "teams per 1,000 organizations"
 msgstr "команд на 1000 организаций"
 
-msgid "Teams vs individual accounts"
-msgstr "Команды и личные аккаунты"
+msgid "Teams vs individual accounts (Neon)"
+msgstr "Команды и личные аккаунты (Neon)"
 
 msgid "Teardown"
 msgstr "Очистка"
@@ -15740,12 +15722,6 @@ msgstr "Смотреть {count} пул-реквестов"
 msgid "View {name}"
 msgstr "Посмотреть {name}"
 
-msgid "view → paid"
-msgstr "показ → оплата"
-
-msgid "view → upgrade click"
-msgstr "показ → нажатие апгрейда"
-
 msgid "View all"
 msgstr "Смотреть все"
 
@@ -15959,9 +15935,6 @@ msgstr "Еженедельно"
 
 msgid "Weekly at {time}"
 msgstr "Еженедельно в {time}"
-
-msgid "Weekly cohorts by first paywall view. Bars are cohort size; the current week is still filling."
-msgstr "Недельные когорты по первому показу пейволла. Столбцы — размер когорты; текущая неделя ещё заполняется."
 
 msgid "Weekly cohorts by first real workspace; % returning with another workspace each week"
 msgstr "Недельные когорты по первой реальной рабочей области; % вернувшихся с ещё одной рабочей областью каждую неделю"

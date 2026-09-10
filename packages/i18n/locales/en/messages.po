@@ -382,10 +382,6 @@ msgstr "{0} is set up on this machine, but not on your account"
 msgid "{0} last full week"
 msgstr "{0} last full week"
 
-#. placeholder {0}: formatNumber(v, undefined)
-msgid "{0} mo"
-msgstr "{0} mo"
-
 #. placeholder {0}: matches.length - VISIBLE_LIMIT
 msgid "{0} more — refine your search"
 msgstr "{0} more — refine your search"
@@ -1056,11 +1052,6 @@ msgstr "${0} previous period ({1})"
 msgid "${0}/yr across {1} logos — already inside MRR, not additive"
 msgstr "${0}/yr across {1} logos — already inside MRR, not additive"
 
-#. placeholder {0}: (data.totalCashUsd / 1_000_000).toFixed(2)
-#. placeholder {1}: data.avgMonthlyNetBurnUsd == null ? "—" : formatNumber(data.avgMonthlyNetBurnUsd)
-msgid "${0}M cash ÷ ${1}/mo net burn, last 3 complete months. Cash includes raised capital; no growth assumed."
-msgstr "${0}M cash ÷ ${1}/mo net burn, last 3 complete months. Cash includes raised capital; no growth assumed."
-
 msgid "${balance} credits"
 msgstr "${balance} credits"
 
@@ -1315,6 +1306,9 @@ msgstr "Actions for {0}"
 
 msgid "activation rate"
 msgstr "activation rate"
+
+msgid "Activation, how much people use it once they are in, and whether they come back."
+msgstr "Activation, how much people use it once they are in, and whether they come back."
 
 msgid "Active"
 msgstr "Active"
@@ -2815,9 +2809,6 @@ msgstr "Carousel"
 msgid "Cash — total balance (Mercury)"
 msgstr "Cash — total balance (Mercury)"
 
-msgid "Cash ÷ net burn at the current run rate"
-msgstr "Cash ÷ net burn at the current run rate"
-
 msgid "Category"
 msgstr "Category"
 
@@ -3387,9 +3378,6 @@ msgstr "Cohort"
 
 msgid "Cohort retention"
 msgstr "Cohort retention"
-
-msgid "cohort size"
-msgstr "cohort size"
 
 msgid "Collapse"
 msgstr "Collapse"
@@ -5990,9 +5978,6 @@ msgstr "Failed to leave team"
 #. placeholder {0}: errorMessage(error)
 msgid "Failed to list worktrees: {0}"
 msgstr "Failed to list worktrees: {0}"
-
-msgid "Failed to load"
-msgstr "Failed to load"
 
 msgid "Failed to load branches"
 msgstr "Failed to load branches"
@@ -9006,9 +8991,6 @@ msgstr "Nice, open a PR when ready."
 msgid "No {0} logins on this host — sign in and usage appears here."
 msgstr "No {0} logins on this host — sign in and usage appears here."
 
-msgid "No {gaps} events in this window yet."
-msgstr "No {gaps} events in this window yet."
-
 msgid "No access to this host"
 msgstr "No access to this host"
 
@@ -9583,6 +9565,9 @@ msgstr "Not connected: {unavailableReason}. Add a Google service account to the 
 
 msgid "Not demoed here"
 msgstr "Not demoed here"
+
+msgid "Not every client emits {gaps} yet, so that stage is under-counted."
+msgstr "Not every client emits {gaps} yet, so that stage is under-counted."
 
 msgid "Not found"
 msgstr "Not found"
@@ -10360,8 +10345,8 @@ msgstr "Organization: <0>{0}</0>"
 msgid "Organizations"
 msgstr "Organizations"
 
-msgid "Organizations that gained a second member, against the single-member accounts everyone starts with (Neon). Bars are the team count; the line is teams per 1,000 organizations. Removing a member deletes the row, so a team that shrank back to one person is missing from past weeks."
-msgstr "Organizations that gained a second member, against the single-member accounts everyone starts with (Neon). Bars are the team count; the line is teams per 1,000 organizations. Removing a member deletes the row, so a team that shrank back to one person is missing from past weeks."
+msgid "Organizations with a second member vs single-member accounts; the line is teams per 1,000."
+msgstr "Organizations with a second member vs single-member accounts; the line is teams per 1,000."
 
 msgid "Organize your work into teams. Tasks and integrations can sync per-team."
 msgstr "Organize your work into teams. Tasks and integrations can sync per-team."
@@ -10603,9 +10588,6 @@ msgstr "Payment Successful"
 
 msgid "Paywall → paid"
 msgstr "Paywall → paid"
-
-msgid "Paywall conversion over time"
-msgstr "Paywall conversion over time"
 
 msgid "PDF"
 msgstr "PDF"
@@ -12063,6 +12045,9 @@ msgstr "Reveal in sidebar"
 msgid "Reveal my rank"
 msgstr "Reveal my rank"
 
+msgid "Revenue first, then how many people are actually using it, then what it costs to run."
+msgstr "Revenue first, then how many people are actually using it, then what it costs to run."
+
 msgid "Review"
 msgstr "Review"
 
@@ -12297,9 +12282,6 @@ msgstr "Runs when a new workspace is created."
 
 msgid "Runs when a workspace is deleted."
 msgstr "Runs when a workspace is deleted."
-
-msgid "Runway"
-msgstr "Runway"
 
 msgid "Same version as this app."
 msgstr "Same version as this app."
@@ -14219,8 +14201,8 @@ msgstr "Teams"
 msgid "teams per 1,000 organizations"
 msgstr "teams per 1,000 organizations"
 
-msgid "Teams vs individual accounts"
-msgstr "Teams vs individual accounts"
+msgid "Teams vs individual accounts (Neon)"
+msgstr "Teams vs individual accounts (Neon)"
 
 msgid "Teardown"
 msgstr "Teardown"
@@ -15740,12 +15722,6 @@ msgstr "View {count} pull requests"
 msgid "View {name}"
 msgstr "View {name}"
 
-msgid "view → paid"
-msgstr "view → paid"
-
-msgid "view → upgrade click"
-msgstr "view → upgrade click"
-
 msgid "View all"
 msgstr "View all"
 
@@ -15959,9 +15935,6 @@ msgstr "Weekly"
 
 msgid "Weekly at {time}"
 msgstr "Weekly at {time}"
-
-msgid "Weekly cohorts by first paywall view. Bars are cohort size; the current week is still filling."
-msgstr "Weekly cohorts by first paywall view. Bars are cohort size; the current week is still filling."
 
 msgid "Weekly cohorts by first real workspace; % returning with another workspace each week"
 msgstr "Weekly cohorts by first real workspace; % returning with another workspace each week"

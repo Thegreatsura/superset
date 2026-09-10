@@ -382,10 +382,6 @@ msgstr "{0} đã được thiết lập trên máy này, nhưng chưa có trên 
 msgid "{0} last full week"
 msgstr "{0} tuần trọn vẹn gần nhất"
 
-#. placeholder {0}: formatNumber(v, undefined)
-msgid "{0} mo"
-msgstr "{0} tháng"
-
 #. placeholder {0}: matches.length - VISIBLE_LIMIT
 msgid "{0} more — refine your search"
 msgstr "còn {0} nữa — hãy thu hẹp tìm kiếm"
@@ -1056,11 +1052,6 @@ msgstr "${0} kỳ trước ({1})"
 msgid "${0}/yr across {1} logos — already inside MRR, not additive"
 msgstr "${0}/năm trên {1} khách hàng — đã nằm trong MRR, không cộng thêm"
 
-#. placeholder {0}: (data.totalCashUsd / 1_000_000).toFixed(2)
-#. placeholder {1}: data.avgMonthlyNetBurnUsd == null ? "—" : formatNumber(data.avgMonthlyNetBurnUsd)
-msgid "${0}M cash ÷ ${1}/mo net burn, last 3 complete months. Cash includes raised capital; no growth assumed."
-msgstr "${0}M tiền mặt ÷ ${1}/tháng đốt tiền ròng, 3 tháng đầy đủ gần nhất. Tiền mặt bao gồm vốn đã gọi; không giả định tăng trưởng."
-
 msgid "${balance} credits"
 msgstr "${balance} credit"
 
@@ -1315,6 +1306,9 @@ msgstr "Hành động cho {0}"
 
 msgid "activation rate"
 msgstr "tỷ lệ kích hoạt"
+
+msgid "Activation, how much people use it once they are in, and whether they come back."
+msgstr "Kích hoạt, mức độ sử dụng sau khi bắt đầu dùng, và liệu họ có quay lại."
 
 msgid "Active"
 msgstr "Đang hoạt động"
@@ -2815,9 +2809,6 @@ msgstr "Carousel"
 msgid "Cash — total balance (Mercury)"
 msgstr "Tiền mặt — tổng số dư (Mercury)"
 
-msgid "Cash ÷ net burn at the current run rate"
-msgstr "Tiền mặt ÷ đốt tiền ròng theo tốc độ hiện tại"
-
 msgid "Category"
 msgstr "Danh mục"
 
@@ -3387,9 +3378,6 @@ msgstr "Nhóm"
 
 msgid "Cohort retention"
 msgstr "Giữ chân theo nhóm"
-
-msgid "cohort size"
-msgstr "quy mô nhóm"
 
 msgid "Collapse"
 msgstr "Thu gọn"
@@ -5990,9 +5978,6 @@ msgstr "Không thể rời nhóm"
 #. placeholder {0}: errorMessage(error)
 msgid "Failed to list worktrees: {0}"
 msgstr "Không thể liệt kê worktree: {0}"
-
-msgid "Failed to load"
-msgstr "Không thể tải"
 
 msgid "Failed to load branches"
 msgstr "Không thể tải danh sách nhánh"
@@ -9006,9 +8991,6 @@ msgstr "Tốt, mở PR khi sẵn sàng nhé."
 msgid "No {0} logins on this host — sign in and usage appears here."
 msgstr "Chưa có lần đăng nhập {0} nào trên host này — hãy đăng nhập và mức sử dụng sẽ hiện ở đây."
 
-msgid "No {gaps} events in this window yet."
-msgstr "Chưa có sự kiện {gaps} trong khoảng thời gian này."
-
 msgid "No access to this host"
 msgstr "Không có quyền truy cập host này"
 
@@ -9583,6 +9565,9 @@ msgstr "Chưa kết nối: {unavailableReason}. Thêm tài khoản dịch vụ G
 
 msgid "Not demoed here"
 msgstr "Không demo ở đây"
+
+msgid "Not every client emits {gaps} yet, so that stage is under-counted."
+msgstr "Chưa phải mọi client đều gửi {gaps}, nên giai đoạn đó bị đếm thiếu."
 
 msgid "Not found"
 msgstr "Không tìm thấy"
@@ -10360,8 +10345,8 @@ msgstr "Tổ chức: <0>{0}</0>"
 msgid "Organizations"
 msgstr "Tổ chức"
 
-msgid "Organizations that gained a second member, against the single-member accounts everyone starts with (Neon). Bars are the team count; the line is teams per 1,000 organizations. Removing a member deletes the row, so a team that shrank back to one person is missing from past weeks."
-msgstr "Các tổ chức đã có thành viên thứ hai, so với tài khoản một thành viên mà ai cũng bắt đầu (Neon). Cột là số nhóm; đường là số nhóm trên 1.000 tổ chức. Xóa một thành viên sẽ xóa luôn bản ghi, nên nhóm thu lại còn một người không xuất hiện ở các tuần trước."
+msgid "Organizations with a second member vs single-member accounts; the line is teams per 1,000."
+msgstr "Tổ chức có thành viên thứ hai so với tài khoản một thành viên; đường biểu thị số nhóm trên 1.000."
 
 msgid "Organize your work into teams. Tasks and integrations can sync per-team."
 msgstr "Sắp xếp công việc theo nhóm. Tác vụ và tích hợp có thể đồng bộ riêng cho từng nhóm."
@@ -10603,9 +10588,6 @@ msgstr "Thanh toán thành công"
 
 msgid "Paywall → paid"
 msgstr "Paywall → trả tiền"
-
-msgid "Paywall conversion over time"
-msgstr "Chuyển đổi paywall theo thời gian"
 
 msgid "PDF"
 msgstr "PDF"
@@ -12063,6 +12045,9 @@ msgstr "Hiện trong thanh bên"
 msgid "Reveal my rank"
 msgstr "Hiện thứ hạng của tôi"
 
+msgid "Revenue first, then how many people are actually using it, then what it costs to run."
+msgstr "Doanh thu trước, rồi đến số người thực sự dùng, rồi chi phí vận hành."
+
 msgid "Review"
 msgstr "Review"
 
@@ -12297,9 +12282,6 @@ msgstr "Chạy khi tạo không gian làm việc mới."
 
 msgid "Runs when a workspace is deleted."
 msgstr "Chạy khi xóa không gian làm việc."
-
-msgid "Runway"
-msgstr "Runway"
 
 msgid "Same version as this app."
 msgstr "Cùng phiên bản với ứng dụng này."
@@ -14219,8 +14201,8 @@ msgstr "Nhóm"
 msgid "teams per 1,000 organizations"
 msgstr "nhóm trên 1.000 tổ chức"
 
-msgid "Teams vs individual accounts"
-msgstr "Nhóm và tài khoản cá nhân"
+msgid "Teams vs individual accounts (Neon)"
+msgstr "Nhóm so với tài khoản cá nhân (Neon)"
 
 msgid "Teardown"
 msgstr "Dọn dẹp"
@@ -15740,12 +15722,6 @@ msgstr "Xem {count} pull request"
 msgid "View {name}"
 msgstr "Xem {name}"
 
-msgid "view → paid"
-msgstr "lượt xem → trả tiền"
-
-msgid "view → upgrade click"
-msgstr "lượt xem → bấm nâng cấp"
-
 msgid "View all"
 msgstr "Xem tất cả"
 
@@ -15959,9 +15935,6 @@ msgstr "Hằng tuần"
 
 msgid "Weekly at {time}"
 msgstr "Hằng tuần lúc {time}"
-
-msgid "Weekly cohorts by first paywall view. Bars are cohort size; the current week is still filling."
-msgstr "Nhóm theo tuần dựa trên lần đầu thấy paywall. Cột là quy mô nhóm; tuần hiện tại vẫn đang tăng."
 
 msgid "Weekly cohorts by first real workspace; % returning with another workspace each week"
 msgstr "Nhóm theo tuần dựa trên workspace thực đầu tiên; % quay lại tạo workspace khác mỗi tuần"

@@ -382,10 +382,6 @@ msgstr "{0} je nastaven na tomto počítači, ale ne ve vašem účtu"
 msgid "{0} last full week"
 msgstr "{0} za poslední celý týden"
 
-#. placeholder {0}: formatNumber(v, undefined)
-msgid "{0} mo"
-msgstr "{0} měs."
-
 #. placeholder {0}: matches.length - VISIBLE_LIMIT
 msgid "{0} more — refine your search"
 msgstr "Ještě {0} — upřesněte hledání"
@@ -1056,11 +1052,6 @@ msgstr "${0} předchozí období ({1})"
 msgid "${0}/yr across {1} logos — already inside MRR, not additive"
 msgstr "${0}/rok, počet zákazníků: {1} — už je v MRR, nepřičítá se"
 
-#. placeholder {0}: (data.totalCashUsd / 1_000_000).toFixed(2)
-#. placeholder {1}: data.avgMonthlyNetBurnUsd == null ? "—" : formatNumber(data.avgMonthlyNetBurnUsd)
-msgid "${0}M cash ÷ ${1}/mo net burn, last 3 complete months. Cash includes raised capital; no growth assumed."
-msgstr "${0} M hotovosti ÷ ${1}/měs. čistého burnu, poslední 3 celé měsíce. Hotovost zahrnuje získaný kapitál; bez předpokladu růstu."
-
 msgid "${balance} credits"
 msgstr "{balance} $ kreditů"
 
@@ -1315,6 +1306,9 @@ msgstr "Akce pro {0}"
 
 msgid "activation rate"
 msgstr "míra aktivace"
+
+msgid "Activation, how much people use it once they are in, and whether they come back."
+msgstr "Aktivace, kolik toho lidé používají, když už jsou uvnitř, a jestli se vracejí."
 
 msgid "Active"
 msgstr "Aktivní"
@@ -2815,9 +2809,6 @@ msgstr "Karusel"
 msgid "Cash — total balance (Mercury)"
 msgstr "Hotovost — celkový zůstatek (Mercury)"
 
-msgid "Cash ÷ net burn at the current run rate"
-msgstr "Hotovost ÷ čistý burn při aktuálním tempu"
-
 msgid "Category"
 msgstr "Kategorie"
 
@@ -3387,9 +3378,6 @@ msgstr "Kohorta"
 
 msgid "Cohort retention"
 msgstr "Retence kohort"
-
-msgid "cohort size"
-msgstr "velikost kohorty"
 
 msgid "Collapse"
 msgstr "Sbalit"
@@ -5990,9 +5978,6 @@ msgstr "Nepodařilo se opustit tým"
 #. placeholder {0}: errorMessage(error)
 msgid "Failed to list worktrees: {0}"
 msgstr "Nepodařilo se vypsat worktree: {0}"
-
-msgid "Failed to load"
-msgstr "Načtení se nezdařilo"
 
 msgid "Failed to load branches"
 msgstr "Nepodařilo se načíst větve"
@@ -9006,9 +8991,6 @@ msgstr "Super, až budeš mít hotovo, otevři PR."
 msgid "No {0} logins on this host — sign in and usage appears here."
 msgstr "Na tomto hostu nejsou žádná přihlášení {0} — přihlaste se a využití se objeví tady."
 
-msgid "No {gaps} events in this window yet."
-msgstr "V tomto období zatím nejsou žádné události {gaps}."
-
 msgid "No access to this host"
 msgstr "K tomuto hostu nemáte přístup"
 
@@ -9583,6 +9565,9 @@ msgstr "Nepřipojeno: {unavailableReason}. Přidejte účet služby Google k slu
 
 msgid "Not demoed here"
 msgstr "Tady se neukazuje"
+
+msgid "Not every client emits {gaps} yet, so that stage is under-counted."
+msgstr "Ne každý klient zatím odesílá {gaps}, takže je tato fáze podhodnocená."
 
 msgid "Not found"
 msgstr "Nenalezeno"
@@ -10360,8 +10345,8 @@ msgstr "Organizace: <0>{0}</0>"
 msgid "Organizations"
 msgstr "Organizace"
 
-msgid "Organizations that gained a second member, against the single-member accounts everyone starts with (Neon). Bars are the team count; the line is teams per 1,000 organizations. Removing a member deletes the row, so a team that shrank back to one person is missing from past weeks."
-msgstr "Organizace, které získaly druhého člena, oproti jednočlenným účtům, s nimiž všichni začínají (Neon). Sloupce jsou počet týmů, křivka jsou týmy na 1 000 organizací. Odebrání člena smaže řádek, takže tým, který se vrátil k jedné osobě, v minulých týdnech chybí."
+msgid "Organizations with a second member vs single-member accounts; the line is teams per 1,000."
+msgstr "Organizace s druhým členem oproti účtům s jedním členem; čára ukazuje týmy na 1 000."
 
 msgid "Organize your work into teams. Tasks and integrations can sync per-team."
 msgstr "Rozdělte práci do týmů. Úkoly a integrace se mohou synchronizovat po týmech."
@@ -10603,9 +10588,6 @@ msgstr "Platba proběhla"
 
 msgid "Paywall → paid"
 msgstr "Paywall → platba"
-
-msgid "Paywall conversion over time"
-msgstr "Konverze paywallu v čase"
 
 msgid "PDF"
 msgstr "PDF"
@@ -12063,6 +12045,9 @@ msgstr "Zobrazit v postranním panelu"
 msgid "Reveal my rank"
 msgstr "Odhalit mou pozici"
 
+msgid "Revenue first, then how many people are actually using it, then what it costs to run."
+msgstr "Nejdřív tržby, pak kolik lidí to opravdu používá a nakonec kolik stojí provoz."
+
 msgid "Review"
 msgstr "Revize"
 
@@ -12297,9 +12282,6 @@ msgstr "Spouští se při vytvoření pracovního prostoru."
 
 msgid "Runs when a workspace is deleted."
 msgstr "Spouští se při smazání pracovního prostoru."
-
-msgid "Runway"
-msgstr "Runway"
 
 msgid "Same version as this app."
 msgstr "Stejná verze jako tato aplikace."
@@ -14219,8 +14201,8 @@ msgstr "Týmy"
 msgid "teams per 1,000 organizations"
 msgstr "týmy na 1 000 organizací"
 
-msgid "Teams vs individual accounts"
-msgstr "Týmy vs. individuální účty"
+msgid "Teams vs individual accounts (Neon)"
+msgstr "Týmy vs. individuální účty (Neon)"
 
 msgid "Teardown"
 msgstr "Teardown"
@@ -15740,12 +15722,6 @@ msgstr "Zobrazit {count} pull requestů"
 msgid "View {name}"
 msgstr "Zobrazit {name}"
 
-msgid "view → paid"
-msgstr "zobrazení → platba"
-
-msgid "view → upgrade click"
-msgstr "zobrazení → klik na přechod výš"
-
 msgid "View all"
 msgstr "Zobrazit vše"
 
@@ -15959,9 +15935,6 @@ msgstr "Týdně"
 
 msgid "Weekly at {time}"
 msgstr "Týdně v {time}"
-
-msgid "Weekly cohorts by first paywall view. Bars are cohort size; the current week is still filling."
-msgstr "Týdenní kohorty podle prvního zobrazení paywallu. Sloupce jsou velikost kohorty; aktuální týden se ještě plní."
 
 msgid "Weekly cohorts by first real workspace; % returning with another workspace each week"
 msgstr "Týdenní kohorty podle prvního skutečného pracovního prostoru; % těch, kdo se každý týden vrátí s dalším prostorem"

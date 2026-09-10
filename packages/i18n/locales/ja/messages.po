@@ -382,10 +382,6 @@ msgstr "{0} はこのマシンには設定されていますが、アカウン�
 msgid "{0} last full week"
 msgstr "直近の完全な週 {0}"
 
-#. placeholder {0}: formatNumber(v, undefined)
-msgid "{0} mo"
-msgstr "{0}か月"
-
 #. placeholder {0}: matches.length - VISIBLE_LIMIT
 msgid "{0} more — refine your search"
 msgstr "他{0}件 — 検索条件を絞ってください"
@@ -1056,11 +1052,6 @@ msgstr "前期間は${0}({1})"
 msgid "${0}/yr across {1} logos — already inside MRR, not additive"
 msgstr "{1}社で年間${0} — MRRに含まれており、加算されません"
 
-#. placeholder {0}: (data.totalCashUsd / 1_000_000).toFixed(2)
-#. placeholder {1}: data.avgMonthlyNetBurnUsd == null ? "—" : formatNumber(data.avgMonthlyNetBurnUsd)
-msgid "${0}M cash ÷ ${1}/mo net burn, last 3 complete months. Cash includes raised capital; no growth assumed."
-msgstr "現金${0}M ÷ ネットバーン${1}/月(直近の完了3か月)。現金には調達資金を含み、成長は見込んでいません。"
-
 msgid "${balance} credits"
 msgstr "${balance}のクレジット"
 
@@ -1315,6 +1306,9 @@ msgstr "{0}の操作"
 
 msgid "activation rate"
 msgstr "アクティベーション率"
+
+msgid "Activation, how much people use it once they are in, and whether they come back."
+msgstr "アクティベーション、使い始めてからの利用量、そして再訪するかどうか。"
 
 msgid "Active"
 msgstr "有効"
@@ -2815,9 +2809,6 @@ msgstr "Carousel"
 msgid "Cash — total balance (Mercury)"
 msgstr "現金 — 総残高(Mercury)"
 
-msgid "Cash ÷ net burn at the current run rate"
-msgstr "現在のランレートでの現金 ÷ ネットバーン"
-
 msgid "Category"
 msgstr "カテゴリ"
 
@@ -3387,9 +3378,6 @@ msgstr "コホート"
 
 msgid "Cohort retention"
 msgstr "コホートリテンション"
-
-msgid "cohort size"
-msgstr "コホート人数"
 
 msgid "Collapse"
 msgstr "折りたたむ"
@@ -5990,9 +5978,6 @@ msgstr "チームからの退出に失敗しました"
 #. placeholder {0}: errorMessage(error)
 msgid "Failed to list worktrees: {0}"
 msgstr "ワークツリーの一覧取得に失敗しました: {0}"
-
-msgid "Failed to load"
-msgstr "読み込めませんでした"
 
 msgid "Failed to load branches"
 msgstr "ブランチの読み込みに失敗しました"
@@ -9006,9 +8991,6 @@ msgstr "いいですね。準備ができたらPRを作成してください。"
 msgid "No {0} logins on this host — sign in and usage appears here."
 msgstr "このホストに{0}のログインがありません — サインインすると使用量が表示されます。"
 
-msgid "No {gaps} events in this window yet."
-msgstr "この期間の{gaps}イベントはまだありません。"
-
 msgid "No access to this host"
 msgstr "このホストへのアクセス権がありません"
 
@@ -9583,6 +9565,9 @@ msgstr "未接続: {unavailableReason}。Search Console のプロパティに Go
 
 msgid "Not demoed here"
 msgstr "ここではデモしていません"
+
+msgid "Not every client emits {gaps} yet, so that stage is under-counted."
+msgstr "すべてのクライアントがまだ {gaps} を送信していないため、この段階は少なく計上されています。"
 
 msgid "Not found"
 msgstr "見つかりません"
@@ -10360,8 +10345,8 @@ msgstr "組織: <0>{0}</0>"
 msgid "Organizations"
 msgstr "組織"
 
-msgid "Organizations that gained a second member, against the single-member accounts everyone starts with (Neon). Bars are the team count; the line is teams per 1,000 organizations. Removing a member deletes the row, so a team that shrank back to one person is missing from past weeks."
-msgstr "2人目のメンバーが加わった組織と、誰もが最初に持つ1人だけのアカウントの比較（Neon）。棒はチーム数、折れ線は1,000組織あたりのチーム数です。メンバーを削除すると行ごと消えるため、1人に戻ったチームは過去の週に含まれません。"
+msgid "Organizations with a second member vs single-member accounts; the line is teams per 1,000."
+msgstr "2人目のメンバーがいる組織と単独メンバーのアカウントの比較。線は1,000あたりのチーム数です。"
 
 msgid "Organize your work into teams. Tasks and integrations can sync per-team."
 msgstr "作業をチームに整理します。タスクと連携はチームごとに同期できます。"
@@ -10603,9 +10588,6 @@ msgstr "支払いが完了しました"
 
 msgid "Paywall → paid"
 msgstr "ペイウォール → 支払い"
-
-msgid "Paywall conversion over time"
-msgstr "ペイウォールの転換率の推移"
 
 msgid "PDF"
 msgstr "PDF"
@@ -12063,6 +12045,9 @@ msgstr "サイドバーに表示"
 msgid "Reveal my rank"
 msgstr "自分のランクを表示"
 
+msgid "Revenue first, then how many people are actually using it, then what it costs to run."
+msgstr "まず売上、次に実際に使っている人数、そして運営にかかるコスト。"
+
 msgid "Review"
 msgstr "レビュー"
 
@@ -12297,9 +12282,6 @@ msgstr "新しいワークスペースの作成時に実行します。"
 
 msgid "Runs when a workspace is deleted."
 msgstr "ワークスペースの削除時に実行します。"
-
-msgid "Runway"
-msgstr "ランウェイ"
 
 msgid "Same version as this app."
 msgstr "このアプリと同じバージョンです。"
@@ -14219,8 +14201,8 @@ msgstr "チーム"
 msgid "teams per 1,000 organizations"
 msgstr "1,000組織あたりのチーム数"
 
-msgid "Teams vs individual accounts"
-msgstr "チームと個人アカウント"
+msgid "Teams vs individual accounts (Neon)"
+msgstr "チームと個人アカウント（Neon）"
 
 msgid "Teardown"
 msgstr "ティアダウン"
@@ -15740,12 +15722,6 @@ msgstr "{count}件のプルリクエストを表示"
 msgid "View {name}"
 msgstr "{name}を見る"
 
-msgid "view → paid"
-msgstr "表示 → 支払い"
-
-msgid "view → upgrade click"
-msgstr "表示 → アップグレードのクリック"
-
 msgid "View all"
 msgstr "すべて表示"
 
@@ -15959,9 +15935,6 @@ msgstr "毎週"
 
 msgid "Weekly at {time}"
 msgstr "毎週 {time}"
-
-msgid "Weekly cohorts by first paywall view. Bars are cohort size; the current week is still filling."
-msgstr "最初にペイウォールを見た週ごとのコホート。棒はコホートの人数で、今週はまだ増えています。"
 
 msgid "Weekly cohorts by first real workspace; % returning with another workspace each week"
 msgstr "初回の実ワークスペースによる週次コホート。各週に別のワークスペースを作成して戻った割合"

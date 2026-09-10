@@ -382,10 +382,6 @@ msgstr "{0} is ingesteld op deze machine, maar niet op je account"
 msgid "{0} last full week"
 msgstr "{0} in de laatste volledige week"
 
-#. placeholder {0}: formatNumber(v, undefined)
-msgid "{0} mo"
-msgstr "{0} mnd"
-
 #. placeholder {0}: matches.length - VISIBLE_LIMIT
 msgid "{0} more — refine your search"
 msgstr "Nog {0} — verfijn je zoekopdracht"
@@ -1056,11 +1052,6 @@ msgstr "${0} vorige periode ({1})"
 msgid "${0}/yr across {1} logos — already inside MRR, not additive"
 msgstr "${0}/jr over {1} logo's — zit al in MRR, niet aanvullend"
 
-#. placeholder {0}: (data.totalCashUsd / 1_000_000).toFixed(2)
-#. placeholder {1}: data.avgMonthlyNetBurnUsd == null ? "—" : formatNumber(data.avgMonthlyNetBurnUsd)
-msgid "${0}M cash ÷ ${1}/mo net burn, last 3 complete months. Cash includes raised capital; no growth assumed."
-msgstr "${0} mln cash ÷ ${1}/mnd netto burn, laatste 3 volledige maanden. Cash inclusief opgehaald kapitaal; geen groei aangenomen."
-
 msgid "${balance} credits"
 msgstr "${balance} tegoed"
 
@@ -1315,6 +1306,9 @@ msgstr "Acties voor {0}"
 
 msgid "activation rate"
 msgstr "activatiegraad"
+
+msgid "Activation, how much people use it once they are in, and whether they come back."
+msgstr "Activatie, hoeveel mensen het gebruiken zodra ze binnen zijn, en of ze terugkomen."
 
 msgid "Active"
 msgstr "Actief"
@@ -2815,9 +2809,6 @@ msgstr "Carousel"
 msgid "Cash — total balance (Mercury)"
 msgstr "Cash — totaal saldo (Mercury)"
 
-msgid "Cash ÷ net burn at the current run rate"
-msgstr "Cash ÷ netto burn tegen het huidige tempo"
-
 msgid "Category"
 msgstr "Categorie"
 
@@ -3387,9 +3378,6 @@ msgstr "Cohort"
 
 msgid "Cohort retention"
 msgstr "Cohortretentie"
-
-msgid "cohort size"
-msgstr "cohortgrootte"
 
 msgid "Collapse"
 msgstr "Inklappen"
@@ -5990,9 +5978,6 @@ msgstr "Verlaten van team mislukt"
 #. placeholder {0}: errorMessage(error)
 msgid "Failed to list worktrees: {0}"
 msgstr "Ophalen van worktrees mislukt: {0}"
-
-msgid "Failed to load"
-msgstr "Laden mislukt"
 
 msgid "Failed to load branches"
 msgstr "Laden van branches mislukt"
@@ -9006,9 +8991,6 @@ msgstr "Mooi, open een PR als het klaar is."
 msgid "No {0} logins on this host — sign in and usage appears here."
 msgstr "Geen {0}-logins op deze host — log in en het gebruik verschijnt hier."
 
-msgid "No {gaps} events in this window yet."
-msgstr "Nog geen {gaps}-events in deze periode."
-
 msgid "No access to this host"
 msgstr "Geen toegang tot deze host"
 
@@ -9583,6 +9565,9 @@ msgstr "Niet verbonden: {unavailableReason}. Voeg een Google-serviceaccount toe 
 
 msgid "Not demoed here"
 msgstr "Hier niet gedemonstreerd"
+
+msgid "Not every client emits {gaps} yet, so that stage is under-counted."
+msgstr "Nog niet elke client verstuurt {gaps}, dus die stap wordt ondergeteld."
 
 msgid "Not found"
 msgstr "Niet gevonden"
@@ -10360,8 +10345,8 @@ msgstr "Organisatie: <0>{0}</0>"
 msgid "Organizations"
 msgstr "Organisaties"
 
-msgid "Organizations that gained a second member, against the single-member accounts everyone starts with (Neon). Bars are the team count; the line is teams per 1,000 organizations. Removing a member deletes the row, so a team that shrank back to one person is missing from past weeks."
-msgstr "Organisaties die een tweede lid kregen, tegenover de accounts met één lid waarmee iedereen begint (Neon). De balken zijn het aantal teams; de lijn is teams per 1.000 organisaties. Een lid verwijderen wist de rij, dus een team dat weer uit één persoon bestaat ontbreekt in eerdere weken."
+msgid "Organizations with a second member vs single-member accounts; the line is teams per 1,000."
+msgstr "Organisaties met een tweede lid versus accounts met één lid; de lijn is teams per 1.000."
 
 msgid "Organize your work into teams. Tasks and integrations can sync per-team."
 msgstr "Organiseer je werk in teams. Taken en integraties kunnen per team synchroniseren."
@@ -10603,9 +10588,6 @@ msgstr "Betaling geslaagd"
 
 msgid "Paywall → paid"
 msgstr "Paywall → betaald"
-
-msgid "Paywall conversion over time"
-msgstr "Paywall-conversie in de tijd"
 
 msgid "PDF"
 msgstr "PDF"
@@ -12063,6 +12045,9 @@ msgstr "Tonen in zijbalk"
 msgid "Reveal my rank"
 msgstr "Mijn positie tonen"
 
+msgid "Revenue first, then how many people are actually using it, then what it costs to run."
+msgstr "Eerst de omzet, dan hoeveel mensen het echt gebruiken, dan wat het kost om te draaien."
+
 msgid "Review"
 msgstr "Review"
 
@@ -12297,9 +12282,6 @@ msgstr "Wordt uitgevoerd bij het aanmaken van een werkruimte."
 
 msgid "Runs when a workspace is deleted."
 msgstr "Wordt uitgevoerd bij het verwijderen van een werkruimte."
-
-msgid "Runway"
-msgstr "Runway"
 
 msgid "Same version as this app."
 msgstr "Dezelfde versie als deze app."
@@ -14219,8 +14201,8 @@ msgstr "Teams"
 msgid "teams per 1,000 organizations"
 msgstr "teams per 1.000 organisaties"
 
-msgid "Teams vs individual accounts"
-msgstr "Teams versus individuele accounts"
+msgid "Teams vs individual accounts (Neon)"
+msgstr "Teams versus individuele accounts (Neon)"
 
 msgid "Teardown"
 msgstr "Teardown"
@@ -15740,12 +15722,6 @@ msgstr "{count} pull requests bekijken"
 msgid "View {name}"
 msgstr "{name} bekijken"
 
-msgid "view → paid"
-msgstr "weergave → betaald"
-
-msgid "view → upgrade click"
-msgstr "weergave → upgradeklik"
-
 msgid "View all"
 msgstr "Alles bekijken"
 
@@ -15959,9 +15935,6 @@ msgstr "Wekelijks"
 
 msgid "Weekly at {time}"
 msgstr "Wekelijks om {time}"
-
-msgid "Weekly cohorts by first paywall view. Bars are cohort size; the current week is still filling."
-msgstr "Wekelijkse cohorten op basis van de eerste paywall-weergave. Balken zijn de cohortgrootte; de huidige week vult zich nog."
 
 msgid "Weekly cohorts by first real workspace; % returning with another workspace each week"
 msgstr "Wekelijkse cohorten op basis van eerste echte werkruimte; % dat elke week terugkeert met nog een werkruimte"

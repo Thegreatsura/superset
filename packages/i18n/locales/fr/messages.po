@@ -382,10 +382,6 @@ msgstr "{0} est configuré sur cette machine, mais pas sur votre compte"
 msgid "{0} last full week"
 msgstr "{0} sur la dernière semaine complète"
 
-#. placeholder {0}: formatNumber(v, undefined)
-msgid "{0} mo"
-msgstr "{0} mois"
-
 #. placeholder {0}: matches.length - VISIBLE_LIMIT
 msgid "{0} more — refine your search"
 msgstr "{0} de plus — affinez votre recherche"
@@ -1056,11 +1052,6 @@ msgstr "{0} $ période précédente ({1})"
 msgid "${0}/yr across {1} logos — already inside MRR, not additive"
 msgstr "{0} $/an sur {1} logos — déjà compris dans le MRR, non additif"
 
-#. placeholder {0}: (data.totalCashUsd / 1_000_000).toFixed(2)
-#. placeholder {1}: data.avgMonthlyNetBurnUsd == null ? "—" : formatNumber(data.avgMonthlyNetBurnUsd)
-msgid "${0}M cash ÷ ${1}/mo net burn, last 3 complete months. Cash includes raised capital; no growth assumed."
-msgstr "{0} M$ de trésorerie ÷ {1} $/mois de burn net, 3 derniers mois complets. La trésorerie inclut les fonds levés ; aucune croissance supposée."
-
 msgid "${balance} credits"
 msgstr "{balance} $ de crédits"
 
@@ -1315,6 +1306,9 @@ msgstr "Actions pour {0}"
 
 msgid "activation rate"
 msgstr "taux d'activation"
+
+msgid "Activation, how much people use it once they are in, and whether they come back."
+msgstr "L'activation, l'usage une fois les gens entrés, et s'ils reviennent."
 
 msgid "Active"
 msgstr "Actives"
@@ -2815,9 +2809,6 @@ msgstr "Carrousel"
 msgid "Cash — total balance (Mercury)"
 msgstr "Trésorerie — solde total (Mercury)"
 
-msgid "Cash ÷ net burn at the current run rate"
-msgstr "Trésorerie ÷ burn net au rythme actuel"
-
 msgid "Category"
 msgstr "Catégorie"
 
@@ -3387,9 +3378,6 @@ msgstr "Cohorte"
 
 msgid "Cohort retention"
 msgstr "Rétention par cohorte"
-
-msgid "cohort size"
-msgstr "taille de la cohorte"
 
 msgid "Collapse"
 msgstr "Réduire"
@@ -5990,9 +5978,6 @@ msgstr "Échec de la sortie de l'équipe"
 #. placeholder {0}: errorMessage(error)
 msgid "Failed to list worktrees: {0}"
 msgstr "Échec du listage des worktrees : {0}"
-
-msgid "Failed to load"
-msgstr "Échec du chargement"
 
 msgid "Failed to load branches"
 msgstr "Échec du chargement des branches"
@@ -9006,9 +8991,6 @@ msgstr "Parfait, ouvre une pull request quand c'est prêt."
 msgid "No {0} logins on this host — sign in and usage appears here."
 msgstr "Aucune connexion {0} sur cet hôte — connectez-vous et l'utilisation apparaîtra ici."
 
-msgid "No {gaps} events in this window yet."
-msgstr "Aucun événement {gaps} sur cette période pour l'instant."
-
 msgid "No access to this host"
 msgstr "Aucun accès à cet hôte"
 
@@ -9583,6 +9565,9 @@ msgstr "Non connecté : {unavailableReason}. Ajoutez un compte de service Google
 
 msgid "Not demoed here"
 msgstr "Non démontré ici"
+
+msgid "Not every client emits {gaps} yet, so that stage is under-counted."
+msgstr "Tous les clients n'émettent pas encore {gaps}, cette étape est donc sous-comptée."
 
 msgid "Not found"
 msgstr "Introuvable"
@@ -10360,8 +10345,8 @@ msgstr "Organisation : <0>{0}</0>"
 msgid "Organizations"
 msgstr "Organisations"
 
-msgid "Organizations that gained a second member, against the single-member accounts everyone starts with (Neon). Bars are the team count; the line is teams per 1,000 organizations. Removing a member deletes the row, so a team that shrank back to one person is missing from past weeks."
-msgstr "Organisations ayant gagné un deuxième membre, face aux comptes à un seul membre que chacun obtient au départ (Neon). Les barres indiquent le nombre d'équipes ; la courbe indique les équipes pour 1 000 organisations. Retirer un membre supprime la ligne, donc une équipe redevenue solo n'apparaît pas dans les semaines passées."
+msgid "Organizations with a second member vs single-member accounts; the line is teams per 1,000."
+msgstr "Organisations ayant un deuxième membre face aux comptes à membre unique ; la ligne correspond aux équipes pour 1 000."
 
 msgid "Organize your work into teams. Tasks and integrations can sync per-team."
 msgstr "Organisez votre travail en équipes. Les tâches et les intégrations peuvent se synchroniser par équipe."
@@ -10603,9 +10588,6 @@ msgstr "Paiement réussi"
 
 msgid "Paywall → paid"
 msgstr "Paywall → payant"
-
-msgid "Paywall conversion over time"
-msgstr "Conversion du paywall dans le temps"
 
 msgid "PDF"
 msgstr "PDF"
@@ -12063,6 +12045,9 @@ msgstr "Afficher dans la barre latérale"
 msgid "Reveal my rank"
 msgstr "Révéler mon rang"
 
+msgid "Revenue first, then how many people are actually using it, then what it costs to run."
+msgstr "Le chiffre d'affaires d'abord, puis le nombre de personnes qui l'utilisent vraiment, puis ce que coûte le fonctionnement."
+
 msgid "Review"
 msgstr "Revue"
 
@@ -12297,9 +12282,6 @@ msgstr "S’exécute à la création d’un espace de travail."
 
 msgid "Runs when a workspace is deleted."
 msgstr "S’exécute à la suppression d’un espace de travail."
-
-msgid "Runway"
-msgstr "Runway"
 
 msgid "Same version as this app."
 msgstr "Même version que cette application."
@@ -14219,8 +14201,8 @@ msgstr "Équipes"
 msgid "teams per 1,000 organizations"
 msgstr "équipes pour 1 000 organisations"
 
-msgid "Teams vs individual accounts"
-msgstr "Équipes et comptes individuels"
+msgid "Teams vs individual accounts (Neon)"
+msgstr "Équipes et comptes individuels (Neon)"
 
 msgid "Teardown"
 msgstr "Nettoyage"
@@ -15740,12 +15722,6 @@ msgstr "Voir {count} pull requests"
 msgid "View {name}"
 msgstr "Voir {name}"
 
-msgid "view → paid"
-msgstr "vue → payant"
-
-msgid "view → upgrade click"
-msgstr "vue → clic sur mise à niveau"
-
 msgid "View all"
 msgstr "Tout afficher"
 
@@ -15959,9 +15935,6 @@ msgstr "Hebdomadaire"
 
 msgid "Weekly at {time}"
 msgstr "Hebdomadaire à {time}"
-
-msgid "Weekly cohorts by first paywall view. Bars are cohort size; the current week is still filling."
-msgstr "Cohortes hebdomadaires selon la première vue du paywall. Les barres indiquent la taille de la cohorte ; la semaine en cours se remplit encore."
 
 msgid "Weekly cohorts by first real workspace; % returning with another workspace each week"
 msgstr "Cohortes hebdomadaires par premier espace de travail réel ; % revenant avec un autre espace de travail chaque semaine"

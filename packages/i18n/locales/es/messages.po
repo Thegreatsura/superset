@@ -382,10 +382,6 @@ msgstr "{0} está configurado en este equipo, pero no en tu cuenta"
 msgid "{0} last full week"
 msgstr "{0} en la última semana completa"
 
-#. placeholder {0}: formatNumber(v, undefined)
-msgid "{0} mo"
-msgstr "{0} meses"
-
 #. placeholder {0}: matches.length - VISIBLE_LIMIT
 msgid "{0} more — refine your search"
 msgstr "{0} más: afina tu búsqueda"
@@ -1056,11 +1052,6 @@ msgstr "${0} en el periodo anterior ({1})"
 msgid "${0}/yr across {1} logos — already inside MRR, not additive"
 msgstr "${0}/año en {1} clientes — ya incluido en el MRR, no se suma"
 
-#. placeholder {0}: (data.totalCashUsd / 1_000_000).toFixed(2)
-#. placeholder {1}: data.avgMonthlyNetBurnUsd == null ? "—" : formatNumber(data.avgMonthlyNetBurnUsd)
-msgid "${0}M cash ÷ ${1}/mo net burn, last 3 complete months. Cash includes raised capital; no growth assumed."
-msgstr "${0} M de efectivo ÷ ${1}/mes de gasto neto, últimos 3 meses completos. El efectivo incluye el capital captado; no se asume crecimiento."
-
 msgid "${balance} credits"
 msgstr "${balance} en créditos"
 
@@ -1315,6 +1306,9 @@ msgstr "Acciones para {0}"
 
 msgid "activation rate"
 msgstr "tasa de activación"
+
+msgid "Activation, how much people use it once they are in, and whether they come back."
+msgstr "La activación, cuánto lo usan una vez dentro y si vuelven."
 
 msgid "Active"
 msgstr "Activo"
@@ -2815,9 +2809,6 @@ msgstr "Carrusel"
 msgid "Cash — total balance (Mercury)"
 msgstr "Efectivo — saldo total (Mercury)"
 
-msgid "Cash ÷ net burn at the current run rate"
-msgstr "Efectivo ÷ gasto neto al ritmo actual"
-
 msgid "Category"
 msgstr "Categoría"
 
@@ -3387,9 +3378,6 @@ msgstr "Cohorte"
 
 msgid "Cohort retention"
 msgstr "Retención por cohorte"
-
-msgid "cohort size"
-msgstr "tamaño de la cohorte"
 
 msgid "Collapse"
 msgstr "Contraer"
@@ -5990,9 +5978,6 @@ msgstr "No se pudo salir del equipo"
 #. placeholder {0}: errorMessage(error)
 msgid "Failed to list worktrees: {0}"
 msgstr "No se pudieron listar los worktrees: {0}"
-
-msgid "Failed to load"
-msgstr "No se pudo cargar"
 
 msgid "Failed to load branches"
 msgstr "No se pudieron cargar las ramas"
@@ -9006,9 +8991,6 @@ msgstr "Genial, abre un PR cuando esté listo."
 msgid "No {0} logins on this host — sign in and usage appears here."
 msgstr "No hay sesiones de {0} en este host: inicia sesión y el uso aparecerá aquí."
 
-msgid "No {gaps} events in this window yet."
-msgstr "Aún no hay eventos {gaps} en este período."
-
 msgid "No access to this host"
 msgstr "Sin acceso a este host"
 
@@ -9583,6 +9565,9 @@ msgstr "No conectado: {unavailableReason}. Añade una cuenta de servicio de Goog
 
 msgid "Not demoed here"
 msgstr "No se muestra aquí"
+
+msgid "Not every client emits {gaps} yet, so that stage is under-counted."
+msgstr "Todavía no todos los clientes envían {gaps}, por lo que esa etapa está subcontabilizada."
 
 msgid "Not found"
 msgstr "No encontrado"
@@ -10360,8 +10345,8 @@ msgstr "Organización: <0>{0}</0>"
 msgid "Organizations"
 msgstr "Organizaciones"
 
-msgid "Organizations that gained a second member, against the single-member accounts everyone starts with (Neon). Bars are the team count; the line is teams per 1,000 organizations. Removing a member deletes the row, so a team that shrank back to one person is missing from past weeks."
-msgstr "Organizaciones que sumaron un segundo miembro, frente a las cuentas de un solo miembro con las que todos empiezan (Neon). Las barras son el número de equipos; la línea son los equipos por cada 1.000 organizaciones. Quitar a un miembro borra la fila, así que un equipo que volvió a ser de una persona no aparece en las semanas anteriores."
+msgid "Organizations with a second member vs single-member accounts; the line is teams per 1,000."
+msgstr "Organizaciones con un segundo miembro frente a cuentas de un solo miembro; la línea son equipos por cada 1000."
 
 msgid "Organize your work into teams. Tasks and integrations can sync per-team."
 msgstr "Organiza tu trabajo en equipos. Las tareas y las integraciones se pueden sincronizar por equipo."
@@ -10603,9 +10588,6 @@ msgstr "Pago correcto"
 
 msgid "Paywall → paid"
 msgstr "Muro de pago → pago"
-
-msgid "Paywall conversion over time"
-msgstr "Conversión del muro de pago en el tiempo"
 
 msgid "PDF"
 msgstr "PDF"
@@ -12063,6 +12045,9 @@ msgstr "Mostrar en la barra lateral"
 msgid "Reveal my rank"
 msgstr "Mostrar mi puesto"
 
+msgid "Revenue first, then how many people are actually using it, then what it costs to run."
+msgstr "Primero los ingresos, luego cuánta gente lo usa de verdad y después lo que cuesta mantenerlo."
+
 msgid "Review"
 msgstr "Revisión"
 
@@ -12297,9 +12282,6 @@ msgstr "Se ejecuta al crear un espacio de trabajo."
 
 msgid "Runs when a workspace is deleted."
 msgstr "Se ejecuta al eliminar un espacio de trabajo."
-
-msgid "Runway"
-msgstr "Runway"
 
 msgid "Same version as this app."
 msgstr "Misma versión que esta app."
@@ -14219,8 +14201,8 @@ msgstr "Equipos"
 msgid "teams per 1,000 organizations"
 msgstr "equipos por cada 1.000 organizaciones"
 
-msgid "Teams vs individual accounts"
-msgstr "Equipos frente a cuentas individuales"
+msgid "Teams vs individual accounts (Neon)"
+msgstr "Equipos frente a cuentas individuales (Neon)"
 
 msgid "Teardown"
 msgstr "Teardown"
@@ -15740,12 +15722,6 @@ msgstr "Ver {count} pull requests"
 msgid "View {name}"
 msgstr "Ver {name}"
 
-msgid "view → paid"
-msgstr "vista → pago"
-
-msgid "view → upgrade click"
-msgstr "vista → clic en mejorar"
-
 msgid "View all"
 msgstr "Ver todas"
 
@@ -15959,9 +15935,6 @@ msgstr "Semanal"
 
 msgid "Weekly at {time}"
 msgstr "Semanalmente a las {time}"
-
-msgid "Weekly cohorts by first paywall view. Bars are cohort size; the current week is still filling."
-msgstr "Cohortes semanales según la primera vista del muro de pago. Las barras muestran el tamaño de la cohorte; la semana actual aún se está completando."
 
 msgid "Weekly cohorts by first real workspace; % returning with another workspace each week"
 msgstr "Cohortes semanales por primer espacio de trabajo real; % que vuelve con otro espacio de trabajo cada semana"

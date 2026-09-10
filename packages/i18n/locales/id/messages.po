@@ -382,10 +382,6 @@ msgstr "{0} sudah disiapkan di mesin ini, tetapi tidak di akun Anda"
 msgid "{0} last full week"
 msgstr "{0} minggu penuh terakhir"
 
-#. placeholder {0}: formatNumber(v, undefined)
-msgid "{0} mo"
-msgstr "{0} bln"
-
 #. placeholder {0}: matches.length - VISIBLE_LIMIT
 msgid "{0} more — refine your search"
 msgstr "{0} lagi — persempit pencarian Anda"
@@ -1056,11 +1052,6 @@ msgstr "${0} periode sebelumnya ({1})"
 msgid "${0}/yr across {1} logos — already inside MRR, not additive"
 msgstr "${0}/thn dari {1} logo — sudah termasuk dalam MRR, bukan tambahan"
 
-#. placeholder {0}: (data.totalCashUsd / 1_000_000).toFixed(2)
-#. placeholder {1}: data.avgMonthlyNetBurnUsd == null ? "—" : formatNumber(data.avgMonthlyNetBurnUsd)
-msgid "${0}M cash ÷ ${1}/mo net burn, last 3 complete months. Cash includes raised capital; no growth assumed."
-msgstr "Kas ${0}J ÷ net burn ${1}/bln, 3 bulan penuh terakhir. Kas termasuk modal yang digalang; tanpa asumsi pertumbuhan."
-
 msgid "${balance} credits"
 msgstr "kredit ${balance}"
 
@@ -1315,6 +1306,9 @@ msgstr "Aksi untuk {0}"
 
 msgid "activation rate"
 msgstr "tingkat aktivasi"
+
+msgid "Activation, how much people use it once they are in, and whether they come back."
+msgstr "Aktivasi, seberapa banyak dipakai setelah masuk, dan apakah mereka kembali."
 
 msgid "Active"
 msgstr "Aktif"
@@ -2815,9 +2809,6 @@ msgstr "Carousel"
 msgid "Cash — total balance (Mercury)"
 msgstr "Kas — saldo total (Mercury)"
 
-msgid "Cash ÷ net burn at the current run rate"
-msgstr "Kas ÷ net burn pada run rate saat ini"
-
 msgid "Category"
 msgstr "Kategori"
 
@@ -3387,9 +3378,6 @@ msgstr "Kohor"
 
 msgid "Cohort retention"
 msgstr "Retensi kohor"
-
-msgid "cohort size"
-msgstr "ukuran kohort"
 
 msgid "Collapse"
 msgstr "Ciutkan"
@@ -5990,9 +5978,6 @@ msgstr "Gagal keluar dari tim"
 #. placeholder {0}: errorMessage(error)
 msgid "Failed to list worktrees: {0}"
 msgstr "Gagal menampilkan daftar worktree: {0}"
-
-msgid "Failed to load"
-msgstr "Gagal memuat"
 
 msgid "Failed to load branches"
 msgstr "Gagal memuat branch"
@@ -9006,9 +8991,6 @@ msgstr "Bagus, buka PR kalau sudah siap."
 msgid "No {0} logins on this host — sign in and usage appears here."
 msgstr "Tidak ada login {0} di host ini — masuk dan penggunaannya akan muncul di sini."
 
-msgid "No {gaps} events in this window yet."
-msgstr "Belum ada event {gaps} dalam periode ini."
-
 msgid "No access to this host"
 msgstr "Tidak ada akses ke host ini"
 
@@ -9583,6 +9565,9 @@ msgstr "Tidak terhubung: {unavailableReason}. Tambahkan akun layanan Google ke p
 
 msgid "Not demoed here"
 msgstr "Tidak didemokan di sini"
+
+msgid "Not every client emits {gaps} yet, so that stage is under-counted."
+msgstr "Belum semua klien mengirim {gaps}, jadi tahap itu terhitung kurang."
 
 msgid "Not found"
 msgstr "Tidak ditemukan"
@@ -10360,8 +10345,8 @@ msgstr "Organisasi: <0>{0}</0>"
 msgid "Organizations"
 msgstr "Organisasi"
 
-msgid "Organizations that gained a second member, against the single-member accounts everyone starts with (Neon). Bars are the team count; the line is teams per 1,000 organizations. Removing a member deletes the row, so a team that shrank back to one person is missing from past weeks."
-msgstr "Organisasi yang mendapat anggota kedua, dibandingkan dengan akun satu anggota yang dimiliki semua orang di awal (Neon). Batang adalah jumlah tim; garis adalah tim per 1.000 organisasi. Menghapus anggota juga menghapus barisnya, jadi tim yang menyusut kembali menjadi satu orang tidak muncul di minggu-minggu sebelumnya."
+msgid "Organizations with a second member vs single-member accounts; the line is teams per 1,000."
+msgstr "Organisasi dengan anggota kedua dibandingkan akun beranggota tunggal; garisnya adalah tim per 1.000."
 
 msgid "Organize your work into teams. Tasks and integrations can sync per-team."
 msgstr "Atur pekerjaan Anda ke dalam tim. Tugas dan integrasi bisa disinkronkan per tim."
@@ -10603,9 +10588,6 @@ msgstr "Pembayaran Berhasil"
 
 msgid "Paywall → paid"
 msgstr "Paywall → berbayar"
-
-msgid "Paywall conversion over time"
-msgstr "Konversi paywall dari waktu ke waktu"
 
 msgid "PDF"
 msgstr "PDF"
@@ -12063,6 +12045,9 @@ msgstr "Tampilkan di sidebar"
 msgid "Reveal my rank"
 msgstr "Tampilkan peringkat saya"
 
+msgid "Revenue first, then how many people are actually using it, then what it costs to run."
+msgstr "Pendapatan dulu, lalu berapa banyak orang yang benar-benar memakainya, lalu berapa biayanya."
+
 msgid "Review"
 msgstr "Review"
 
@@ -12297,9 +12282,6 @@ msgstr "Dijalankan saat ruang kerja baru dibuat."
 
 msgid "Runs when a workspace is deleted."
 msgstr "Dijalankan saat ruang kerja dihapus."
-
-msgid "Runway"
-msgstr "Runway"
 
 msgid "Same version as this app."
 msgstr "Versi yang sama dengan aplikasi ini."
@@ -14219,8 +14201,8 @@ msgstr "Tim"
 msgid "teams per 1,000 organizations"
 msgstr "tim per 1.000 organisasi"
 
-msgid "Teams vs individual accounts"
-msgstr "Tim vs akun individu"
+msgid "Teams vs individual accounts (Neon)"
+msgstr "Tim vs akun individu (Neon)"
 
 msgid "Teardown"
 msgstr "Teardown"
@@ -15740,12 +15722,6 @@ msgstr "Lihat {count} pull request"
 msgid "View {name}"
 msgstr "Lihat {name}"
 
-msgid "view → paid"
-msgstr "tampilan → berbayar"
-
-msgid "view → upgrade click"
-msgstr "tampilan → klik upgrade"
-
 msgid "View all"
 msgstr "Lihat semua"
 
@@ -15959,9 +15935,6 @@ msgstr "Mingguan"
 
 msgid "Weekly at {time}"
 msgstr "Mingguan pukul {time}"
-
-msgid "Weekly cohorts by first paywall view. Bars are cohort size; the current week is still filling."
-msgstr "Kohort mingguan berdasarkan tampilan paywall pertama. Batang menunjukkan ukuran kohort; minggu ini masih bertambah."
 
 msgid "Weekly cohorts by first real workspace; % returning with another workspace each week"
 msgstr "Kohor mingguan berdasarkan workspace nyata pertama; % yang kembali dengan workspace lain tiap minggu"

@@ -4,12 +4,19 @@ import type { MessageDescriptor } from "@lingui/core";
 import { msg } from "@lingui/core/macro";
 import { Trans, useLingui } from "@lingui/react/macro";
 
-import {
-	PAYWALL_FUNNEL_WEEKS,
-	type PaywallStageKey,
-	usePaywallFunnel,
-} from "../../hooks/usePaywallFunnel";
+import type { RouterOutputs } from "@superset/trpc";
+import { useQuery } from "@tanstack/react-query";
+
+import { useTRPC } from "@/trpc/react";
+
 import { FunnelChart } from "../FunnelChart";
+import { PostHogQueryLink } from "../PostHogQueryLink";
+
+type PaywallStageKey =
+	RouterOutputs["growth"]["paywallFunnel"]["stages"][number]["key"];
+
+const PAYWALL_FUNNEL_WEEKS = 12;
+const STALE_TIME_MS = 10 * 60 * 1000;
 
 // Descriptors, translated at render: a module-scope `t` would freeze the
 // English at import time and stay stale through a language change.
@@ -22,7 +29,13 @@ const STAGE_LABELS: Record<PaywallStageKey, MessageDescriptor> = {
 
 export function PaywallFunnelTile() {
 	const { t } = useLingui();
-	const query = usePaywallFunnel();
+	const trpc = useTRPC();
+	const query = useQuery(
+		trpc.growth.paywallFunnel.queryOptions(
+			{ weeks: PAYWALL_FUNNEL_WEEKS },
+			{ staleTime: STALE_TIME_MS },
+		),
+	);
 	const stages = query.data?.stages ?? [];
 
 	const steps = stages.map((stage) => ({
@@ -32,14 +45,14 @@ export function PaywallFunnelTile() {
 		averageSeconds: stage.averageSeconds,
 	}));
 
-	// A stage with no events at all, while a later one has some, is an
-	// instrumentation gap rather than a conversion cliff — say so, instead of
-	// letting it read as "nobody got this far".
+	// Fewer people at a stage than at a later one is an instrumentation gap
+	// rather than a conversion cliff — nobody subscribes without checking out —
+	// so say so instead of letting it read as "nobody got this far". Testing
+	// for "no events at all" was too strict: one client on a new build is
+	// enough to silence the notice while the stage is still uncounted.
 	const gaps = stages
-		.filter(
-			(stage, index) =>
-				stage.people === 0 &&
-				stages.slice(index + 1).some((later) => later.people > 0),
+		.filter((stage, index) =>
+			stages.slice(index + 1).some((later) => later.people > stage.people),
 		)
 		.map((stage) => stage.event)
 		.join(", ");
@@ -58,7 +71,10 @@ export function PaywallFunnelTile() {
 					{gaps ? (
 						<>
 							{" "}
-							<Trans>No {gaps} events in this window yet.</Trans>
+							<Trans>
+								Not every client emits {gaps} yet, so that stage is
+								under-counted.
+							</Trans>
 						</>
 					) : null}
 				</>
@@ -66,6 +82,7 @@ export function PaywallFunnelTile() {
 			steps={steps}
 			isLoading={query.isLoading}
 			error={query.error}
+			headerAction={<PostHogQueryLink query={query.data?.query} />}
 		/>
 	);
 }

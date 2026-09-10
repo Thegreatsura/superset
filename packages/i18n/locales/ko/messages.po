@@ -382,10 +382,6 @@ msgstr "{0}이(가) 이 컴퓨터에는 설정되어 있지만 계정에는 없�
 msgid "{0} last full week"
 msgstr "최근 완전한 주 {0}"
 
-#. placeholder {0}: formatNumber(v, undefined)
-msgid "{0} mo"
-msgstr "{0}개월"
-
 #. placeholder {0}: matches.length - VISIBLE_LIMIT
 msgid "{0} more — refine your search"
 msgstr "{0}개 더 있습니다 — 검색어를 좁혀 보세요"
@@ -1056,11 +1052,6 @@ msgstr "이전 기간 ${0} ({1})"
 msgid "${0}/yr across {1} logos — already inside MRR, not additive"
 msgstr "{1}개 고객사에서 연 ${0} — 이미 MRR에 포함되며 별도 합산 대상이 아닙니다"
 
-#. placeholder {0}: (data.totalCashUsd / 1_000_000).toFixed(2)
-#. placeholder {1}: data.avgMonthlyNetBurnUsd == null ? "—" : formatNumber(data.avgMonthlyNetBurnUsd)
-msgid "${0}M cash ÷ ${1}/mo net burn, last 3 complete months. Cash includes raised capital; no growth assumed."
-msgstr "현금 ${0}M ÷ 월 순 소진액 ${1}, 최근 완료된 3개월 기준. 현금에는 조달 자본이 포함되며 성장은 가정하지 않았습니다."
-
 msgid "${balance} credits"
 msgstr "크레딧 ${balance}"
 
@@ -1315,6 +1306,9 @@ msgstr "{0} 작업"
 
 msgid "activation rate"
 msgstr "활성화율"
+
+msgid "Activation, how much people use it once they are in, and whether they come back."
+msgstr "활성화, 들어온 뒤 얼마나 쓰는지, 그리고 다시 돌아오는지."
 
 msgid "Active"
 msgstr "활성"
@@ -2815,9 +2809,6 @@ msgstr "캐러셀"
 msgid "Cash — total balance (Mercury)"
 msgstr "현금 — 총 잔액 (Mercury)"
 
-msgid "Cash ÷ net burn at the current run rate"
-msgstr "현재 실행률 기준 현금 ÷ 순 소진액"
-
 msgid "Category"
 msgstr "카테고리"
 
@@ -3387,9 +3378,6 @@ msgstr "코호트"
 
 msgid "Cohort retention"
 msgstr "코호트 리텐션"
-
-msgid "cohort size"
-msgstr "코호트 규모"
 
 msgid "Collapse"
 msgstr "접기"
@@ -5990,9 +5978,6 @@ msgstr "팀에서 나가지 못했습니다"
 #. placeholder {0}: errorMessage(error)
 msgid "Failed to list worktrees: {0}"
 msgstr "worktree 목록을 가져오지 못했습니다: {0}"
-
-msgid "Failed to load"
-msgstr "불러오지 못했습니다"
 
 msgid "Failed to load branches"
 msgstr "브랜치를 불러오지 못했습니다"
@@ -9006,9 +8991,6 @@ msgstr "좋아요, 준비되면 PR을 올려 주세요."
 msgid "No {0} logins on this host — sign in and usage appears here."
 msgstr "이 호스트에 {0} 로그인이 없습니다 — 로그인하면 사용량이 여기에 표시됩니다."
 
-msgid "No {gaps} events in this window yet."
-msgstr "이 기간에는 아직 {gaps} 이벤트가 없습니다."
-
 msgid "No access to this host"
 msgstr "이 호스트에 접근할 수 없습니다"
 
@@ -9583,6 +9565,9 @@ msgstr "연결되지 않음: {unavailableReason}. Search Console 속성에 Googl
 
 msgid "Not demoed here"
 msgstr "여기서는 시연하지 않음"
+
+msgid "Not every client emits {gaps} yet, so that stage is under-counted."
+msgstr "아직 모든 클라이언트가 {gaps}를 보내지 않아 해당 단계는 적게 집계됩니다."
 
 msgid "Not found"
 msgstr "찾을 수 없습니다"
@@ -10360,8 +10345,8 @@ msgstr "조직: <0>{0}</0>"
 msgid "Organizations"
 msgstr "조직"
 
-msgid "Organizations that gained a second member, against the single-member accounts everyone starts with (Neon). Bars are the team count; the line is teams per 1,000 organizations. Removing a member deletes the row, so a team that shrank back to one person is missing from past weeks."
-msgstr "두 번째 멤버가 생긴 조직과 누구나 처음 갖게 되는 1인 계정의 비교(Neon). 막대는 팀 수, 선은 조직 1,000개당 팀 수입니다. 멤버를 제거하면 행이 삭제되므로 다시 1인으로 줄어든 팀은 과거 주차에 나타나지 않습니다."
+msgid "Organizations with a second member vs single-member accounts; the line is teams per 1,000."
+msgstr "두 번째 멤버가 있는 조직과 단일 멤버 계정 비교. 선은 1,000개당 팀 수입니다."
 
 msgid "Organize your work into teams. Tasks and integrations can sync per-team."
 msgstr "작업을 팀 단위로 정리하세요. 작업과 연동은 팀별로 동기화할 수 있습니다."
@@ -10603,9 +10588,6 @@ msgstr "결제 완료"
 
 msgid "Paywall → paid"
 msgstr "페이월 → 결제"
-
-msgid "Paywall conversion over time"
-msgstr "기간별 페이월 전환율"
 
 msgid "PDF"
 msgstr "PDF"
@@ -12063,6 +12045,9 @@ msgstr "사이드바에서 표시"
 msgid "Reveal my rank"
 msgstr "내 순위 공개"
 
+msgid "Revenue first, then how many people are actually using it, then what it costs to run."
+msgstr "매출을 먼저, 그다음 실제 사용자 수, 마지막으로 운영 비용."
+
 msgid "Review"
 msgstr "리뷰"
 
@@ -12297,9 +12282,6 @@ msgstr "새 작업 공간을 만들 때 실행됩니다."
 
 msgid "Runs when a workspace is deleted."
 msgstr "작업 공간을 삭제할 때 실행됩니다."
-
-msgid "Runway"
-msgstr "런웨이"
 
 msgid "Same version as this app."
 msgstr "이 앱과 같은 버전입니다."
@@ -14219,8 +14201,8 @@ msgstr "팀"
 msgid "teams per 1,000 organizations"
 msgstr "조직 1,000개당 팀 수"
 
-msgid "Teams vs individual accounts"
-msgstr "팀 vs 개인 계정"
+msgid "Teams vs individual accounts (Neon)"
+msgstr "팀 vs 개인 계정 (Neon)"
 
 msgid "Teardown"
 msgstr "정리"
@@ -15740,12 +15722,6 @@ msgstr "풀 리퀘스트 {count}개 보기"
 msgid "View {name}"
 msgstr "{name} 보기"
 
-msgid "view → paid"
-msgstr "조회 → 결제"
-
-msgid "view → upgrade click"
-msgstr "조회 → 업그레이드 클릭"
-
 msgid "View all"
 msgstr "전체 보기"
 
@@ -15959,9 +15935,6 @@ msgstr "매주"
 
 msgid "Weekly at {time}"
 msgstr "매주 {time}"
-
-msgid "Weekly cohorts by first paywall view. Bars are cohort size; the current week is still filling."
-msgstr "페이월을 처음 본 주 기준 코호트. 막대는 코호트 규모이며 이번 주는 아직 채워지는 중입니다."
 
 msgid "Weekly cohorts by first real workspace; % returning with another workspace each week"
 msgstr "첫 실제 워크스페이스 기준 주간 코호트. 매주 다른 워크스페이스로 돌아온 비율"

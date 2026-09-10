@@ -40,16 +40,22 @@ export function OrgAdoptionTile() {
 
 	return (
 		<InsightTileFrame
-			title={t({ message: "Teams vs individual accounts" })}
+			title={t({ message: "Teams vs individual accounts (Neon)" })}
+			// Two lines, like every other tile: a longer description pushes this
+			// card's chart below its neighbour's in the same row.
 			description={t({
 				message:
-					"Organizations that gained a second member, against the single-member accounts everyone starts with (Neon). Bars are the team count; the line is teams per 1,000 organizations. Removing a member deletes the row, so a team that shrank back to one person is missing from past weeks.",
+					"Organizations with a second member vs single-member accounts; the line is teams per 1,000.",
 			})}
+			fill
 			isLoading={query.isLoading}
 			error={query.error}
 			empty={data.length === 0}
 		>
-			<ChartContainer config={chartConfig} className="h-[240px] w-full">
+			<ChartContainer
+				config={chartConfig}
+				className="aspect-auto h-full min-h-[220px] w-full"
+			>
 				<ComposedChart data={data}>
 					<XAxis
 						dataKey="week"
