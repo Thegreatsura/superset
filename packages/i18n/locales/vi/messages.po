@@ -4355,6 +4355,9 @@ msgstr "Tạo merge commit"
 msgid "Create Merge Commit"
 msgstr "Tạo merge commit"
 
+msgid "Create new group"
+msgstr "Tạo nhóm mới"
+
 msgid "Create new project"
 msgstr "Tạo dự án mới"
 

@@ -4355,6 +4355,9 @@ msgstr "Vytvořit merge commit"
 msgid "Create Merge Commit"
 msgstr "Vytvořit merge commit"
 
+msgid "Create new group"
+msgstr "Vytvořit novou skupinu"
+
 msgid "Create new project"
 msgstr "Vytvořit nový projekt"
 
