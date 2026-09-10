@@ -13009,6 +13009,9 @@ msgstr "Zkratka se už používá"
 msgid "Show a confirmation dialog when quitting the app"
 msgstr "Zobrazit před ukončením aplikace potvrzovací dialog"
 
+msgid "Show a Usage button in the home sidebar, under Pull requests"
+msgstr "Zobrazovat tlačítko Využití v postranním panelu domovské obrazovky pod pull requesty"
+
 msgid "Show all {count}"
 msgstr "Zobrazit všech {count}"
 
@@ -13128,6 +13131,9 @@ msgstr "Zobrazovat stav a posílat oznámení pro tohoto agenta."
 
 msgid "Show translation"
 msgstr "Zobrazit překlad"
+
+msgid "Show usage tab on sidebar"
+msgstr "Zobrazit kartu využití v postranním panelu"
 
 msgid "showArrow opt-in"
 msgstr "showArrow zapnuto"

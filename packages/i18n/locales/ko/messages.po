@@ -13009,6 +13009,9 @@ msgstr "이미 사용 중인 단축키"
 msgid "Show a confirmation dialog when quitting the app"
 msgstr "앱을 종료할 때 확인 대화 상자를 표시합니다"
 
+msgid "Show a Usage button in the home sidebar, under Pull requests"
+msgstr "홈 사이드바의 풀 리퀘스트 아래에 사용량 버튼을 표시합니다"
+
 msgid "Show all {count}"
 msgstr "{count}개 모두 보기"
 
@@ -13128,6 +13131,9 @@ msgstr "이 에이전트의 상태를 표시하고 알림을 보냅니다."
 
 msgid "Show translation"
 msgstr "번역 보기"
+
+msgid "Show usage tab on sidebar"
+msgstr "사이드바에 사용량 탭 표시"
 
 msgid "showArrow opt-in"
 msgstr "showArrow 선택 사용"

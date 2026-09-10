@@ -13009,6 +13009,9 @@ msgstr "Phím tắt đã được dùng"
 msgid "Show a confirmation dialog when quitting the app"
 msgstr "Hiện hộp thoại xác nhận khi thoát ứng dụng"
 
+msgid "Show a Usage button in the home sidebar, under Pull requests"
+msgstr "Hiện nút Mức sử dụng trong thanh bên trang chủ, bên dưới Pull request"
+
 msgid "Show all {count}"
 msgstr "Hiện tất cả {count}"
 
@@ -13128,6 +13131,9 @@ msgstr "Hiển thị trạng thái và gửi thông báo cho agent này."
 
 msgid "Show translation"
 msgstr "Xem bản dịch"
+
+msgid "Show usage tab on sidebar"
+msgstr "Hiển thị thẻ mức sử dụng trên thanh bên"
 
 msgid "showArrow opt-in"
 msgstr "bật showArrow"

@@ -13009,6 +13009,9 @@ msgstr "ショートカットは使用中です"
 msgid "Show a confirmation dialog when quitting the app"
 msgstr "アプリ終了時に確認ダイアログを表示"
 
+msgid "Show a Usage button in the home sidebar, under Pull requests"
+msgstr "ホームのサイドバーの「プルリクエスト」の下に「使用量」ボタンを表示"
+
 msgid "Show all {count}"
 msgstr "{count}件すべて表示"
 
@@ -13128,6 +13131,9 @@ msgstr "このエージェントのステータス表示と通知を有効にし
 
 msgid "Show translation"
 msgstr "翻訳を表示"
+
+msgid "Show usage tab on sidebar"
+msgstr "サイドバーに使用状況タブを表示"
 
 msgid "showArrow opt-in"
 msgstr "showArrowで有効化"

@@ -13009,6 +13009,9 @@ msgstr "快捷键已被使用"
 msgid "Show a confirmation dialog when quitting the app"
 msgstr "退出应用时显示确认对话框"
 
+msgid "Show a Usage button in the home sidebar, under Pull requests"
+msgstr "在主页侧边栏的“拉取请求”下方显示“用量”按钮"
+
 msgid "Show all {count}"
 msgstr "显示全部{count}条"
 
@@ -13128,6 +13131,9 @@ msgstr "为此智能体显示状态并发送通知。"
 
 msgid "Show translation"
 msgstr "显示译文"
+
+msgid "Show usage tab on sidebar"
+msgstr "在侧边栏显示用量选项卡"
 
 msgid "showArrow opt-in"
 msgstr "showArrow按需开启"

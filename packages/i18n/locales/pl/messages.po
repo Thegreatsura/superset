@@ -13009,6 +13009,9 @@ msgstr "Skrót jest już używany"
 msgid "Show a confirmation dialog when quitting the app"
 msgstr "Pokaż okno potwierdzenia przy zamykaniu aplikacji"
 
+msgid "Show a Usage button in the home sidebar, under Pull requests"
+msgstr "Pokazuj przycisk Zużycie na pasku bocznym strony głównej, pod pull requestami"
+
 msgid "Show all {count}"
 msgstr "Pokaż wszystkie ({count})"
 
@@ -13128,6 +13131,9 @@ msgstr "Pokazuj status i wysyłaj powiadomienia dla tego agenta."
 
 msgid "Show translation"
 msgstr "Pokaż tłumaczenie"
+
+msgid "Show usage tab on sidebar"
+msgstr "Pokaż kartę użycia na pasku bocznym"
 
 msgid "showArrow opt-in"
 msgstr "showArrow włączone"

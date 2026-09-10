@@ -13009,6 +13009,9 @@ msgstr "Kürzel bereits belegt"
 msgid "Show a confirmation dialog when quitting the app"
 msgstr "Beim Beenden der App einen Bestätigungsdialog anzeigen"
 
+msgid "Show a Usage button in the home sidebar, under Pull requests"
+msgstr "Eine Schaltfläche „Nutzung“ in der Seitenleiste der Startansicht unter „Pull Requests“ anzeigen"
+
 msgid "Show all {count}"
 msgstr "Alle {count} anzeigen"
 
@@ -13128,6 +13131,9 @@ msgstr "Status anzeigen und Benachrichtigungen für diesen Agenten senden."
 
 msgid "Show translation"
 msgstr "Übersetzung anzeigen"
+
+msgid "Show usage tab on sidebar"
+msgstr "Nutzungs-Tab in der Seitenleiste anzeigen"
 
 msgid "showArrow opt-in"
 msgstr "showArrow aktiviert"

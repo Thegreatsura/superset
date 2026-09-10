@@ -13009,6 +13009,9 @@ msgstr "Сочетание уже используется"
 msgid "Show a confirmation dialog when quitting the app"
 msgstr "Показывать подтверждение при выходе из приложения"
 
+msgid "Show a Usage button in the home sidebar, under Pull requests"
+msgstr "Показывать кнопку «Использование» в боковой панели главного экрана под пул-реквестами"
+
 msgid "Show all {count}"
 msgstr "Показать все {count}"
 
@@ -13128,6 +13131,9 @@ msgstr "Показывать статус и отправлять уведомл
 
 msgid "Show translation"
 msgstr "Показать перевод"
+
+msgid "Show usage tab on sidebar"
+msgstr "Показывать вкладку использования на боковой панели"
 
 msgid "showArrow opt-in"
 msgstr "showArrow по желанию"

@@ -13009,6 +13009,9 @@ msgstr "Pintasan sudah dipakai"
 msgid "Show a confirmation dialog when quitting the app"
 msgstr "Tampilkan dialog konfirmasi saat keluar dari aplikasi"
 
+msgid "Show a Usage button in the home sidebar, under Pull requests"
+msgstr "Tampilkan tombol Penggunaan di sidebar beranda, di bawah Pull request"
+
 msgid "Show all {count}"
 msgstr "Tampilkan semua {count}"
 
@@ -13128,6 +13131,9 @@ msgstr "Tampilkan status dan kirim notifikasi untuk agen ini."
 
 msgid "Show translation"
 msgstr "Tampilkan terjemahan"
+
+msgid "Show usage tab on sidebar"
+msgstr "Tampilkan tab penggunaan di bilah samping"
 
 msgid "showArrow opt-in"
 msgstr "showArrow opsional"
