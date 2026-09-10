@@ -683,6 +683,9 @@ msgstr "{hidden, plural, one {Mostra # riga nascosta} other {Mostra # righe nasc
 msgid "{hidden, plural, one {Show # reply} other {Show # replies}}"
 msgstr "{hidden, plural, one {Mostra # risposta} other {Mostra # risposte}}"
 
+msgid "{hidden, plural, one {View # more reply} other {View # more replies}}"
+msgstr "{hidden, plural, one {Mostra # altra risposta} other {Mostra # altre risposte}}"
+
 msgid "{hiddenCount, plural, one {Show # more frame} other {Show # more frames}}"
 msgstr "{hiddenCount, plural, one {Mostra # altro frame} other {Mostra altri # frame}}"
 
@@ -2063,6 +2066,12 @@ msgstr "Ultimo valore riportato. L'host deve essere online per aggiornarsi."
 msgid "ascending"
 msgstr "crescente"
 
+msgid "Ask an agent to publish one from the desktop app."
+msgstr "Chiedi a un agente di pubblicarne una dall'app desktop."
+
+msgid "Ask for this to be removed"
+msgstr "Chiedi di rimuoverlo"
+
 msgid "Ask the agent…"
 msgstr "Chiedi all'agente…"
 
@@ -2939,6 +2948,9 @@ msgstr "Controlla il tuo accesso in Impostazioni > Sicurezza su quel dispositivo
 msgid "Check your connection and try again"
 msgstr "Controlla la connessione e riprova"
 
+msgid "Check your connection, or try opening it again."
+msgstr "Controlla la connessione o prova ad aprirla di nuovo."
+
 msgid "Check your inbox"
 msgstr "Controlla la tua casella di posta"
 
@@ -3031,6 +3043,9 @@ msgstr "Scegli quale agente osserva i commenti di questa pagina"
 
 msgid "CI failed"
 msgstr "CI fallita"
+
+msgid "Clarify this"
+msgstr "Chiarisci questo"
 
 msgid "Claude Code, Codex, and OpenCode are the agents; Superset is where you run many of them at once. Each task gets its own isolated Git worktree, so ten agents can work on ten branches simultaneously while you monitor, review, and merge from one place."
 msgstr "Claude Code, Codex e OpenCode sono gli agenti; Superset è dove ne fai girare molti insieme. Ogni task ha il proprio worktree Git isolato, così dieci agenti possono lavorare su dieci branch contemporaneamente mentre tu monitori, rivedi e unisci da un unico posto."
@@ -3476,6 +3491,9 @@ msgstr "Il commento menziona un utente"
 msgid "Comment not found"
 msgstr "Commento non trovato"
 
+msgid "Comment not posted"
+msgstr "Commento non pubblicato"
+
 msgid "Comment on this page"
 msgstr "Commenta questa pagina"
 
@@ -3733,6 +3751,9 @@ msgstr "Il consenso è stato completato ma Microsoft non ha emesso un token per 
 
 msgid "Consent was not granted. A tenant administrator has to approve."
 msgstr "Il consenso non è stato concesso. Deve approvarlo un amministratore del tenant."
+
+msgid "Consider alternatives"
+msgstr "Valuta alternative"
 
 msgid "Console"
 msgstr "Console"
@@ -4124,6 +4145,12 @@ msgstr "Impossibile rinominare la sessione"
 
 msgid "Could not reopen"
 msgstr "Impossibile riaprire"
+
+msgid "Could not reopen this comment"
+msgstr "Impossibile riaprire questo commento"
+
+msgid "Could not resolve this comment"
+msgstr "Impossibile risolvere questo commento"
 
 msgid "Could not restart the host service"
 msgstr "Impossibile riavviare il servizio host"
@@ -4801,6 +4828,9 @@ msgstr "Eliminare la sessione \"{workspaceName}\"?"
 
 msgid "Delete team"
 msgstr "Elimina il team"
+
+msgid "Delete this"
+msgstr "Elimina questo"
 
 msgid "Delete this workspace?"
 msgstr "Eliminare questo workspace?"
@@ -5508,6 +5538,9 @@ msgstr "Approfondimenti tecnici e lanci."
 
 msgid "Enjoying Superset?"
 msgstr "Ti piace Superset?"
+
+msgid "Ensure no regression"
+msgstr "Assicurati che non ci siano regressioni"
 
 msgid "Enter a parent directory on {hostName}"
 msgstr "Inserisci una directory padre su {hostName}"
@@ -6337,6 +6370,9 @@ msgstr "Filtra gli host"
 msgid "Filter hosts..."
 msgstr "Filtra gli host..."
 
+msgid "Filter pages"
+msgstr "Filtra le pagine"
+
 msgid "Filter projects"
 msgstr "Filtra progetti"
 
@@ -6771,6 +6807,9 @@ msgstr "Nome utente GitHub..."
 
 msgid "GitHub username…"
 msgstr "Nome utente GitHub…"
+
+msgid "Give me an example"
+msgstr "Fammi un esempio"
 
 msgid "Give your key a descriptive name to remember where it's used."
 msgstr "Dai alla chiave un nome descrittivo per ricordare dove viene usata."
@@ -7564,6 +7603,9 @@ msgstr "Issue…"
 msgid "It may have been deleted, or it belongs to another organization."
 msgstr "Potrebbe essere stata eliminata oppure appartiene a un'altra organizzazione."
 
+msgid "It will open once the connection is back."
+msgstr "Si aprirà al ritorno della connessione."
+
 msgid "It will reconnect on its own once the machine is back. Pull to check again."
 msgstr "Si riconnetterà da solo quando la macchina tornerà attiva. Trascina per ricontrollare."
 
@@ -8204,6 +8246,9 @@ msgstr "Tooltip con sola scorciatoia su hover prolungato; il suo stile chip è o
 msgid "Looking for installed browsers…"
 msgstr "Ricerca dei browser installati…"
 
+msgid "Looks good"
+msgstr "Mi sembra buono"
+
 msgid "Low"
 msgstr "Bassa"
 
@@ -8336,6 +8381,9 @@ msgstr "Marketplace"
 
 msgid "Marking ready for review..."
 msgstr "Contrassegno come pronta per la revisione…"
+
+msgid "Match existing patterns"
+msgstr "Segui i pattern esistenti"
 
 msgid "Match shortcuts to the labels on your keyboard (e.g. ⌘Z always fires on the key labeled \"Z\" — physical KeyY on QWERTZ). When off, shortcuts are anchored to physical key positions and ignore the current input source."
 msgstr "Adatta le scorciatoie alle etichette della tua tastiera (es. ⌘Z si attiva sempre sul tasto etichettato \"Z\" — fisicamente KeyY su QWERTZ). Quando è disattivata, le scorciatoie sono ancorate alle posizioni fisiche dei tasti e ignorano la sorgente di input attuale."
@@ -8520,6 +8568,9 @@ msgstr "Stato di autenticazione mancante"
 
 msgid "Missing authorization code. Re-run"
 msgstr "Codice di autorizzazione mancante. Riesegui"
+
+msgid "Missing overview"
+msgstr "Manca una panoramica"
 
 msgid "Missing required authorization parameters."
 msgstr "Parametri di autorizzazione obbligatori mancanti."
@@ -8749,6 +8800,9 @@ msgstr "Richiede un'autorizzazione"
 msgid "Needs review"
 msgstr "Richiede revisione"
 
+msgid "Needs tests"
+msgstr "Servono test"
+
 msgid "needs update"
 msgstr "da aggiornare"
 
@@ -8942,6 +8996,9 @@ msgstr "Successivo:"
 msgid "Next: {nextLabel}"
 msgstr "Avanti: {nextLabel}"
 
+msgid "Nice approach"
+msgstr "Buon approccio"
+
 msgid "Nice, open a PR when ready."
 msgstr "Ottimo, apri una PR quando è pronta."
 
@@ -9060,6 +9117,9 @@ msgstr "Nessun comando trovato."
 
 msgid "No comment body"
 msgstr "Nessun corpo del commento"
+
+msgid "No comments on this page yet"
+msgstr "Ancora nessun commento in questa pagina"
 
 msgid "No comments yet."
 msgstr "Ancora nessun commento."
@@ -9234,6 +9294,9 @@ msgstr "Nessuna organizzazione selezionata"
 
 msgid "No pages match"
 msgstr "Nessuna pagina corrisponde"
+
+msgid "No pages match this filter"
+msgstr "Nessuna pagina corrisponde a questo filtro"
 
 msgid "No pages yet"
 msgstr "Ancora nessuna pagina"
@@ -9777,6 +9840,9 @@ msgstr "Solo il proprietario può vedere la cronologia dei prompt"
 msgid "Only the person who created this page can change it"
 msgstr "Solo chi ha creato questa pagina può modificarla"
 
+msgid "Only the person who created this page can change these."
+msgstr "Solo chi ha creato questa pagina può modificarli."
+
 msgid "Only the thread's author or the page's owner can delete it"
 msgstr "Solo l'autore del thread o il proprietario della pagina può eliminarlo"
 
@@ -9890,6 +9956,9 @@ msgstr "Apri il file in una nuova scheda"
 
 msgid "Open from folder"
 msgstr "Apri da cartella"
+
+msgid "Open full screen"
+msgstr "Apri a schermo intero"
 
 msgid "Open importer"
 msgstr "Apri l'importatore"
@@ -10321,6 +10390,9 @@ msgstr "Altri modi per contattarci"
 msgid "Our read as of August 2026, based on our own team and the teams we watch closely. F3 is mostly open. F4 is mostly closed. That gap is the work."
 msgstr "La nostra lettura ad agosto 2026, basata sul nostro team e sui team che seguiamo da vicino. F3 è quasi tutto aperto. F4 è quasi tutto chiuso. Quel divario è il lavoro da fare."
 
+msgid "Out of scope"
+msgstr "Fuori ambito"
+
 msgid "Outcome in, software out. Humans specify intent, constraints, and budget. The factory schedules itself, ships continuously, monitors what it shipped, and rolls itself back. Most changes merge with no human in the loop, and the incident rate does not rise."
 msgstr "Entra un obiettivo, esce del software. Gli umani specificano intento, vincoli e budget. La fabbrica si programma da sola, rilascia in continuo, monitora ciò che ha rilasciato e torna indietro da sola. La maggior parte delle modifiche viene unita senza un umano nel ciclo, e il tasso di incidenti non sale."
 
@@ -10405,6 +10477,9 @@ msgstr "Visualizzazioni di pagina"
 
 msgid "Pages"
 msgstr "Pagine"
+
+msgid "Pages could not be loaded"
+msgstr "Impossibile caricare le pagine"
 
 msgid "Pages sessions started on, with the share that left without a second page. The compare pages are the SEO surface."
 msgstr "Pagine su cui sono iniziate le sessioni, con la quota che se n'è andata senza una seconda pagina. Le pagine di confronto sono la superficie SEO."
@@ -11202,6 +11277,9 @@ msgstr "Crea workspace rapido"
 msgid "Quick Create Workspace"
 msgstr "Crea workspace rapido"
 
+msgid "Quick feedback"
+msgstr "Feedback rapido"
+
 msgid "Quick Open File"
 msgstr "Apertura rapida file"
 
@@ -11641,6 +11719,9 @@ msgstr "Renderizza una scorciatoia registrata dentro le voci dei menu a discesa 
 msgid "Renews {0}."
 msgstr "Si rinnova il {0}."
 
+msgid "Reopen"
+msgstr "Riapri"
+
 msgid "Reopen Closed Tab"
 msgstr "Riapri la scheda chiusa"
 
@@ -11793,6 +11874,9 @@ msgstr "Ridimensiona il bordo sinistro"
 
 msgid "Resize right edge"
 msgstr "Ridimensiona il bordo destro"
+
+msgid "Resolve"
+msgstr "Risolvi"
 
 msgid "Resolve all"
 msgstr "Risolvi tutto"
@@ -12900,6 +12984,9 @@ msgstr "Condividi design e report. Lascia che il tuo agente gestisca il feedback
 
 msgid "Share page"
 msgstr "Condividi la pagina"
+
+msgid "Share this page"
+msgstr "Condividi questa pagina"
 
 msgid "Share via…"
 msgstr "Condividi tramite…"
@@ -14042,6 +14129,12 @@ msgstr "Ci sta mettendo più del solito. Continua anche se esci."
 msgid "Talk to Superset"
 msgstr "Parla con Superset"
 
+msgid "Tap anything on the page to comment on it"
+msgstr "Tocca un elemento della pagina per commentarlo"
+
+msgid "Tap the focus button to comment on a block."
+msgstr "Tocca il pulsante di messa a fuoco per commentare un blocco."
+
 msgid "Target agent"
 msgstr "Agente di destinazione"
 
@@ -14599,6 +14692,9 @@ msgstr "Questo chiude tutte le sessioni del terminale — in questo workspace e 
 
 msgid "This closes every terminal session for your organization{runningCountSuffix} and starts a fresh daemon."
 msgstr "Questo chiude tutte le sessioni del terminale della tua organizzazione{runningCountSuffix} e avvia un daemon nuovo."
+
+msgid "This comment is no longer here"
+msgstr "Questo commento non è più qui"
 
 msgid "This deletes the saved scrollback used for reboot/crash recovery."
 msgstr "Questo elimina lo scrollback salvato usato per il ripristino dopo riavvio o crash."
@@ -15591,6 +15687,9 @@ msgstr "Verificato tramite accesso"
 msgid "Verify Kbd stays visible inside tooltips"
 msgstr "Verifica che Kbd resti visibile dentro i tooltip"
 
+msgid "Verify this"
+msgstr "Verifica questo"
+
 msgid "Verify your identity"
 msgstr "Verificare la tua identità"
 
@@ -16173,6 +16272,9 @@ msgstr "I worktree con modifiche non committate restano sul disco."
 msgid "Would you like to reassign it?"
 msgstr "Vuoi riassegnarla?"
 
+msgid "Write a comment"
+msgstr "Scrivi un commento"
+
 msgid "Write a comment…"
 msgstr "Scrivi un commento…"
 
@@ -16241,6 +16343,9 @@ msgstr "Non sei membro di questa organizzazione"
 
 msgid "You are not authorized to perform this action."
 msgstr "Non sei autorizzato a eseguire questa azione."
+
+msgid "You are offline"
+msgstr "Sei offline"
 
 msgid "You are on the <0>{currentPlanLabel} plan</0>. If you have any questions or would like further support with your plan, <1>contact us<2/></1>."
 msgstr "Sei sul <0>piano {currentPlanLabel}</0>. Se hai domande o vuoi ulteriore supporto sul tuo piano, <1>contattaci<2/></1>."

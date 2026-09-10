@@ -683,6 +683,9 @@ msgstr "{hidden, plural, one {显示#行隐藏内容} other {显示#行隐藏内
 msgid "{hidden, plural, one {Show # reply} other {Show # replies}}"
 msgstr "{hidden, plural, one {显示 # 条回复} other {显示 # 条回复}}"
 
+msgid "{hidden, plural, one {View # more reply} other {View # more replies}}"
+msgstr "{hidden, plural, other {查看另外 # 条回复}}"
+
 msgid "{hiddenCount, plural, one {Show # more frame} other {Show # more frames}}"
 msgstr "{hiddenCount, plural, one {再显示#个栈帧} other {再显示#个栈帧}}"
 
@@ -2063,6 +2066,12 @@ msgstr "上次报告的版本。主机必须在线才能更新。"
 msgid "ascending"
 msgstr "升序"
 
+msgid "Ask an agent to publish one from the desktop app."
+msgstr "让智能体从桌面应用中发布一个页面。"
+
+msgid "Ask for this to be removed"
+msgstr "请求移除"
+
 msgid "Ask the agent…"
 msgstr "向智能体提问…"
 
@@ -2939,6 +2948,9 @@ msgstr "请在该设备的“设置 > 安全”中检查你的访问权限。"
 msgid "Check your connection and try again"
 msgstr "请检查网络连接后重试"
 
+msgid "Check your connection, or try opening it again."
+msgstr "请检查网络连接，或重新打开一次。"
+
 msgid "Check your inbox"
 msgstr "查收你的邮箱"
 
@@ -3031,6 +3043,9 @@ msgstr "选择由哪个智能体关注此页面的评论"
 
 msgid "CI failed"
 msgstr "CI失败"
+
+msgid "Clarify this"
+msgstr "阐明这里"
 
 msgid "Claude Code, Codex, and OpenCode are the agents; Superset is where you run many of them at once. Each task gets its own isolated Git worktree, so ten agents can work on ten branches simultaneously while you monitor, review, and merge from one place."
 msgstr "Claude Code、Codex和OpenCode是智能体；Superset是你同时运行它们的地方。每个任务都有自己隔离的Git worktree，十个智能体可以同时在十个分支上工作，而你在一处监控、审查并合并。"
@@ -3476,6 +3491,9 @@ msgstr "评论提及用户"
 msgid "Comment not found"
 msgstr "未找到评论"
 
+msgid "Comment not posted"
+msgstr "评论未发布"
+
 msgid "Comment on this page"
 msgstr "评论这个页面"
 
@@ -3733,6 +3751,9 @@ msgstr "授权同意已完成，但Microsoft没有为该租户签发令牌。"
 
 msgid "Consent was not granted. A tenant administrator has to approve."
 msgstr "未获得授权同意。需要租户管理员批准。"
+
+msgid "Consider alternatives"
+msgstr "考虑其他方案"
 
 msgid "Console"
 msgstr "控制台"
@@ -4124,6 +4145,12 @@ msgstr "无法重命名会话"
 
 msgid "Could not reopen"
 msgstr "无法重新打开"
+
+msgid "Could not reopen this comment"
+msgstr "无法重新打开此评论"
+
+msgid "Could not resolve this comment"
+msgstr "无法解决此评论"
 
 msgid "Could not restart the host service"
 msgstr "无法重启主机服务"
@@ -4801,6 +4828,9 @@ msgstr "删除会话“{workspaceName}”？"
 
 msgid "Delete team"
 msgstr "删除团队"
+
+msgid "Delete this"
+msgstr "删除这里"
 
 msgid "Delete this workspace?"
 msgstr "删除这个工作区？"
@@ -5508,6 +5538,9 @@ msgstr "工程深度文章与新功能发布。"
 
 msgid "Enjoying Superset?"
 msgstr "用得还顺手吗？"
+
+msgid "Ensure no regression"
+msgstr "确保没有回归"
 
 msgid "Enter a parent directory on {hostName}"
 msgstr "请输入{hostName}上的父目录"
@@ -6337,6 +6370,9 @@ msgstr "筛选主机"
 msgid "Filter hosts..."
 msgstr "筛选主机..."
 
+msgid "Filter pages"
+msgstr "筛选页面"
+
 msgid "Filter projects"
 msgstr "筛选项目"
 
@@ -6771,6 +6807,9 @@ msgstr "GitHub 用户名..."
 
 msgid "GitHub username…"
 msgstr "GitHub用户名…"
+
+msgid "Give me an example"
+msgstr "给我一个示例"
 
 msgid "Give your key a descriptive name to remember where it's used."
 msgstr "给密钥起一个描述性的名称，方便记住它用在哪里。"
@@ -7564,6 +7603,9 @@ msgstr "议题…"
 msgid "It may have been deleted, or it belongs to another organization."
 msgstr "它可能已被删除，或属于另一个组织。"
 
+msgid "It will open once the connection is back."
+msgstr "网络恢复后会自动打开。"
+
 msgid "It will reconnect on its own once the machine is back. Pull to check again."
 msgstr "机器恢复后它会自动重新连接。下拉可再次检查。"
 
@@ -8204,6 +8246,9 @@ msgstr "长时间悬停才出现、只显示快捷键的tooltip；它的chip样�
 msgid "Looking for installed browsers…"
 msgstr "正在查找已安装的浏览器…"
 
+msgid "Looks good"
+msgstr "看起来不错"
+
 msgid "Low"
 msgstr "低"
 
@@ -8336,6 +8381,9 @@ msgstr "市场"
 
 msgid "Marking ready for review..."
 msgstr "正在标记为可评审…"
+
+msgid "Match existing patterns"
+msgstr "沿用现有模式"
 
 msgid "Match shortcuts to the labels on your keyboard (e.g. ⌘Z always fires on the key labeled \"Z\" — physical KeyY on QWERTZ). When off, shortcuts are anchored to physical key positions and ignore the current input source."
 msgstr "让快捷键匹配键盘上的标签（例如⌘Z始终触发标有“Z”的按键——在QWERTZ上是物理KeyY）。关闭后，快捷键锚定在物理按键位置，忽略当前输入源。"
@@ -8520,6 +8568,9 @@ msgstr "缺少认证状态"
 
 msgid "Missing authorization code. Re-run"
 msgstr "缺少授权码。请重新运行"
+
+msgid "Missing overview"
+msgstr "缺少概览"
 
 msgid "Missing required authorization parameters."
 msgstr "缺少必需的授权参数。"
@@ -8749,6 +8800,9 @@ msgstr "需要授权"
 msgid "Needs review"
 msgstr "待审查"
 
+msgid "Needs tests"
+msgstr "需要测试"
+
 msgid "needs update"
 msgstr "需要更新"
 
@@ -8942,6 +8996,9 @@ msgstr "下一节："
 msgid "Next: {nextLabel}"
 msgstr "下一级：{nextLabel}"
 
+msgid "Nice approach"
+msgstr "思路不错"
+
 msgid "Nice, open a PR when ready."
 msgstr "不错，准备好就开个PR。"
 
@@ -9060,6 +9117,9 @@ msgstr "未找到命令。"
 
 msgid "No comment body"
 msgstr "没有评论正文"
+
+msgid "No comments on this page yet"
+msgstr "此页面还没有评论"
 
 msgid "No comments yet."
 msgstr "暂无评论。"
@@ -9234,6 +9294,9 @@ msgstr "未选择组织"
 
 msgid "No pages match"
 msgstr "没有匹配的页面"
+
+msgid "No pages match this filter"
+msgstr "没有页面符合此筛选条件"
 
 msgid "No pages yet"
 msgstr "还没有页面"
@@ -9777,6 +9840,9 @@ msgstr "只有所有者能查看提示词历史"
 msgid "Only the person who created this page can change it"
 msgstr "只有创建此页面的人才能修改它"
 
+msgid "Only the person who created this page can change these."
+msgstr "只有创建此页面的人才能更改这些设置。"
+
 msgid "Only the thread's author or the page's owner can delete it"
 msgstr "只有讨论串的作者或页面所有者才能删除它"
 
@@ -9890,6 +9956,9 @@ msgstr "在新标签页中打开文件"
 
 msgid "Open from folder"
 msgstr "从文件夹打开"
+
+msgid "Open full screen"
+msgstr "全屏打开"
 
 msgid "Open importer"
 msgstr "打开导入器"
@@ -10321,6 +10390,9 @@ msgstr "其他联系方式"
 msgid "Our read as of August 2026, based on our own team and the teams we watch closely. F3 is mostly open. F4 is mostly closed. That gap is the work."
 msgstr "这是我们截至2026年8月的判断，依据是我们自己的团队和我们密切关注的团队。F3大多已开启，F4大多还没开启。这道差距就是要做的事。"
 
+msgid "Out of scope"
+msgstr "超出范围"
+
 msgid "Outcome in, software out. Humans specify intent, constraints, and budget. The factory schedules itself, ships continuously, monitors what it shipped, and rolls itself back. Most changes merge with no human in the loop, and the incident rate does not rise."
 msgstr "输入结果，输出软件。人类只指定意图、约束和预算。工厂自行排产、持续交付、监控上线内容，并自行回滚。大多数变更在无人参与的情况下合并，故障率不升。"
 
@@ -10405,6 +10477,9 @@ msgstr "页面浏览"
 
 msgid "Pages"
 msgstr "页面"
+
+msgid "Pages could not be loaded"
+msgstr "无法加载页面"
 
 msgid "Pages sessions started on, with the share that left without a second page. The compare pages are the SEO surface."
 msgstr "会话开始的页面，以及未看第二页就离开的比例。对比页是 SEO 的主阵地。"
@@ -11202,6 +11277,9 @@ msgstr "快速创建工作区"
 msgid "Quick Create Workspace"
 msgstr "快速创建工作区"
 
+msgid "Quick feedback"
+msgstr "快速反馈"
+
 msgid "Quick Open File"
 msgstr "快速打开文件"
 
@@ -11641,6 +11719,9 @@ msgstr "在下拉菜单／菜单栏项中渲染已注册的快捷键"
 msgid "Renews {0}."
 msgstr "将于{0}续订。"
 
+msgid "Reopen"
+msgstr "重新打开"
+
 msgid "Reopen Closed Tab"
 msgstr "重新打开已关闭的标签页"
 
@@ -11793,6 +11874,9 @@ msgstr "调整左边缘"
 
 msgid "Resize right edge"
 msgstr "调整右边缘"
+
+msgid "Resolve"
+msgstr "解决"
 
 msgid "Resolve all"
 msgstr "全部解决"
@@ -12900,6 +12984,9 @@ msgstr "分享设计和报告，让你的智能体处理反馈。"
 
 msgid "Share page"
 msgstr "分享页面"
+
+msgid "Share this page"
+msgstr "分享此页面"
 
 msgid "Share via…"
 msgstr "分享方式…"
@@ -14042,6 +14129,12 @@ msgstr "比平时久一些。你离开后它也会继续。"
 msgid "Talk to Superset"
 msgstr "联系Superset"
 
+msgid "Tap anything on the page to comment on it"
+msgstr "点按页面上的任意元素即可评论"
+
+msgid "Tap the focus button to comment on a block."
+msgstr "点按聚焦按钮即可评论某个区块。"
+
 msgid "Target agent"
 msgstr "目标智能体"
 
@@ -14599,6 +14692,9 @@ msgstr "这会关闭所有终端会话 — 包括此工作区和其他工作区�
 
 msgid "This closes every terminal session for your organization{runningCountSuffix} and starts a fresh daemon."
 msgstr "这会关闭你组织的所有终端会话{runningCountSuffix}并启动全新的守护进程。"
+
+msgid "This comment is no longer here"
+msgstr "此评论已不存在"
 
 msgid "This deletes the saved scrollback used for reboot/crash recovery."
 msgstr "这将删除用于重启/崩溃恢复的已保存回滚缓冲。"
@@ -15591,6 +15687,9 @@ msgstr "通过登录验证"
 msgid "Verify Kbd stays visible inside tooltips"
 msgstr "确认Kbd在tooltip中仍然可见"
 
+msgid "Verify this"
+msgstr "核实这里"
+
 msgid "Verify your identity"
 msgstr "验证你的身份"
 
@@ -16173,6 +16272,9 @@ msgstr "有未提交更改的worktree会保留在磁盘上。"
 msgid "Would you like to reassign it?"
 msgstr "要重新分配吗？"
 
+msgid "Write a comment"
+msgstr "写评论"
+
 msgid "Write a comment…"
 msgstr "写下评论…"
 
@@ -16241,6 +16343,9 @@ msgstr "你不是此组织的成员"
 
 msgid "You are not authorized to perform this action."
 msgstr "你没有执行此操作的权限。"
+
+msgid "You are offline"
+msgstr "你已离线"
 
 msgid "You are on the <0>{currentPlanLabel} plan</0>. If you have any questions or would like further support with your plan, <1>contact us<2/></1>."
 msgstr "你当前使用的是<0>{currentPlanLabel}方案</0>。如有任何疑问，或希望就方案获得进一步支持，请<1>联系我们<2/></1>。"

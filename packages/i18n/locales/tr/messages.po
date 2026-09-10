@@ -683,6 +683,9 @@ msgstr "{hidden, plural, one {# gizli satırı göster} other {# gizli satırı 
 msgid "{hidden, plural, one {Show # reply} other {Show # replies}}"
 msgstr "{hidden, plural, one {# yanıtı göster} other {# yanıtı göster}}"
 
+msgid "{hidden, plural, one {View # more reply} other {View # more replies}}"
+msgstr "{hidden, plural, one {# yanıt daha göster} other {# yanıt daha göster}}"
+
 msgid "{hiddenCount, plural, one {Show # more frame} other {Show # more frames}}"
 msgstr "{hiddenCount, plural, one {# çerçeve daha göster} other {# çerçeve daha göster}}"
 
@@ -2063,6 +2066,12 @@ msgstr "Son bildirildiği gibi. Güncellemek için ana makine çevrimiçi olmal�
 msgid "ascending"
 msgstr "artan"
 
+msgid "Ask an agent to publish one from the desktop app."
+msgstr "Bir ajandan masaüstü uygulamasından bir tane yayımlamasını isteyin."
+
+msgid "Ask for this to be removed"
+msgstr "Kaldırılmasını iste"
+
 msgid "Ask the agent…"
 msgstr "Ajana sorun…"
 
@@ -2939,6 +2948,9 @@ msgstr "O cihazda Ayarlar > Güvenlik bölümünden erişiminizi kontrol edin."
 msgid "Check your connection and try again"
 msgstr "Bağlantınızı kontrol edip yeniden deneyin"
 
+msgid "Check your connection, or try opening it again."
+msgstr "Bağlantınızı kontrol edin veya yeniden açmayı deneyin."
+
 msgid "Check your inbox"
 msgstr "Gelen kutunuzu kontrol edin"
 
@@ -3031,6 +3043,9 @@ msgstr "Bu sayfanın yorumlarını hangi ajanın izleyeceğini seç"
 
 msgid "CI failed"
 msgstr "CI başarısız"
+
+msgid "Clarify this"
+msgstr "Bunu netleştir"
 
 msgid "Claude Code, Codex, and OpenCode are the agents; Superset is where you run many of them at once. Each task gets its own isolated Git worktree, so ten agents can work on ten branches simultaneously while you monitor, review, and merge from one place."
 msgstr "Claude Code, Codex ve OpenCode ajanlardır; Superset ise bunların birçoğunu aynı anda çalıştırdığınız yerdir. Her görev kendi yalıtılmış Git worktree'sini alır, böylece on ajan on dalda eşzamanlı çalışırken siz tek bir yerden izler, inceler ve birleştirirsiniz."
@@ -3476,6 +3491,9 @@ msgstr "Yorumda kullanıcıdan bahsedildi"
 msgid "Comment not found"
 msgstr "Yorum bulunamadı"
 
+msgid "Comment not posted"
+msgstr "Yorum gönderilmedi"
+
 msgid "Comment on this page"
 msgstr "Bu sayfaya yorum yap"
 
@@ -3733,6 +3751,9 @@ msgstr "Onay tamamlandı ancak Microsoft kiracı için token vermedi."
 
 msgid "Consent was not granted. A tenant administrator has to approve."
 msgstr "Onay verilmedi. Bir kiracı yöneticisinin onaylaması gerekiyor."
+
+msgid "Consider alternatives"
+msgstr "Alternatifleri değerlendir"
 
 msgid "Console"
 msgstr "Konsol"
@@ -4124,6 +4145,12 @@ msgstr "Oturum yeniden adlandırılamadı"
 
 msgid "Could not reopen"
 msgstr "Yeniden açılamadı"
+
+msgid "Could not reopen this comment"
+msgstr "Bu yorum yeniden açılamadı"
+
+msgid "Could not resolve this comment"
+msgstr "Bu yorum çözülemedi"
 
 msgid "Could not restart the host service"
 msgstr "Ana makine hizmeti yeniden başlatılamadı"
@@ -4801,6 +4828,9 @@ msgstr "\"{workspaceName}\" oturumu silinsin mi?"
 
 msgid "Delete team"
 msgstr "Takımı sil"
+
+msgid "Delete this"
+msgstr "Bunu sil"
 
 msgid "Delete this workspace?"
 msgstr "Bu çalışma alanı silinsin mi?"
@@ -5508,6 +5538,9 @@ msgstr "Mühendislik derinlemesine yazıları ve lansmanlar."
 
 msgid "Enjoying Superset?"
 msgstr "Superset'ten memnun musunuz?"
+
+msgid "Ensure no regression"
+msgstr "Regresyon olmadığından emin ol"
 
 msgid "Enter a parent directory on {hostName}"
 msgstr "{hostName} üzerinde bir üst dizin girin"
@@ -6337,6 +6370,9 @@ msgstr "Host'ları filtrele"
 msgid "Filter hosts..."
 msgstr "Host'ları filtrele..."
 
+msgid "Filter pages"
+msgstr "Sayfaları filtrele"
+
 msgid "Filter projects"
 msgstr "Projeleri filtrele"
 
@@ -6771,6 +6807,9 @@ msgstr "GitHub kullanıcı adı..."
 
 msgid "GitHub username…"
 msgstr "GitHub kullanıcı adı…"
+
+msgid "Give me an example"
+msgstr "Bana bir örnek ver"
 
 msgid "Give your key a descriptive name to remember where it's used."
 msgstr "Nerede kullanıldığını hatırlamak için anahtarınıza açıklayıcı bir ad verin."
@@ -7564,6 +7603,9 @@ msgstr "Issue…"
 msgid "It may have been deleted, or it belongs to another organization."
 msgstr "Silinmiş olabilir veya başka bir kuruluşa ait olabilir."
 
+msgid "It will open once the connection is back."
+msgstr "Bağlantı geri geldiğinde açılacak."
+
 msgid "It will reconnect on its own once the machine is back. Pull to check again."
 msgstr "Makine geri döndüğünde kendiliğinden yeniden bağlanır. Yeniden denetlemek için aşağı çekin."
 
@@ -8204,6 +8246,9 @@ msgstr "Uzun bekletmede yalnızca kısayol gösteren tooltip; çip stili artık 
 msgid "Looking for installed browsers…"
 msgstr "Kurulu tarayıcılar aranıyor…"
 
+msgid "Looks good"
+msgstr "İyi görünüyor"
+
 msgid "Low"
 msgstr "Düşük"
 
@@ -8336,6 +8381,9 @@ msgstr "Pazar yeri"
 
 msgid "Marking ready for review..."
 msgstr "İncelemeye hazır olarak işaretleniyor…"
+
+msgid "Match existing patterns"
+msgstr "Mevcut desenlere uy"
 
 msgid "Match shortcuts to the labels on your keyboard (e.g. ⌘Z always fires on the key labeled \"Z\" — physical KeyY on QWERTZ). When off, shortcuts are anchored to physical key positions and ignore the current input source."
 msgstr "Kısayolları klavyenizdeki etiketlerle eşleştirin (örn. ⌘Z her zaman \"Z\" etiketli tuşta çalışır — QWERTZ'de fiziksel KeyY). Kapalıyken kısayollar fiziksel tuş konumlarına sabitlenir ve geçerli giriş kaynağını yok sayar."
@@ -8520,6 +8568,9 @@ msgstr "Kimlik doğrulama durumu eksik"
 
 msgid "Missing authorization code. Re-run"
 msgstr "Yetkilendirme kodu eksik. Yeniden çalıştırın:"
+
+msgid "Missing overview"
+msgstr "Genel bakış eksik"
 
 msgid "Missing required authorization parameters."
 msgstr "Gerekli yetkilendirme parametreleri eksik."
@@ -8749,6 +8800,9 @@ msgstr "İzin gerekiyor"
 msgid "Needs review"
 msgstr "İnceleme gerekiyor"
 
+msgid "Needs tests"
+msgstr "Test gerekiyor"
+
 msgid "needs update"
 msgstr "güncelleme gerekli"
 
@@ -8942,6 +8996,9 @@ msgstr "Sonraki:"
 msgid "Next: {nextLabel}"
 msgstr "Sonraki: {nextLabel}"
 
+msgid "Nice approach"
+msgstr "Güzel yaklaşım"
+
 msgid "Nice, open a PR when ready."
 msgstr "Güzel, hazır olduğunda bir PR aç."
 
@@ -9060,6 +9117,9 @@ msgstr "Komut bulunamadı."
 
 msgid "No comment body"
 msgstr "Yorum gövdesi yok"
+
+msgid "No comments on this page yet"
+msgstr "Bu sayfada henüz yorum yok"
 
 msgid "No comments yet."
 msgstr "Henüz yorum yok."
@@ -9234,6 +9294,9 @@ msgstr "Kuruluş seçilmedi"
 
 msgid "No pages match"
 msgstr "Eşleşen sayfa yok"
+
+msgid "No pages match this filter"
+msgstr "Bu filtreyle eşleşen sayfa yok"
 
 msgid "No pages yet"
 msgstr "Henüz sayfa yok"
@@ -9777,6 +9840,9 @@ msgstr "İstem geçmişini yalnızca sahibi görebilir"
 msgid "Only the person who created this page can change it"
 msgstr "Bu sayfayı yalnızca oluşturan kişi değiştirebilir"
 
+msgid "Only the person who created this page can change these."
+msgstr "Bunları yalnızca bu sayfayı oluşturan kişi değiştirebilir."
+
 msgid "Only the thread's author or the page's owner can delete it"
 msgstr "Konuyu yalnızca yazarı veya sayfanın sahibi silebilir"
 
@@ -9890,6 +9956,9 @@ msgstr "Dosyayı yeni sekmede aç"
 
 msgid "Open from folder"
 msgstr "Klasörden aç"
+
+msgid "Open full screen"
+msgstr "Tam ekranda aç"
 
 msgid "Open importer"
 msgstr "İçe aktarıcıyı aç"
@@ -10321,6 +10390,9 @@ msgstr "Bize ulaşmanın diğer yolları"
 msgid "Our read as of August 2026, based on our own team and the teams we watch closely. F3 is mostly open. F4 is mostly closed. That gap is the work."
 msgstr "Ağustos 2026 itibarıyla kendi ekibimize ve yakından izlediğimiz takımlara dayanan okumamız. F3 büyük ölçüde açık. F4 büyük ölçüde kapalı. İşin kendisi bu boşlukta."
 
+msgid "Out of scope"
+msgstr "Kapsam dışı"
+
 msgid "Outcome in, software out. Humans specify intent, constraints, and budget. The factory schedules itself, ships continuously, monitors what it shipped, and rolls itself back. Most changes merge with no human in the loop, and the incident rate does not rise."
 msgstr "Sonuç girer, yazılım çıkar. İnsanlar niyeti, kısıtları ve bütçeyi belirtir. Fabrika kendini zamanlar, sürekli gönderir, gönderdiğini izler ve kendini geri alır. Değişikliklerin çoğu insan devreye girmeden birleşir ve olay oranı yükselmez."
 
@@ -10405,6 +10477,9 @@ msgstr "Sayfa görüntülemeleri"
 
 msgid "Pages"
 msgstr "Sayfalar"
+
+msgid "Pages could not be loaded"
+msgstr "Sayfalar yüklenemedi"
 
 msgid "Pages sessions started on, with the share that left without a second page. The compare pages are the SEO surface."
 msgstr "Oturumların başladığı sayfalar ve ikinci bir sayfa görmeden ayrılanların payı. Karşılaştırma sayfaları SEO yüzeyidir."
@@ -11202,6 +11277,9 @@ msgstr "Hızlı çalışma alanı oluştur"
 msgid "Quick Create Workspace"
 msgstr "Hızlı çalışma alanı oluştur"
 
+msgid "Quick feedback"
+msgstr "Hızlı geri bildirim"
+
 msgid "Quick Open File"
 msgstr "Hızlı dosya aç"
 
@@ -11641,6 +11719,9 @@ msgstr "Açılır menü/menü çubuğu öğelerinde kayıtlı bir kısayolu gös
 msgid "Renews {0}."
 msgstr "{0} tarihinde yenilenir."
 
+msgid "Reopen"
+msgstr "Yeniden aç"
+
 msgid "Reopen Closed Tab"
 msgstr "Kapatılan sekmeyi yeniden aç"
 
@@ -11793,6 +11874,9 @@ msgstr "Sol kenarı yeniden boyutlandır"
 
 msgid "Resize right edge"
 msgstr "Sağ kenarı yeniden boyutlandır"
+
+msgid "Resolve"
+msgstr "Çöz"
 
 msgid "Resolve all"
 msgstr "Tümünü çöz"
@@ -12900,6 +12984,9 @@ msgstr "Tasarımları ve raporları paylaşın. Geri bildirimleri ajanınız ele
 
 msgid "Share page"
 msgstr "Sayfayı paylaş"
+
+msgid "Share this page"
+msgstr "Bu sayfayı paylaş"
 
 msgid "Share via…"
 msgstr "Şununla paylaş…"
@@ -14042,6 +14129,12 @@ msgstr "Normalden uzun sürüyor. Ayrılsanız da devam eder."
 msgid "Talk to Superset"
 msgstr "Superset ile konuşun"
 
+msgid "Tap anything on the page to comment on it"
+msgstr "Yorum yapmak için sayfadaki herhangi bir yere dokun"
+
+msgid "Tap the focus button to comment on a block."
+msgstr "Bir bloğa yorum yapmak için odak düğmesine dokun."
+
 msgid "Target agent"
 msgstr "Hedef ajan"
 
@@ -14599,6 +14692,9 @@ msgstr "Bu işlem, bu çalışma alanındaki ve diğerlerindeki her terminal otu
 
 msgid "This closes every terminal session for your organization{runningCountSuffix} and starts a fresh daemon."
 msgstr "Bu işlem kuruluşunuzdaki her terminal oturumunu kapatır{runningCountSuffix} ve yeni bir daemon başlatır."
+
+msgid "This comment is no longer here"
+msgstr "Bu yorum artık burada değil"
 
 msgid "This deletes the saved scrollback used for reboot/crash recovery."
 msgstr "Bu işlem, yeniden başlatma/çökme kurtarma için saklanan kaydırma geçmişini siler."
@@ -15591,6 +15687,9 @@ msgstr "Oturum açma ile doğrulandı"
 msgid "Verify Kbd stays visible inside tooltips"
 msgstr "Kbd'nin tooltip'ler içinde görünür kaldığını doğrula"
 
+msgid "Verify this"
+msgstr "Bunu doğrula"
+
 msgid "Verify your identity"
 msgstr "Kimliğinizi doğrulama"
 
@@ -16173,6 +16272,9 @@ msgstr "Commit edilmemiş değişiklikleri olan worktree'ler diskte bırakılır
 msgid "Would you like to reassign it?"
 msgstr "Yeniden atamak ister misiniz?"
 
+msgid "Write a comment"
+msgstr "Yorum yaz"
+
 msgid "Write a comment…"
 msgstr "Bir yorum yazın…"
 
@@ -16241,6 +16343,9 @@ msgstr "Bu kuruluşun üyesi değilsiniz"
 
 msgid "You are not authorized to perform this action."
 msgstr "Bu işlemi yapma yetkiniz yok."
+
+msgid "You are offline"
+msgstr "Çevrimdışısınız"
 
 msgid "You are on the <0>{currentPlanLabel} plan</0>. If you have any questions or would like further support with your plan, <1>contact us<2/></1>."
 msgstr "<0>{currentPlanLabel} planındasınız</0>. Sorularınız varsa veya planınızla ilgili destek isterseniz <1>bize ulaşın<2/></1>."

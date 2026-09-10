@@ -683,6 +683,9 @@ msgstr "{hidden, plural, one {Показать # скрытую строку} fe
 msgid "{hidden, plural, one {Show # reply} other {Show # replies}}"
 msgstr "{hidden, plural, one {Показать # ответ} few {Показать # ответа} many {Показать # ответов} other {Показать # ответа}}"
 
+msgid "{hidden, plural, one {View # more reply} other {View # more replies}}"
+msgstr "{hidden, plural, one {Показать ещё # ответ} few {Показать ещё # ответа} many {Показать ещё # ответов} other {Показать ещё # ответа}}"
+
 msgid "{hiddenCount, plural, one {Show # more frame} other {Show # more frames}}"
 msgstr "{hiddenCount, plural, one {Показать ещё # кадр} few {Показать ещё # кадра} many {Показать ещё # кадров} other {Показать ещё # кадра}}"
 
@@ -2063,6 +2066,12 @@ msgstr "По последним данным. Для обновления хос
 msgid "ascending"
 msgstr "по возрастанию"
 
+msgid "Ask an agent to publish one from the desktop app."
+msgstr "Попросите агента опубликовать её из десктопного приложения."
+
+msgid "Ask for this to be removed"
+msgstr "Попросить удалить"
+
 msgid "Ask the agent…"
 msgstr "Спросите агента…"
 
@@ -2939,6 +2948,9 @@ msgstr "Проверьте свой доступ в разделе «Настр�
 msgid "Check your connection and try again"
 msgstr "Проверьте соединение и повторите"
 
+msgid "Check your connection, or try opening it again."
+msgstr "Проверьте соединение или попробуйте открыть снова."
+
 msgid "Check your inbox"
 msgstr "Проверьте почту"
 
@@ -3031,6 +3043,9 @@ msgstr "Выберите, какой агент отслеживает комм�
 
 msgid "CI failed"
 msgstr "CI упал"
+
+msgid "Clarify this"
+msgstr "Уточнить это"
 
 msgid "Claude Code, Codex, and OpenCode are the agents; Superset is where you run many of them at once. Each task gets its own isolated Git worktree, so ten agents can work on ten branches simultaneously while you monitor, review, and merge from one place."
 msgstr "Claude Code, Codex и OpenCode — это агенты; Superset — место, где вы запускаете их много сразу. У каждой задачи свой изолированный Git worktree, поэтому десять агентов могут работать над десятью ветками одновременно, пока вы следите, проверяете и объединяете из одного места."
@@ -3476,6 +3491,9 @@ msgstr "В комментарии упомянут пользователь"
 msgid "Comment not found"
 msgstr "Комментарий не найден"
 
+msgid "Comment not posted"
+msgstr "Комментарий не отправлен"
+
 msgid "Comment on this page"
 msgstr "Комментировать эту страницу"
 
@@ -3733,6 +3751,9 @@ msgstr "Согласие получено, но Microsoft не выдал ток
 
 msgid "Consent was not granted. A tenant administrator has to approve."
 msgstr "Согласие не выдано. Его должен одобрить администратор тенанта."
+
+msgid "Consider alternatives"
+msgstr "Рассмотри альтернативы"
 
 msgid "Console"
 msgstr "Консоль"
@@ -4124,6 +4145,12 @@ msgstr "Не удалось переименовать сессию"
 
 msgid "Could not reopen"
 msgstr "Не удалось открыть заново"
+
+msgid "Could not reopen this comment"
+msgstr "Не удалось открыть этот комментарий снова"
+
+msgid "Could not resolve this comment"
+msgstr "Не удалось закрыть этот комментарий"
 
 msgid "Could not restart the host service"
 msgstr "Не удалось перезапустить службу хоста"
@@ -4801,6 +4828,9 @@ msgstr "Удалить сессию «{workspaceName}»?"
 
 msgid "Delete team"
 msgstr "Удалить команду"
+
+msgid "Delete this"
+msgstr "Удалить это"
 
 msgid "Delete this workspace?"
 msgstr "Удалить эту рабочую область?"
@@ -5508,6 +5538,9 @@ msgstr "Инженерные разборы и запуски."
 
 msgid "Enjoying Superset?"
 msgstr "Нравится Superset?"
+
+msgid "Ensure no regression"
+msgstr "Убедись, что нет регрессии"
 
 msgid "Enter a parent directory on {hostName}"
 msgstr "Введите родительскую папку на {hostName}"
@@ -6337,6 +6370,9 @@ msgstr "Фильтр хостов"
 msgid "Filter hosts..."
 msgstr "Фильтр хостов..."
 
+msgid "Filter pages"
+msgstr "Фильтровать страницы"
+
 msgid "Filter projects"
 msgstr "Фильтровать проекты"
 
@@ -6771,6 +6807,9 @@ msgstr "Имя пользователя GitHub..."
 
 msgid "GitHub username…"
 msgstr "Имя пользователя GitHub…"
+
+msgid "Give me an example"
+msgstr "Приведи пример"
 
 msgid "Give your key a descriptive name to remember where it's used."
 msgstr "Дайте ключу понятное название, чтобы помнить, где он используется."
@@ -7564,6 +7603,9 @@ msgstr "Задача…"
 msgid "It may have been deleted, or it belongs to another organization."
 msgstr "Возможно, она удалена или принадлежит другой организации."
 
+msgid "It will open once the connection is back."
+msgstr "Страница откроется, когда связь вернётся."
+
 msgid "It will reconnect on its own once the machine is back. Pull to check again."
 msgstr "Он переподключится сам, когда машина вернётся. Потяните, чтобы проверить снова."
 
@@ -8204,6 +8246,9 @@ msgstr "Подсказка только с сочетанием клавиш п�
 msgid "Looking for installed browsers…"
 msgstr "Поиск установленных браузеров…"
 
+msgid "Looks good"
+msgstr "Выглядит хорошо"
+
 msgid "Low"
 msgstr "Низкий"
 
@@ -8336,6 +8381,9 @@ msgstr "Маркетплейс"
 
 msgid "Marking ready for review..."
 msgstr "Помечается как готово к ревью…"
+
+msgid "Match existing patterns"
+msgstr "Следуй существующим шаблонам"
 
 msgid "Match shortcuts to the labels on your keyboard (e.g. ⌘Z always fires on the key labeled \"Z\" — physical KeyY on QWERTZ). When off, shortcuts are anchored to physical key positions and ignore the current input source."
 msgstr "Привязывать сочетания к обозначениям на вашей клавиатуре (например, ⌘Z всегда срабатывает на клавише с надписью «Z» — физическая KeyY на QWERTZ). Когда выключено, сочетания привязаны к физическим позициям клавиш и не зависят от текущего источника ввода."
@@ -8520,6 +8568,9 @@ msgstr "Отсутствует состояние аутентификации"
 
 msgid "Missing authorization code. Re-run"
 msgstr "Нет кода авторизации. Выполните заново"
+
+msgid "Missing overview"
+msgstr "Не хватает обзора"
 
 msgid "Missing required authorization parameters."
 msgstr "Не хватает обязательных параметров авторизации."
@@ -8749,6 +8800,9 @@ msgstr "Нужно разрешение"
 msgid "Needs review"
 msgstr "Нужно ревью"
 
+msgid "Needs tests"
+msgstr "Нужны тесты"
+
 msgid "needs update"
 msgstr "нужно обновить"
 
@@ -8942,6 +8996,9 @@ msgstr "Далее:"
 msgid "Next: {nextLabel}"
 msgstr "Далее: {nextLabel}"
 
+msgid "Nice approach"
+msgstr "Хороший подход"
+
 msgid "Nice, open a PR when ready."
 msgstr "Отлично, открой PR, когда будет готово."
 
@@ -9060,6 +9117,9 @@ msgstr "Команды не найдены."
 
 msgid "No comment body"
 msgstr "Нет текста комментария"
+
+msgid "No comments on this page yet"
+msgstr "На этой странице пока нет комментариев"
 
 msgid "No comments yet."
 msgstr "Комментариев пока нет."
@@ -9234,6 +9294,9 @@ msgstr "Организация не выбрана"
 
 msgid "No pages match"
 msgstr "Нет подходящих страниц"
+
+msgid "No pages match this filter"
+msgstr "Нет страниц, соответствующих этому фильтру"
 
 msgid "No pages yet"
 msgstr "Страниц пока нет"
@@ -9777,6 +9840,9 @@ msgstr "Историю промптов может смотреть только
 msgid "Only the person who created this page can change it"
 msgstr "Изменить эту страницу может только тот, кто её создал"
 
+msgid "Only the person who created this page can change these."
+msgstr "Изменить это может только тот, кто создал эту страницу."
+
 msgid "Only the thread's author or the page's owner can delete it"
 msgstr "Удалить может только автор ветки или владелец страницы"
 
@@ -9890,6 +9956,9 @@ msgstr "Открыть файл в новой вкладке"
 
 msgid "Open from folder"
 msgstr "Открыть из папки"
+
+msgid "Open full screen"
+msgstr "Открыть во весь экран"
 
 msgid "Open importer"
 msgstr "Открыть импортёр"
@@ -10321,6 +10390,9 @@ msgstr "Другие способы связаться"
 msgid "Our read as of August 2026, based on our own team and the teams we watch closely. F3 is mostly open. F4 is mostly closed. That gap is the work."
 msgstr "Наша оценка на август 2026 года по нашей команде и командам, за которыми мы внимательно следим. F3 в основном открыт. F4 в основном закрыт. Этот разрыв и есть работа."
 
+msgid "Out of scope"
+msgstr "Вне рамок"
+
 msgid "Outcome in, software out. Humans specify intent, constraints, and budget. The factory schedules itself, ships continuously, monitors what it shipped, and rolls itself back. Most changes merge with no human in the loop, and the incident rate does not rise."
 msgstr "На входе результат, на выходе софт. Люди задают намерение, ограничения и бюджет. Фабрика сама планирует, непрерывно выпускает, следит за выпущенным и сама откатывается. Большинство изменений сливается без человека в контуре, а частота инцидентов не растёт."
 
@@ -10405,6 +10477,9 @@ msgstr "Просмотры страниц"
 
 msgid "Pages"
 msgstr "Страницы"
+
+msgid "Pages could not be loaded"
+msgstr "Не удалось загрузить страницы"
 
 msgid "Pages sessions started on, with the share that left without a second page. The compare pages are the SEO surface."
 msgstr "Страницы, с которых начались сессии, и доля ушедших без второй страницы. Страницы сравнения — это SEO-поверхность."
@@ -11202,6 +11277,9 @@ msgstr "Быстро создать рабочую область"
 msgid "Quick Create Workspace"
 msgstr "Быстро создать рабочую область"
 
+msgid "Quick feedback"
+msgstr "Быстрый отзыв"
+
 msgid "Quick Open File"
 msgstr "Быстро открыть файл"
 
@@ -11641,6 +11719,9 @@ msgstr "Рендерит зарегистрированное сочетание
 msgid "Renews {0}."
 msgstr "Продлевается {0}."
 
+msgid "Reopen"
+msgstr "Открыть снова"
+
 msgid "Reopen Closed Tab"
 msgstr "Открыть заново закрытую вкладку"
 
@@ -11793,6 +11874,9 @@ msgstr "Изменить размер по левому краю"
 
 msgid "Resize right edge"
 msgstr "Изменить размер по правому краю"
+
+msgid "Resolve"
+msgstr "Решить"
 
 msgid "Resolve all"
 msgstr "Закрыть все"
@@ -12900,6 +12984,9 @@ msgstr "Делитесь дизайнами и отчётами. Пусть ва
 
 msgid "Share page"
 msgstr "Поделиться страницей"
+
+msgid "Share this page"
+msgstr "Поделиться этой страницей"
 
 msgid "Share via…"
 msgstr "Поделиться через…"
@@ -14042,6 +14129,12 @@ msgstr "Дольше обычного. Процесс продолжится, д
 msgid "Talk to Superset"
 msgstr "Напишите в Superset"
 
+msgid "Tap anything on the page to comment on it"
+msgstr "Коснитесь любого элемента страницы, чтобы прокомментировать его"
+
+msgid "Tap the focus button to comment on a block."
+msgstr "Нажмите кнопку фокуса, чтобы прокомментировать блок."
+
 msgid "Target agent"
 msgstr "Целевой агент"
 
@@ -14599,6 +14692,9 @@ msgstr "Это закроет все сессии терминала — в эт
 
 msgid "This closes every terminal session for your organization{runningCountSuffix} and starts a fresh daemon."
 msgstr "Это закроет все сессии терминала вашей организации{runningCountSuffix} и запустит новый демон."
+
+msgid "This comment is no longer here"
+msgstr "Этого комментария больше нет"
 
 msgid "This deletes the saved scrollback used for reboot/crash recovery."
 msgstr "Это удалит сохранённую прокрутку, используемую для восстановления после перезагрузки или сбоя."
@@ -15591,6 +15687,9 @@ msgstr "Подтверждено при входе"
 msgid "Verify Kbd stays visible inside tooltips"
 msgstr "Проверить, что Kbd остаётся видимым внутри tooltip"
 
+msgid "Verify this"
+msgstr "Проверить это"
+
 msgid "Verify your identity"
 msgstr "проверять вашу личность"
 
@@ -16173,6 +16272,9 @@ msgstr "Worktree с незакоммиченными изменениями ос
 msgid "Would you like to reassign it?"
 msgstr "Переназначить?"
 
+msgid "Write a comment"
+msgstr "Написать комментарий"
+
 msgid "Write a comment…"
 msgstr "Напишите комментарий…"
 
@@ -16241,6 +16343,9 @@ msgstr "Вы не участник этой организации"
 
 msgid "You are not authorized to perform this action."
 msgstr "У вас нет прав на это действие."
+
+msgid "You are offline"
+msgstr "Нет подключения"
 
 msgid "You are on the <0>{currentPlanLabel} plan</0>. If you have any questions or would like further support with your plan, <1>contact us<2/></1>."
 msgstr "У вас <0>тариф {currentPlanLabel}</0>. Если есть вопросы или нужна помощь с тарифом, <1>напишите нам<2/></1>."
