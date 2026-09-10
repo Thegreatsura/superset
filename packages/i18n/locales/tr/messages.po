@@ -860,6 +860,9 @@ msgstr "{skipped, plural, one {# atlandı} other {# atlandı}}"
 msgid "{starCount} stars and counting"
 msgstr "{starCount} yıldız ve artıyor"
 
+msgid "{stars} stars · {perDay}/day this week · {peakPerDay}/day at peak"
+msgstr "{stars} yıldız · bu hafta {perDay}/gün · zirvede {peakPerDay}/gün"
+
 msgid "{subagentCount, plural, one {# subagent running} other {# subagents running}}"
 msgstr "{subagentCount, plural, one {# alt ajan çalışıyor} other {# alt ajan çalışıyor}}"
 
@@ -3152,6 +3155,9 @@ msgstr "Aralığı tanımlamak için iki commit'e tıklayın."
 msgid "Click-through rate"
 msgstr "Tıklama oranı"
 
+msgid "Clicked upgrade"
+msgstr "Yükselt'e tıkladı"
+
 msgid "Clicks"
 msgstr "Tıklamalar"
 
@@ -3366,6 +3372,9 @@ msgstr "Kohort"
 
 msgid "Cohort retention"
 msgstr "Kohort elde tutma"
+
+msgid "cohort size"
+msgstr "kohort büyüklüğü"
 
 msgid "Collapse"
 msgstr "Daralt"
@@ -6748,6 +6757,9 @@ msgstr "GitHub bu makinenin kimlik bilgilerini reddetti, bu yüzden pull request
 msgid "GitHub sign-in needed"
 msgstr "GitHub oturumu açmanız gerekiyor"
 
+msgid "GitHub stars"
+msgstr "GitHub yıldızları"
+
 msgid "GitHub unreachable"
 msgstr "GitHub'a ulaşılamıyor"
 
@@ -8941,6 +8953,9 @@ msgstr "Güzel, hazır olduğunda bir PR aç."
 msgid "No {0} logins on this host — sign in and usage appears here."
 msgstr "Bu host'ta {0} oturumu yok — oturum açın, kullanım burada görünsün."
 
+msgid "No {gaps} events in this window yet."
+msgstr "Bu aralıkta henüz {gaps} olayı yok."
+
 msgid "No access to this host"
 msgstr "Bu host'a erişim yok"
 
@@ -10284,14 +10299,11 @@ msgstr "Kuruluş: <0>{0}</0>"
 msgid "Organizations"
 msgstr "Kuruluşlar"
 
+msgid "Organizations that gained a second member, against the single-member accounts everyone starts with (Neon). Bars are the team count; the line is teams per 1,000 organizations. Removing a member deletes the row, so a team that shrank back to one person is missing from past weeks."
+msgstr "İkinci üyesini kazanan kuruluşlar ile herkesin başladığı tek üyeli hesapların karşılaştırması (Neon). Çubuklar ekip sayısını, çizgi ise 1.000 kuruluş başına ekip sayısını gösterir. Üye kaldırmak satırı sildiği için tekrar tek kişiye düşen bir ekip geçmiş haftalarda görünmez."
+
 msgid "Organize your work into teams. Tasks and integrations can sync per-team."
 msgstr "İşinizi takımlar hâlinde düzenleyin. Görevler ve entegrasyonlar takım bazında eşitlenebilir."
-
-msgid "orgs with 2+ active members"
-msgstr "2+ etkin üyeli kuruluşlar"
-
-msgid "orgs with 5+ active members"
-msgstr "5+ etkin üyeli kuruluşlar"
 
 msgid "Originals"
 msgstr "Özgünler"
@@ -10414,6 +10426,9 @@ msgstr "sayfalama"
 msgid "Pagination"
 msgstr "Sayfalama"
 
+msgid "Paid"
+msgstr "Ödedi"
+
 msgid "Paid churn — cohort survival"
 msgstr "Ücretli kayıp — kohort sağkalımı"
 
@@ -10519,6 +10534,12 @@ msgstr "Ödeme yöntemi"
 msgid "Payment Successful"
 msgstr "Ödeme başarılı"
 
+msgid "Paywall → paid"
+msgstr "Ödeme duvarı → ödeme"
+
+msgid "Paywall conversion over time"
+msgstr "Zamana göre ödeme duvarı dönüşümü"
+
 msgid "PDF"
 msgstr "PDF"
 
@@ -10527,6 +10548,9 @@ msgstr "Zirve hız"
 
 msgid "Pending Invitations"
 msgstr "Bekleyen davetler"
+
+msgid "People whose first paywall view was in the last {PAYWALL_FUNNEL_WEEKS} weeks, and how far they got. A stage counts anyone who reached it after that view, so recent cohorts are still maturing."
+msgstr "Ödeme duvarını ilk kez son {PAYWALL_FUNNEL_WEEKS} hafta içinde gören kişiler ve nereye kadar geldikleri. Bir aşama, o görüntülemeden sonra oraya ulaşan herkesi sayar; bu yüzden yeni kohortlar hâlâ olgunlaşıyor."
 
 msgid "People with access"
 msgstr "Erişimi olan kişiler"
@@ -12272,6 +12296,9 @@ msgstr "Kaydediliyor..."
 msgid "Saving…"
 msgstr "Kaydediliyor…"
 
+msgid "Saw the paywall"
+msgstr "Ödeme duvarını gördü"
+
 msgid "Scale from two agents to 100+"
 msgstr "İki ajandan 100+ ajana ölçeklenin"
 
@@ -13538,6 +13565,9 @@ msgstr "Çalışma alanı başlat"
 msgid "Started"
 msgstr "Başladı"
 
+msgid "Started checkout"
+msgstr "Ödeme akışını başlattı"
+
 msgid "starting"
 msgstr "başlatılıyor"
 
@@ -14099,8 +14129,17 @@ msgstr "Bu kuruluşta takım bulunamadı"
 msgid "Team settings"
 msgstr "Takım ayarları"
 
+msgid "teams"
+msgstr "ekipler"
+
 msgid "Teams"
 msgstr "Takımlar"
+
+msgid "teams per 1,000 organizations"
+msgstr "1.000 kuruluş başına ekip"
+
+msgid "Teams vs individual accounts"
+msgstr "Ekipler ve bireysel hesaplar"
 
 msgid "Teardown"
 msgstr "Kapatma"
@@ -15611,6 +15650,12 @@ msgstr "{count} pull request görüntüle"
 msgid "View {name}"
 msgstr "{name} temasını görüntüle"
 
+msgid "view → paid"
+msgstr "görüntüleme → ödeme"
+
+msgid "view → upgrade click"
+msgstr "görüntüleme → yükseltme tıklaması"
+
 msgid "View all"
 msgstr "Tümünü görüntüle"
 
@@ -15825,11 +15870,11 @@ msgstr "Haftalık"
 msgid "Weekly at {time}"
 msgstr "Her hafta saat {time}"
 
+msgid "Weekly cohorts by first paywall view. Bars are cohort size; the current week is still filling."
+msgstr "İlk ödeme duvarı görüntülemesine göre haftalık kohortlar. Çubuklar kohort büyüklüğünü gösterir; bu hafta hâlâ dolmakta."
+
 msgid "Weekly cohorts by first real workspace; % returning with another workspace each week"
 msgstr "İlk gerçek çalışma alanına göre haftalık kohortlar; her hafta başka bir çalışma alanıyla dönenlerin yüzdesi"
-
-msgid "Weekly orgs with 2+/5+ members creating real workspaces"
-msgstr "Gerçek çalışma alanı oluşturan 2+/5+ üyeli haftalık kuruluşlar"
 
 msgid "Weekly p50/p90 real workspaces per creator; current week dashed"
 msgstr "Oluşturan başına haftalık p50/p90 gerçek çalışma alanı; geçerli hafta kesikli"

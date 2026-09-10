@@ -1,5 +1,5 @@
 import { formatDate } from "@superset/i18n/format";
-import type { StarHistoryPoint } from "../getStarHistory";
+import type { StarHistoryPoint } from "@superset/shared/github-stars";
 
 export const DAY_MS = 24 * 60 * 60 * 1000;
 export const WEEK_MS = 7 * DAY_MS;
@@ -128,6 +128,11 @@ export function toLocalDateString(date: Date): string {
 // this, toLocaleDateString renders in local time, so anyone west of UTC
 // (e.g. the Americas) sees every axis tick, tooltip, and "week of" caption
 // one calendar day earlier than the actual bucketed date.
+//
+// The locale is a parameter rather than read from the shared instance: a server
+// component that awaits GitHub before formatting would otherwise pick up
+// whatever locale a concurrent request activated in the meantime. Callers
+// inside the React tree can omit it and get the active one.
 export function formatUTCDate(
 	timestamp: number,
 	options: Intl.DateTimeFormatOptions,

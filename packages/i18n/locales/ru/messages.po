@@ -860,6 +860,9 @@ msgstr "{skipped, plural, one {# пропущено} few {# пропущено} 
 msgid "{starCount} stars and counting"
 msgstr "{starCount} звёзд и продолжаем"
 
+msgid "{stars} stars · {perDay}/day this week · {peakPerDay}/day at peak"
+msgstr "{stars} звёзд · {perDay}/день на этой неделе · {peakPerDay}/день на пике"
+
 msgid "{subagentCount, plural, one {# subagent running} other {# subagents running}}"
 msgstr "{subagentCount, plural, one {# субагент выполняется} few {# субагента выполняются} many {# субагентов выполняются} other {# субагента выполняются}}"
 
@@ -3152,6 +3155,9 @@ msgstr "Кликните по двум коммитам, чтобы задать
 msgid "Click-through rate"
 msgstr "Кликабельность"
 
+msgid "Clicked upgrade"
+msgstr "Нажатие апгрейда"
+
 msgid "Clicks"
 msgstr "Клики"
 
@@ -3366,6 +3372,9 @@ msgstr "Когорта"
 
 msgid "Cohort retention"
 msgstr "Удержание по когортам"
+
+msgid "cohort size"
+msgstr "размер когорты"
 
 msgid "Collapse"
 msgstr "Свернуть"
@@ -6748,6 +6757,9 @@ msgstr "GitHub отклонил учётные данные этого комп�
 msgid "GitHub sign-in needed"
 msgstr "Требуется вход в GitHub"
 
+msgid "GitHub stars"
+msgstr "Звёзды GitHub"
+
 msgid "GitHub unreachable"
 msgstr "GitHub недоступен"
 
@@ -8941,6 +8953,9 @@ msgstr "Отлично, открой PR, когда будет готово."
 msgid "No {0} logins on this host — sign in and usage appears here."
 msgstr "На этом хосте нет входов {0} — войдите, и данные появятся здесь."
 
+msgid "No {gaps} events in this window yet."
+msgstr "В этом периоде пока нет событий {gaps}."
+
 msgid "No access to this host"
 msgstr "Нет доступа к этому хосту"
 
@@ -10284,14 +10299,11 @@ msgstr "Организация: <0>{0}</0>"
 msgid "Organizations"
 msgstr "Организации"
 
+msgid "Organizations that gained a second member, against the single-member accounts everyone starts with (Neon). Bars are the team count; the line is teams per 1,000 organizations. Removing a member deletes the row, so a team that shrank back to one person is missing from past weeks."
+msgstr "Организации, в которых появился второй участник, по сравнению с аккаунтами из одного человека, с которых все начинают (Neon). Столбцы — количество команд, линия — команд на 1000 организаций. Удаление участника стирает запись, поэтому команда, снова ставшая одиночной, отсутствует в прошлых неделях."
+
 msgid "Organize your work into teams. Tasks and integrations can sync per-team."
 msgstr "Организуйте работу по командам. Задачи и интеграции можно синхронизировать отдельно для каждой команды."
-
-msgid "orgs with 2+ active members"
-msgstr "организации с 2+ активными участниками"
-
-msgid "orgs with 5+ active members"
-msgstr "организации с 5+ активными участниками"
 
 msgid "Originals"
 msgstr "Оригиналы"
@@ -10414,6 +10426,9 @@ msgstr "постраничная навигация"
 msgid "Pagination"
 msgstr "Постраничная навигация"
 
+msgid "Paid"
+msgstr "Оплата"
+
 msgid "Paid churn — cohort survival"
 msgstr "Отток платных — выживаемость когорт"
 
@@ -10519,6 +10534,12 @@ msgstr "Способ оплаты"
 msgid "Payment Successful"
 msgstr "Платёж прошёл"
 
+msgid "Paywall → paid"
+msgstr "Пейволл → оплата"
+
+msgid "Paywall conversion over time"
+msgstr "Конверсия пейволла со временем"
+
 msgid "PDF"
 msgstr "PDF"
 
@@ -10527,6 +10548,9 @@ msgstr "Пиковый темп"
 
 msgid "Pending Invitations"
 msgstr "Ожидающие приглашения"
+
+msgid "People whose first paywall view was in the last {PAYWALL_FUNNEL_WEEKS} weeks, and how far they got. A stage counts anyone who reached it after that view, so recent cohorts are still maturing."
+msgstr "Люди, впервые увидевшие пейволл за последние {PAYWALL_FUNNEL_WEEKS} недель, и то, как далеко они прошли. Этап учитывает всех, кто достиг его после этого показа, поэтому недавние когорты ещё не дозрели."
 
 msgid "People with access"
 msgstr "У кого есть доступ"
@@ -12272,6 +12296,9 @@ msgstr "Сохранение..."
 msgid "Saving…"
 msgstr "Сохранение…"
 
+msgid "Saw the paywall"
+msgstr "Показ пейволла"
+
 msgid "Scale from two agents to 100+"
 msgstr "От двух агентов до 100+"
 
@@ -13538,6 +13565,9 @@ msgstr "Запустить рабочую область"
 msgid "Started"
 msgstr "Начато"
 
+msgid "Started checkout"
+msgstr "Начало оформления оплаты"
+
 msgid "starting"
 msgstr "запускается"
 
@@ -14099,8 +14129,17 @@ msgstr "Команда не найдена в этой организации"
 msgid "Team settings"
 msgstr "Настройки команды"
 
+msgid "teams"
+msgstr "команды"
+
 msgid "Teams"
 msgstr "Команды"
+
+msgid "teams per 1,000 organizations"
+msgstr "команд на 1000 организаций"
+
+msgid "Teams vs individual accounts"
+msgstr "Команды и личные аккаунты"
 
 msgid "Teardown"
 msgstr "Очистка"
@@ -15611,6 +15650,12 @@ msgstr "Смотреть {count} пул-реквестов"
 msgid "View {name}"
 msgstr "Посмотреть {name}"
 
+msgid "view → paid"
+msgstr "показ → оплата"
+
+msgid "view → upgrade click"
+msgstr "показ → нажатие апгрейда"
+
 msgid "View all"
 msgstr "Смотреть все"
 
@@ -15825,11 +15870,11 @@ msgstr "Еженедельно"
 msgid "Weekly at {time}"
 msgstr "Еженедельно в {time}"
 
+msgid "Weekly cohorts by first paywall view. Bars are cohort size; the current week is still filling."
+msgstr "Недельные когорты по первому показу пейволла. Столбцы — размер когорты; текущая неделя ещё заполняется."
+
 msgid "Weekly cohorts by first real workspace; % returning with another workspace each week"
 msgstr "Недельные когорты по первой реальной рабочей области; % вернувшихся с ещё одной рабочей областью каждую неделю"
-
-msgid "Weekly orgs with 2+/5+ members creating real workspaces"
-msgstr "Организации за неделю, где 2+/5+ участников создают реальные рабочие области"
 
 msgid "Weekly p50/p90 real workspaces per creator; current week dashed"
 msgstr "Недельные p50/p90 реальных рабочих областей на создателя; текущая неделя пунктиром"

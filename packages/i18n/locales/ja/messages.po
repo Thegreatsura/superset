@@ -860,6 +860,9 @@ msgstr "{skipped, plural, one {#件スキップ} other {#件スキップ}}"
 msgid "{starCount} stars and counting"
 msgstr "スター{starCount}件、まだ増えています"
 
+msgid "{stars} stars · {perDay}/day this week · {peakPerDay}/day at peak"
+msgstr "{stars}スター · 今週{perDay}/日 · ピーク{peakPerDay}/日"
+
 msgid "{subagentCount, plural, one {# subagent running} other {# subagents running}}"
 msgstr "{subagentCount, plural, other {# 件のサブエージェントが実行中}}"
 
@@ -3152,6 +3155,9 @@ msgstr "2つのコミットをクリックして範囲を指定してくださ�
 msgid "Click-through rate"
 msgstr "クリック率"
 
+msgid "Clicked upgrade"
+msgstr "アップグレードをクリック"
+
 msgid "Clicks"
 msgstr "クリック"
 
@@ -3366,6 +3372,9 @@ msgstr "コホート"
 
 msgid "Cohort retention"
 msgstr "コホートリテンション"
+
+msgid "cohort size"
+msgstr "コホート人数"
 
 msgid "Collapse"
 msgstr "折りたたむ"
@@ -6748,6 +6757,9 @@ msgstr "GitHub がこのマシンの認証情報を拒否したため、プル�
 msgid "GitHub sign-in needed"
 msgstr "GitHub へのサインインが必要です"
 
+msgid "GitHub stars"
+msgstr "GitHubスター"
+
 msgid "GitHub unreachable"
 msgstr "GitHub に接続できません"
 
@@ -8941,6 +8953,9 @@ msgstr "いいですね。準備ができたらPRを作成してください。"
 msgid "No {0} logins on this host — sign in and usage appears here."
 msgstr "このホストに{0}のログインがありません — サインインすると使用量が表示されます。"
 
+msgid "No {gaps} events in this window yet."
+msgstr "この期間の{gaps}イベントはまだありません。"
+
 msgid "No access to this host"
 msgstr "このホストへのアクセス権がありません"
 
@@ -10284,14 +10299,11 @@ msgstr "組織: <0>{0}</0>"
 msgid "Organizations"
 msgstr "組織"
 
+msgid "Organizations that gained a second member, against the single-member accounts everyone starts with (Neon). Bars are the team count; the line is teams per 1,000 organizations. Removing a member deletes the row, so a team that shrank back to one person is missing from past weeks."
+msgstr "2人目のメンバーが加わった組織と、誰もが最初に持つ1人だけのアカウントの比較（Neon）。棒はチーム数、折れ線は1,000組織あたりのチーム数です。メンバーを削除すると行ごと消えるため、1人に戻ったチームは過去の週に含まれません。"
+
 msgid "Organize your work into teams. Tasks and integrations can sync per-team."
 msgstr "作業をチームに整理します。タスクと連携はチームごとに同期できます。"
-
-msgid "orgs with 2+ active members"
-msgstr "アクティブメンバー2人以上の組織"
-
-msgid "orgs with 5+ active members"
-msgstr "アクティブメンバー5人以上の組織"
 
 msgid "Originals"
 msgstr "独自コンポーネント"
@@ -10414,6 +10426,9 @@ msgstr "ページネーション"
 msgid "Pagination"
 msgstr "Pagination"
 
+msgid "Paid"
+msgstr "支払い完了"
+
 msgid "Paid churn — cohort survival"
 msgstr "有料チャーン — コホート残存"
 
@@ -10519,6 +10534,12 @@ msgstr "支払い方法"
 msgid "Payment Successful"
 msgstr "支払いが完了しました"
 
+msgid "Paywall → paid"
+msgstr "ペイウォール → 支払い"
+
+msgid "Paywall conversion over time"
+msgstr "ペイウォールの転換率の推移"
+
 msgid "PDF"
 msgstr "PDF"
 
@@ -10527,6 +10548,9 @@ msgstr "最速ペース"
 
 msgid "Pending Invitations"
 msgstr "保留中の招待"
+
+msgid "People whose first paywall view was in the last {PAYWALL_FUNNEL_WEEKS} weeks, and how far they got. A stage counts anyone who reached it after that view, so recent cohorts are still maturing."
+msgstr "最初にペイウォールを見たのが過去{PAYWALL_FUNNEL_WEEKS}週間内の人と、どこまで進んだか。各ステージはその閲覧後に到達した人を数えるため、最近のコホートはまだ成熟していません。"
 
 msgid "People with access"
 msgstr "アクセスできるユーザー"
@@ -12272,6 +12296,9 @@ msgstr "保存中..."
 msgid "Saving…"
 msgstr "保存中…"
 
+msgid "Saw the paywall"
+msgstr "ペイウォールを表示"
+
 msgid "Scale from two agents to 100+"
 msgstr "2体から100体以上へ広げる"
 
@@ -13538,6 +13565,9 @@ msgstr "ワークスペースを開始"
 msgid "Started"
 msgstr "開始"
 
+msgid "Started checkout"
+msgstr "決済を開始"
+
 msgid "starting"
 msgstr "起動中"
 
@@ -14099,8 +14129,17 @@ msgstr "この組織にチームが見つかりません"
 msgid "Team settings"
 msgstr "チーム設定"
 
+msgid "teams"
+msgstr "チーム"
+
 msgid "Teams"
 msgstr "チーム"
+
+msgid "teams per 1,000 organizations"
+msgstr "1,000組織あたりのチーム数"
+
+msgid "Teams vs individual accounts"
+msgstr "チームと個人アカウント"
 
 msgid "Teardown"
 msgstr "ティアダウン"
@@ -15611,6 +15650,12 @@ msgstr "{count}件のプルリクエストを表示"
 msgid "View {name}"
 msgstr "{name}を見る"
 
+msgid "view → paid"
+msgstr "表示 → 支払い"
+
+msgid "view → upgrade click"
+msgstr "表示 → アップグレードのクリック"
+
 msgid "View all"
 msgstr "すべて表示"
 
@@ -15825,11 +15870,11 @@ msgstr "毎週"
 msgid "Weekly at {time}"
 msgstr "毎週 {time}"
 
+msgid "Weekly cohorts by first paywall view. Bars are cohort size; the current week is still filling."
+msgstr "最初にペイウォールを見た週ごとのコホート。棒はコホートの人数で、今週はまだ増えています。"
+
 msgid "Weekly cohorts by first real workspace; % returning with another workspace each week"
 msgstr "初回の実ワークスペースによる週次コホート。各週に別のワークスペースを作成して戻った割合"
-
-msgid "Weekly orgs with 2+/5+ members creating real workspaces"
-msgstr "実ワークスペースを作成したメンバーが2人以上/5人以上いる組織の週次数"
 
 msgid "Weekly p50/p90 real workspaces per creator; current week dashed"
 msgstr "作成者あたりの実ワークスペース数の週次p50/p90。今週は破線"

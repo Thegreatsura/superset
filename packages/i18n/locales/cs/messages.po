@@ -860,6 +860,9 @@ msgstr "{skipped, plural, one {# přeskočeno} few {# přeskočeno} many {# pře
 msgid "{starCount} stars and counting"
 msgstr "{starCount} hvězd a přibývá"
 
+msgid "{stars} stars · {perDay}/day this week · {peakPerDay}/day at peak"
+msgstr "{stars} hvězd · {perDay}/den tento týden · {peakPerDay}/den ve špičce"
+
 msgid "{subagentCount, plural, one {# subagent running} other {# subagents running}}"
 msgstr "{subagentCount, plural, one {# subagent běží} few {# subagenti běží} many {# subagenta běží} other {# subagentů běží}}"
 
@@ -3152,6 +3155,9 @@ msgstr "Kliknutím na dva commity určíte rozsah."
 msgid "Click-through rate"
 msgstr "Míra prokliku"
 
+msgid "Clicked upgrade"
+msgstr "Kliknutí na přechod výš"
+
 msgid "Clicks"
 msgstr "Kliknutí"
 
@@ -3366,6 +3372,9 @@ msgstr "Kohorta"
 
 msgid "Cohort retention"
 msgstr "Retence kohort"
+
+msgid "cohort size"
+msgstr "velikost kohorty"
 
 msgid "Collapse"
 msgstr "Sbalit"
@@ -6748,6 +6757,9 @@ msgstr "GitHub odmítl přihlašovací údaje tohoto počítače, takže pull re
 msgid "GitHub sign-in needed"
 msgstr "Je vyžadováno přihlášení ke GitHubu"
 
+msgid "GitHub stars"
+msgstr "Hvězdy na GitHubu"
+
 msgid "GitHub unreachable"
 msgstr "GitHub je nedostupný"
 
@@ -8941,6 +8953,9 @@ msgstr "Super, až budeš mít hotovo, otevři PR."
 msgid "No {0} logins on this host — sign in and usage appears here."
 msgstr "Na tomto hostu nejsou žádná přihlášení {0} — přihlaste se a využití se objeví tady."
 
+msgid "No {gaps} events in this window yet."
+msgstr "V tomto období zatím nejsou žádné události {gaps}."
+
 msgid "No access to this host"
 msgstr "K tomuto hostu nemáte přístup"
 
@@ -10284,14 +10299,11 @@ msgstr "Organizace: <0>{0}</0>"
 msgid "Organizations"
 msgstr "Organizace"
 
+msgid "Organizations that gained a second member, against the single-member accounts everyone starts with (Neon). Bars are the team count; the line is teams per 1,000 organizations. Removing a member deletes the row, so a team that shrank back to one person is missing from past weeks."
+msgstr "Organizace, které získaly druhého člena, oproti jednočlenným účtům, s nimiž všichni začínají (Neon). Sloupce jsou počet týmů, křivka jsou týmy na 1 000 organizací. Odebrání člena smaže řádek, takže tým, který se vrátil k jedné osobě, v minulých týdnech chybí."
+
 msgid "Organize your work into teams. Tasks and integrations can sync per-team."
 msgstr "Rozdělte práci do týmů. Úkoly a integrace se mohou synchronizovat po týmech."
-
-msgid "orgs with 2+ active members"
-msgstr "organizace s 2+ aktivními členy"
-
-msgid "orgs with 5+ active members"
-msgstr "organizace s 5+ aktivními členy"
 
 msgid "Originals"
 msgstr "Originály"
@@ -10414,6 +10426,9 @@ msgstr "stránkování"
 msgid "Pagination"
 msgstr "Stránkování"
 
+msgid "Paid"
+msgstr "Platba"
+
 msgid "Paid churn — cohort survival"
 msgstr "Churn plateb — přežití kohort"
 
@@ -10519,6 +10534,12 @@ msgstr "Způsob platby"
 msgid "Payment Successful"
 msgstr "Platba proběhla"
 
+msgid "Paywall → paid"
+msgstr "Paywall → platba"
+
+msgid "Paywall conversion over time"
+msgstr "Konverze paywallu v čase"
+
 msgid "PDF"
 msgstr "PDF"
 
@@ -10527,6 +10548,9 @@ msgstr "Nejvyšší tempo"
 
 msgid "Pending Invitations"
 msgstr "Čekající pozvánky"
+
+msgid "People whose first paywall view was in the last {PAYWALL_FUNNEL_WEEKS} weeks, and how far they got. A stage counts anyone who reached it after that view, so recent cohorts are still maturing."
+msgstr "Lidé, kteří paywall poprvé viděli za posledních {PAYWALL_FUNNEL_WEEKS} týdnů, a jak daleko došli. Fáze počítá každého, kdo se do ní dostal po tomto zobrazení, takže nedávné kohorty ještě dozrávají."
 
 msgid "People with access"
 msgstr "Lidé s přístupem"
@@ -12272,6 +12296,9 @@ msgstr "Ukládání…"
 msgid "Saving…"
 msgstr "Ukládám…"
 
+msgid "Saw the paywall"
+msgstr "Zobrazení paywallu"
+
 msgid "Scale from two agents to 100+"
 msgstr "Od dvou agentů ke stovkám"
 
@@ -13538,6 +13565,9 @@ msgstr "Spustit pracovní prostor"
 msgid "Started"
 msgstr "Zahájeno"
 
+msgid "Started checkout"
+msgstr "Zahájení checkoutu"
+
 msgid "starting"
 msgstr "spouští se"
 
@@ -14099,8 +14129,17 @@ msgstr "Tým v této organizaci nenalezen"
 msgid "Team settings"
 msgstr "Nastavení týmu"
 
+msgid "teams"
+msgstr "týmy"
+
 msgid "Teams"
 msgstr "Týmy"
+
+msgid "teams per 1,000 organizations"
+msgstr "týmy na 1 000 organizací"
+
+msgid "Teams vs individual accounts"
+msgstr "Týmy vs. individuální účty"
 
 msgid "Teardown"
 msgstr "Teardown"
@@ -15611,6 +15650,12 @@ msgstr "Zobrazit {count} pull requestů"
 msgid "View {name}"
 msgstr "Zobrazit {name}"
 
+msgid "view → paid"
+msgstr "zobrazení → platba"
+
+msgid "view → upgrade click"
+msgstr "zobrazení → klik na přechod výš"
+
 msgid "View all"
 msgstr "Zobrazit vše"
 
@@ -15825,11 +15870,11 @@ msgstr "Týdně"
 msgid "Weekly at {time}"
 msgstr "Týdně v {time}"
 
+msgid "Weekly cohorts by first paywall view. Bars are cohort size; the current week is still filling."
+msgstr "Týdenní kohorty podle prvního zobrazení paywallu. Sloupce jsou velikost kohorty; aktuální týden se ještě plní."
+
 msgid "Weekly cohorts by first real workspace; % returning with another workspace each week"
 msgstr "Týdenní kohorty podle prvního skutečného pracovního prostoru; % těch, kdo se každý týden vrátí s dalším prostorem"
-
-msgid "Weekly orgs with 2+/5+ members creating real workspaces"
-msgstr "Týdenní organizace s 2+/5+ členy, kteří vytvářejí skutečné pracovní prostory"
 
 msgid "Weekly p50/p90 real workspaces per creator; current week dashed"
 msgstr "Týdenní p50/p90 skutečných pracovních prostorů na tvůrce; aktuální týden čárkovaně"

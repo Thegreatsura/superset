@@ -860,6 +860,9 @@ msgstr "{skipped, plural, one {# pominięty} few {# pominięte} many {# pominię
 msgid "{starCount} stars and counting"
 msgstr "{starCount} gwiazdek i rośnie"
 
+msgid "{stars} stars · {perDay}/day this week · {peakPerDay}/day at peak"
+msgstr "{stars} gwiazdek · {perDay}/dzień w tym tygodniu · {peakPerDay}/dzień w szczycie"
+
 msgid "{subagentCount, plural, one {# subagent running} other {# subagents running}}"
 msgstr "{subagentCount, plural, one {# subagent działa} few {# subagenty działają} many {# subagentów działa} other {# subagenta działa}}"
 
@@ -3152,6 +3155,9 @@ msgstr "Kliknij dwa commity, aby wyznaczyć zakres."
 msgid "Click-through rate"
 msgstr "Współczynnik klikalności"
 
+msgid "Clicked upgrade"
+msgstr "Kliknięcie podniesienia planu"
+
 msgid "Clicks"
 msgstr "Kliknięcia"
 
@@ -3366,6 +3372,9 @@ msgstr "Kohorta"
 
 msgid "Cohort retention"
 msgstr "Retencja kohort"
+
+msgid "cohort size"
+msgstr "liczebność kohorty"
 
 msgid "Collapse"
 msgstr "Zwiń"
@@ -6748,6 +6757,9 @@ msgstr "GitHub odrzucił poświadczenia tego komputera, więc nie można wykrywa
 msgid "GitHub sign-in needed"
 msgstr "Wymagane logowanie do GitHub"
 
+msgid "GitHub stars"
+msgstr "Gwiazdki GitHub"
+
 msgid "GitHub unreachable"
 msgstr "GitHub jest niedostępny"
 
@@ -8941,6 +8953,9 @@ msgstr "Świetnie, otwórz PR, gdy będzie gotowy."
 msgid "No {0} logins on this host — sign in and usage appears here."
 msgstr "Brak logowań {0} na tym hoście — zaloguj się, a zużycie pojawi się tutaj."
 
+msgid "No {gaps} events in this window yet."
+msgstr "Brak zdarzeń {gaps} w tym okresie."
+
 msgid "No access to this host"
 msgstr "Brak dostępu do tego hosta"
 
@@ -10284,14 +10299,11 @@ msgstr "Organizacja: <0>{0}</0>"
 msgid "Organizations"
 msgstr "Organizacje"
 
+msgid "Organizations that gained a second member, against the single-member accounts everyone starts with (Neon). Bars are the team count; the line is teams per 1,000 organizations. Removing a member deletes the row, so a team that shrank back to one person is missing from past weeks."
+msgstr "Organizacje, które zyskały drugiego członka, w zestawieniu z jednoosobowymi kontami, od których wszyscy zaczynają (Neon). Słupki to liczba zespołów, linia to zespoły na 1000 organizacji. Usunięcie członka kasuje wiersz, więc zespół, który wrócił do jednej osoby, nie pojawia się w minionych tygodniach."
+
 msgid "Organize your work into teams. Tasks and integrations can sync per-team."
 msgstr "Organizuj pracę w zespoły. Zadania i integracje mogą synchronizować się per zespół."
-
-msgid "orgs with 2+ active members"
-msgstr "organizacje z 2+ aktywnymi członkami"
-
-msgid "orgs with 5+ active members"
-msgstr "organizacje z 5+ aktywnymi członkami"
 
 msgid "Originals"
 msgstr "Oryginały"
@@ -10414,6 +10426,9 @@ msgstr "paginacja"
 msgid "Pagination"
 msgstr "Paginacja"
 
+msgid "Paid"
+msgstr "Płatność"
+
 msgid "Paid churn — cohort survival"
 msgstr "Odpływ płatnych — przetrwanie kohort"
 
@@ -10519,6 +10534,12 @@ msgstr "Metoda płatności"
 msgid "Payment Successful"
 msgstr "Płatność zakończona powodzeniem"
 
+msgid "Paywall → paid"
+msgstr "Paywall → płatność"
+
+msgid "Paywall conversion over time"
+msgstr "Konwersja paywalla w czasie"
+
 msgid "PDF"
 msgstr "PDF"
 
@@ -10527,6 +10548,9 @@ msgstr "Szczytowe tempo"
 
 msgid "Pending Invitations"
 msgstr "Oczekujące zaproszenia"
+
+msgid "People whose first paywall view was in the last {PAYWALL_FUNNEL_WEEKS} weeks, and how far they got. A stage counts anyone who reached it after that view, so recent cohorts are still maturing."
+msgstr "Osoby, które pierwszy raz zobaczyły paywall w ostatnich {PAYWALL_FUNNEL_WEEKS} tygodniach, i jak daleko doszły. Etap liczy każdego, kto dotarł do niego po tym wyświetleniu, więc najnowsze kohorty jeszcze się nie domknęły."
 
 msgid "People with access"
 msgstr "Osoby z dostępem"
@@ -12272,6 +12296,9 @@ msgstr "Zapisywanie..."
 msgid "Saving…"
 msgstr "Zapisywanie…"
 
+msgid "Saw the paywall"
+msgstr "Wyświetlenie paywalla"
+
 msgid "Scale from two agents to 100+"
 msgstr "Skaluj od dwóch agentów do 100+"
 
@@ -13538,6 +13565,9 @@ msgstr "Uruchom obszar roboczy"
 msgid "Started"
 msgstr "Rozpoczęto"
 
+msgid "Started checkout"
+msgstr "Rozpoczęcie płatności"
+
 msgid "starting"
 msgstr "uruchamia się"
 
@@ -14099,8 +14129,17 @@ msgstr "Nie znaleziono zespołu w tej organizacji"
 msgid "Team settings"
 msgstr "Ustawienia zespołu"
 
+msgid "teams"
+msgstr "zespoły"
+
 msgid "Teams"
 msgstr "Zespoły"
+
+msgid "teams per 1,000 organizations"
+msgstr "zespoły na 1000 organizacji"
+
+msgid "Teams vs individual accounts"
+msgstr "Zespoły a konta indywidualne"
 
 msgid "Teardown"
 msgstr "Sprzątanie"
@@ -15611,6 +15650,12 @@ msgstr "Zobacz {count} pull requestów"
 msgid "View {name}"
 msgstr "Zobacz {name}"
 
+msgid "view → paid"
+msgstr "wyświetlenie → płatność"
+
+msgid "view → upgrade click"
+msgstr "wyświetlenie → klik podniesienia planu"
+
 msgid "View all"
 msgstr "Zobacz wszystkie"
 
@@ -15825,11 +15870,11 @@ msgstr "Co tydzień"
 msgid "Weekly at {time}"
 msgstr "Co tydzień o {time}"
 
+msgid "Weekly cohorts by first paywall view. Bars are cohort size; the current week is still filling."
+msgstr "Tygodniowe kohorty według pierwszego wyświetlenia paywalla. Słupki to liczebność kohorty; bieżący tydzień jeszcze się zapełnia."
+
 msgid "Weekly cohorts by first real workspace; % returning with another workspace each week"
 msgstr "Kohorty tygodniowe wg pierwszego prawdziwego obszaru roboczego; % powracających z kolejnym obszarem w każdym tygodniu"
-
-msgid "Weekly orgs with 2+/5+ members creating real workspaces"
-msgstr "Tygodniowe organizacje z 2+/5+ członkami tworzącymi prawdziwe obszary robocze"
 
 msgid "Weekly p50/p90 real workspaces per creator; current week dashed"
 msgstr "Tygodniowe p50/p90 prawdziwych obszarów roboczych na twórcę; bieżący tydzień przerywaną linią"

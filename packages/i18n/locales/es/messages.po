@@ -860,6 +860,9 @@ msgstr "{skipped, plural, one {# omitida} other {# omitidas}}"
 msgid "{starCount} stars and counting"
 msgstr "{starCount} estrellas y subiendo"
 
+msgid "{stars} stars · {perDay}/day this week · {peakPerDay}/day at peak"
+msgstr "{stars} estrellas · {perDay}/día esta semana · {peakPerDay}/día en el pico"
+
 msgid "{subagentCount, plural, one {# subagent running} other {# subagents running}}"
 msgstr "{subagentCount, plural, one {# subagente en ejecución} other {# subagentes en ejecución}}"
 
@@ -3152,6 +3155,9 @@ msgstr "Haz clic en dos commits para definir el intervalo."
 msgid "Click-through rate"
 msgstr "Tasa de clics"
 
+msgid "Clicked upgrade"
+msgstr "Hizo clic en mejorar"
+
 msgid "Clicks"
 msgstr "Clics"
 
@@ -3366,6 +3372,9 @@ msgstr "Cohorte"
 
 msgid "Cohort retention"
 msgstr "Retención por cohorte"
+
+msgid "cohort size"
+msgstr "tamaño de la cohorte"
 
 msgid "Collapse"
 msgstr "Contraer"
@@ -6748,6 +6757,9 @@ msgstr "GitHub rechazó las credenciales de este equipo, por lo que no se pueden
 msgid "GitHub sign-in needed"
 msgstr "Se requiere iniciar sesión en GitHub"
 
+msgid "GitHub stars"
+msgstr "Estrellas de GitHub"
+
 msgid "GitHub unreachable"
 msgstr "GitHub inaccesible"
 
@@ -8941,6 +8953,9 @@ msgstr "Genial, abre un PR cuando esté listo."
 msgid "No {0} logins on this host — sign in and usage appears here."
 msgstr "No hay sesiones de {0} en este host: inicia sesión y el uso aparecerá aquí."
 
+msgid "No {gaps} events in this window yet."
+msgstr "Aún no hay eventos {gaps} en este período."
+
 msgid "No access to this host"
 msgstr "Sin acceso a este host"
 
@@ -10284,14 +10299,11 @@ msgstr "Organización: <0>{0}</0>"
 msgid "Organizations"
 msgstr "Organizaciones"
 
+msgid "Organizations that gained a second member, against the single-member accounts everyone starts with (Neon). Bars are the team count; the line is teams per 1,000 organizations. Removing a member deletes the row, so a team that shrank back to one person is missing from past weeks."
+msgstr "Organizaciones que sumaron un segundo miembro, frente a las cuentas de un solo miembro con las que todos empiezan (Neon). Las barras son el número de equipos; la línea son los equipos por cada 1.000 organizaciones. Quitar a un miembro borra la fila, así que un equipo que volvió a ser de una persona no aparece en las semanas anteriores."
+
 msgid "Organize your work into teams. Tasks and integrations can sync per-team."
 msgstr "Organiza tu trabajo en equipos. Las tareas y las integraciones se pueden sincronizar por equipo."
-
-msgid "orgs with 2+ active members"
-msgstr "organizaciones con 2+ miembros activos"
-
-msgid "orgs with 5+ active members"
-msgstr "organizaciones con 5+ miembros activos"
 
 msgid "Originals"
 msgstr "Originales"
@@ -10414,6 +10426,9 @@ msgstr "paginación"
 msgid "Pagination"
 msgstr "Paginación"
 
+msgid "Paid"
+msgstr "Pagó"
+
 msgid "Paid churn — cohort survival"
 msgstr "Abandono de pago — supervivencia por cohorte"
 
@@ -10519,6 +10534,12 @@ msgstr "Método de pago"
 msgid "Payment Successful"
 msgstr "Pago correcto"
 
+msgid "Paywall → paid"
+msgstr "Muro de pago → pago"
+
+msgid "Paywall conversion over time"
+msgstr "Conversión del muro de pago en el tiempo"
+
 msgid "PDF"
 msgstr "PDF"
 
@@ -10527,6 +10548,9 @@ msgstr "Ritmo máximo"
 
 msgid "Pending Invitations"
 msgstr "Invitaciones pendientes"
+
+msgid "People whose first paywall view was in the last {PAYWALL_FUNNEL_WEEKS} weeks, and how far they got. A stage counts anyone who reached it after that view, so recent cohorts are still maturing."
+msgstr "Personas cuya primera vista del muro de pago fue en las últimas {PAYWALL_FUNNEL_WEEKS} semanas, y hasta dónde llegaron. Una etapa cuenta a cualquiera que la alcanzó después de esa vista, por lo que las cohortes recientes aún están madurando."
 
 msgid "People with access"
 msgstr "Personas con acceso"
@@ -12272,6 +12296,9 @@ msgstr "Guardando..."
 msgid "Saving…"
 msgstr "Guardando…"
 
+msgid "Saw the paywall"
+msgstr "Vio el muro de pago"
+
 msgid "Scale from two agents to 100+"
 msgstr "Escala de dos agentes a más de 100"
 
@@ -13538,6 +13565,9 @@ msgstr "Iniciar espacio de trabajo"
 msgid "Started"
 msgstr "Iniciada"
 
+msgid "Started checkout"
+msgstr "Inició el proceso de pago"
+
 msgid "starting"
 msgstr "iniciando"
 
@@ -14099,8 +14129,17 @@ msgstr "No se encontró el equipo en esta organización"
 msgid "Team settings"
 msgstr "Configuración del equipo"
 
+msgid "teams"
+msgstr "equipos"
+
 msgid "Teams"
 msgstr "Equipos"
+
+msgid "teams per 1,000 organizations"
+msgstr "equipos por cada 1.000 organizaciones"
+
+msgid "Teams vs individual accounts"
+msgstr "Equipos frente a cuentas individuales"
 
 msgid "Teardown"
 msgstr "Teardown"
@@ -15611,6 +15650,12 @@ msgstr "Ver {count} pull requests"
 msgid "View {name}"
 msgstr "Ver {name}"
 
+msgid "view → paid"
+msgstr "vista → pago"
+
+msgid "view → upgrade click"
+msgstr "vista → clic en mejorar"
+
 msgid "View all"
 msgstr "Ver todas"
 
@@ -15825,11 +15870,11 @@ msgstr "Semanal"
 msgid "Weekly at {time}"
 msgstr "Semanalmente a las {time}"
 
+msgid "Weekly cohorts by first paywall view. Bars are cohort size; the current week is still filling."
+msgstr "Cohortes semanales según la primera vista del muro de pago. Las barras muestran el tamaño de la cohorte; la semana actual aún se está completando."
+
 msgid "Weekly cohorts by first real workspace; % returning with another workspace each week"
 msgstr "Cohortes semanales por primer espacio de trabajo real; % que vuelve con otro espacio de trabajo cada semana"
-
-msgid "Weekly orgs with 2+/5+ members creating real workspaces"
-msgstr "Organizaciones semanales con 2+/5+ miembros que crean espacios de trabajo reales"
 
 msgid "Weekly p50/p90 real workspaces per creator; current week dashed"
 msgstr "p50/p90 semanal de espacios de trabajo reales por creador; semana actual en discontinuo"

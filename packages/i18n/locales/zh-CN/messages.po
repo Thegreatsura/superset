@@ -860,6 +860,9 @@ msgstr "{skipped, plural, one {#项已跳过} other {#项已跳过}}"
 msgid "{starCount} stars and counting"
 msgstr "{starCount}个星标，还在增长"
 
+msgid "{stars} stars · {perDay}/day this week · {peakPerDay}/day at peak"
+msgstr "{stars}个星标 · 本周{perDay}/天 · 峰值{peakPerDay}/天"
+
 msgid "{subagentCount, plural, one {# subagent running} other {# subagents running}}"
 msgstr "{subagentCount, plural, other {# 个子智能体运行中}}"
 
@@ -3152,6 +3155,9 @@ msgstr "点击两个提交以确定范围。"
 msgid "Click-through rate"
 msgstr "点击率"
 
+msgid "Clicked upgrade"
+msgstr "点击升级"
+
 msgid "Clicks"
 msgstr "点击"
 
@@ -3366,6 +3372,9 @@ msgstr "同期群"
 
 msgid "Cohort retention"
 msgstr "同期群留存"
+
+msgid "cohort size"
+msgstr "同期群人数"
 
 msgid "Collapse"
 msgstr "折叠"
@@ -6748,6 +6757,9 @@ msgstr "GitHub 拒绝了此计算机的凭据，因此无法检测拉取请求�
 msgid "GitHub sign-in needed"
 msgstr "需要登录 GitHub"
 
+msgid "GitHub stars"
+msgstr "GitHub 星标"
+
 msgid "GitHub unreachable"
 msgstr "无法连接 GitHub"
 
@@ -8941,6 +8953,9 @@ msgstr "不错，准备好就开个PR。"
 msgid "No {0} logins on this host — sign in and usage appears here."
 msgstr "此主机上没有{0}登录——登录后用量会显示在这里。"
 
+msgid "No {gaps} events in this window yet."
+msgstr "此时间范围内暂无 {gaps} 事件。"
+
 msgid "No access to this host"
 msgstr "没有此主机的访问权限"
 
@@ -10284,14 +10299,11 @@ msgstr "组织：<0>{0}</0>"
 msgid "Organizations"
 msgstr "组织"
 
+msgid "Organizations that gained a second member, against the single-member accounts everyone starts with (Neon). Bars are the team count; the line is teams per 1,000 organizations. Removing a member deletes the row, so a team that shrank back to one person is missing from past weeks."
+msgstr "已加入第二位成员的组织，与每个人最初拥有的单人账户的对比（Neon）。柱状为团队数量，折线为每 1,000 个组织中的团队数。移除成员会直接删除记录，因此缩回到一人的团队不会出现在过去的周次中。"
+
 msgid "Organize your work into teams. Tasks and integrations can sync per-team."
 msgstr "把工作组织到团队中。任务和集成可以按团队同步。"
-
-msgid "orgs with 2+ active members"
-msgstr "有2名以上活跃成员的组织"
-
-msgid "orgs with 5+ active members"
-msgstr "有5名以上活跃成员的组织"
 
 msgid "Originals"
 msgstr "原创组件"
@@ -10414,6 +10426,9 @@ msgstr "分页"
 msgid "Pagination"
 msgstr "分页"
 
+msgid "Paid"
+msgstr "已付费"
+
 msgid "Paid churn — cohort survival"
 msgstr "付费流失 — 同期群留存"
 
@@ -10519,6 +10534,12 @@ msgstr "支付方式"
 msgid "Payment Successful"
 msgstr "支付成功"
 
+msgid "Paywall → paid"
+msgstr "付费墙 → 付费"
+
+msgid "Paywall conversion over time"
+msgstr "付费墙转化率趋势"
+
 msgid "PDF"
 msgstr "PDF"
 
@@ -10527,6 +10548,9 @@ msgstr "峰值速度"
 
 msgid "Pending Invitations"
 msgstr "待处理邀请"
+
+msgid "People whose first paywall view was in the last {PAYWALL_FUNNEL_WEEKS} weeks, and how far they got. A stage counts anyone who reached it after that view, so recent cohorts are still maturing."
+msgstr "首次看到付费墙在最近 {PAYWALL_FUNNEL_WEEKS} 周内的用户，以及他们走到了哪一步。每个阶段统计在该次浏览之后到达的人，因此近期同期群仍在累积。"
 
 msgid "People with access"
 msgstr "有访问权限的人"
@@ -12272,6 +12296,9 @@ msgstr "正在保存..."
 msgid "Saving…"
 msgstr "正在保存…"
 
+msgid "Saw the paywall"
+msgstr "看到付费墙"
+
 msgid "Scale from two agents to 100+"
 msgstr "从两个智能体扩到100多个"
 
@@ -13538,6 +13565,9 @@ msgstr "启动工作区"
 msgid "Started"
 msgstr "开始时间"
 
+msgid "Started checkout"
+msgstr "开始结账"
+
 msgid "starting"
 msgstr "启动中"
 
@@ -14099,8 +14129,17 @@ msgstr "在此组织中未找到该团队"
 msgid "Team settings"
 msgstr "团队设置"
 
+msgid "teams"
+msgstr "团队"
+
 msgid "Teams"
 msgstr "团队"
+
+msgid "teams per 1,000 organizations"
+msgstr "每 1,000 个组织中的团队数"
+
+msgid "Teams vs individual accounts"
+msgstr "团队与个人账户"
 
 msgid "Teardown"
 msgstr "清理"
@@ -15611,6 +15650,12 @@ msgstr "查看{count}个拉取请求"
 msgid "View {name}"
 msgstr "查看{name}"
 
+msgid "view → paid"
+msgstr "浏览 → 付费"
+
+msgid "view → upgrade click"
+msgstr "浏览 → 点击升级"
+
 msgid "View all"
 msgstr "查看全部"
 
@@ -15825,11 +15870,11 @@ msgstr "每周"
 msgid "Weekly at {time}"
 msgstr "每周{time}"
 
+msgid "Weekly cohorts by first paywall view. Bars are cohort size; the current week is still filling."
+msgstr "按首次看到付费墙的周划分的同期群。柱状为同期群人数；本周仍在累积。"
+
 msgid "Weekly cohorts by first real workspace; % returning with another workspace each week"
 msgstr "按首个真实工作区划分的周同期群；每周再次创建工作区的回访比例"
-
-msgid "Weekly orgs with 2+/5+ members creating real workspaces"
-msgstr "每周有2名以上/5名以上成员创建真实工作区的组织数"
 
 msgid "Weekly p50/p90 real workspaces per creator; current week dashed"
 msgstr "每周每位创建者的真实工作区数p50/p90；本周为虚线"
