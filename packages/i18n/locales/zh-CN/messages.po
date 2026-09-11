@@ -93,6 +93,9 @@ msgstr "（外部）"
 msgid "(no output)"
 msgstr "（无输出）"
 
+msgid "(so far)"
+msgstr "（截至目前）"
+
 #. placeholder {0}: ports.length
 msgid "{0, plural, one {# active port — hide details} other {# active ports — hide details}}"
 msgstr "{0, plural, one {#个活动端口 — 隐藏详情} other {#个活动端口 — 隐藏详情}}"
@@ -1048,6 +1051,12 @@ msgstr "✓ 2小时前"
 msgid "✓ 3d ago"
 msgstr "✓ 3天前"
 
+#. placeholder {0}: formatNumber(latest.startMrrUsd, undefined)
+#. placeholder {1}: latest.customers
+#. placeholder {2}: formatNumber(latest.retainedMrrUsd, undefined)
+msgid "${0} from {1} customers became ${2}"
+msgstr "{1} 位客户的 MRR 从 ${0} 变为 ${2}"
+
 #. placeholder {0}: formatNumber(latest.prevUsd, undefined)
 #. placeholder {1}: latest.prevDate
 msgid "${0} previous period ({1})"
@@ -1093,6 +1102,9 @@ msgstr "10分钟"
 
 msgid "10+ concurrent workstreams without dropped state"
 msgstr "10条以上并行工作流且不丢状态"
+
+msgid "100% (retain everything)"
+msgstr "100%（全部留存）"
 
 msgid "15 minutes"
 msgstr "15分钟"
@@ -3042,6 +3054,9 @@ msgstr "选择Superset在什么时候通知你。"
 msgid "Choose which agent watches this page for comments"
 msgstr "选择由哪个智能体关注此页面的评论"
 
+msgid "Churn"
+msgstr "流失"
+
 msgid "CI failed"
 msgstr "CI失败"
 
@@ -3823,6 +3838,9 @@ msgstr "继续智能体会话需要固定的工作区"
 
 msgid "continuing the last session"
 msgstr "继续上一个会话"
+
+msgid "Contraction"
+msgstr "收缩"
 
 msgid "Contributions"
 msgstr "贡献"
@@ -5740,6 +5758,9 @@ msgstr "展开讨论"
 
 msgid "Expand workspace"
 msgstr "展开工作区"
+
+msgid "Expansion"
+msgstr "扩张"
 
 msgid "Experimental"
 msgstr "实验功能"
@@ -8668,6 +8689,12 @@ msgstr "按月"
 msgid "Monthly at {time}"
 msgstr "每月{time}"
 
+msgid "monthly NRR"
+msgstr "月度 NRR"
+
+msgid "monthly NRR (month so far)"
+msgstr "月度 NRR（本月至今）"
+
 msgid "Monthly on {day}"
 msgstr "每月{day}"
 
@@ -8721,6 +8748,9 @@ msgstr "MRR"
 
 msgid "MRR — daily (Stripe)"
 msgstr "MRR — 按日（Stripe）"
+
+msgid "MRR from customers paying at the end of the prior month, as a share of what they paid then: expansion and contraction net of churn, new customers excluded"
+msgstr "上月末付费客户的 MRR 占其当时付费额的比例：扩张与收缩扣除流失后的净值，不含新客户"
 
 msgid "Multi-select"
 msgstr "多选"
@@ -8828,6 +8858,9 @@ msgstr "净支出"
 
 msgid "Net burn — monthly (Mercury)"
 msgstr "净支出 — 按月（Mercury）"
+
+msgid "Net revenue retention — monthly (Stripe)"
+msgstr "净收入留存率 — 每月（Stripe）"
 
 msgid "Network Changed"
 msgstr "网络已变更"
@@ -12029,6 +12062,9 @@ msgstr "恢复自动化"
 msgid "Resuming {0}…"
 msgstr "正在恢复{0}…"
 
+msgid "Retained MRR"
+msgstr "留存 MRR"
+
 msgid "Retention and revenue"
 msgstr "留存与收入"
 
@@ -13653,6 +13689,10 @@ msgstr "免费开始。团队用不够时再升级。企业方案面向有进阶
 
 msgid "Start from a template"
 msgstr "从模板开始"
+
+#. placeholder {0}: datum.customers
+msgid "Start MRR ({0} customers)"
+msgstr "起始 MRR（{0} 位客户）"
 
 msgid "Start new session"
 msgstr "开始新会话"
