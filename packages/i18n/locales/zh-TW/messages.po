@@ -3796,6 +3796,9 @@ msgstr "繼續"
 msgid "Continue or fork session"
 msgstr "繼續或分支會話"
 
+msgid "Continue the session the last run left"
+msgstr "繼續上次執行留下的工作階段"
+
 msgid "Continue update"
 msgstr "繼續更新"
 
@@ -3814,6 +3817,12 @@ msgstr "使用GitHub繼續"
 
 msgid "Continue with Google"
 msgstr "使用Google繼續"
+
+msgid "Continuing an agent session requires a pinned workspace"
+msgstr "繼續代理程式工作階段需要已釘選的工作區"
+
+msgid "continuing the last session"
+msgstr "繼續上一個工作階段"
 
 msgid "Contributions"
 msgstr "貢獻"
@@ -7309,6 +7318,9 @@ msgstr "改進代理程式說明"
 msgid "Improved diff viewer"
 msgstr "更好的差異檢視器"
 
+msgid "in a new session"
+msgstr "在新的工作階段中"
+
 msgid "in a terminal on this host."
 msgstr "（在此主機的終端中）。"
 
@@ -10712,6 +10724,9 @@ msgstr "PID"
 msgid "Pin"
 msgstr "固定"
 
+msgid "Pin a workspace to continue its agent session between runs"
+msgstr "釘選一個工作區，以便在多次執行之間繼續其代理程式工作階段"
+
 msgid "Pin workspaces above your projects, then ⌘-click a batch to move, group, or delete them all at once."
 msgstr "把工作區固定在專案上方，再⌘點選批次選中，一次性移動、分組或刪除。"
 
@@ -13612,6 +13627,9 @@ msgstr "開始一段對話，訊息會顯示在這裡"
 msgid "Start a fresh agent session seeded with this terminal's recent context. Workspace files remain the source of truth."
 msgstr "以這個終端最近的上下文啟動新的代理程式會話。工作區中的檔案仍是準確來源。"
 
+msgid "Start a new agent session each run"
+msgstr "每次執行都啟動新的代理程式工作階段"
+
 msgid "Start a session"
 msgstr "開始一個會話"
 
@@ -14634,6 +14652,9 @@ msgstr "工作區尚未就緒。請重試。"
 msgid "The workspace may still have been created. This screen opens it if it appears."
 msgstr "工作區可能仍已建立。如果出現，此畫面會開啟它。"
 
+msgid "The workspace this automation is pinned to no longer exists on its host. Pin a different one in the automation's settings."
+msgstr "此自動化所釘選的工作區在其主機上已不存在。請在自動化設定中釘選另一個工作區。"
+
 msgid "The worktree and any uncommitted changes will be removed. This cannot be undone."
 msgstr "worktree及其中所有未提交的更改都會被移除。此操作無法復原。"
 
@@ -14688,6 +14709,9 @@ msgstr "該應用程式將可以存取所選組織中的資料。"
 #. placeholder {0}: params?.organizationName
 msgid "This automation belongs to {0}. Switch to that organization to open it."
 msgstr "此自動化屬於 {0}。請切換到該組織後開啟。"
+
+msgid "This automation has no instructions yet. Write a prompt in its settings before running it."
+msgstr "此自動化尚未有指示。請先在設定中撰寫提示，再執行。"
 
 msgid "This automation is in another organization"
 msgstr "此自動化位於其他組織"
