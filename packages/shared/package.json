@@ -36,6 +36,10 @@
 			"types": "./src/attachment-limits.ts",
 			"default": "./src/attachment-limits.ts"
 		},
+		"./agent-credentials": {
+			"types": "./src/agent-credentials.ts",
+			"default": "./src/agent-credentials.ts"
+		},
 		"./constants": {
 			"types": "./src/constants.ts",
 			"default": "./src/constants.ts"
@@ -63,6 +67,10 @@
 		"./plugins": {
 			"types": "./src/plugins/index.ts",
 			"default": "./src/plugins/index.ts"
+		},
+		"./sandbox-access-token": {
+			"types": "./src/sandbox-access-token.ts",
+			"default": "./src/sandbox-access-token.ts"
 		},
 		"./sentry": {
 			"types": "./src/sentry.ts",
