@@ -2040,6 +2040,9 @@ msgstr "外観"
 msgid "Apple logo"
 msgstr "Appleのロゴ"
 
+msgid "Application menu"
+msgstr "アプリケーションメニュー"
+
 msgid "Applies to"
 msgstr "適用範囲"
 
@@ -3383,9 +3386,6 @@ msgstr "現在のペインを閉じる"
 
 msgid "Close the current tab"
 msgstr "現在のタブを閉じる"
-
-msgid "Close window"
-msgstr "ウィンドウを閉じる"
 
 msgid "Close Window"
 msgstr "ウィンドウを閉じる"
@@ -8488,9 +8488,6 @@ msgstr "ショートカットをキーボードの刻印に合わせます(例: 
 msgid "Max"
 msgstr "最大"
 
-msgid "Maximize window"
-msgstr "ウィンドウを最大化"
-
 msgid "Maximum"
 msgstr "最大"
 
@@ -8650,9 +8647,6 @@ msgstr "最小化"
 
 msgid "Minimize GitHub issues"
 msgstr "GitHub issueを最小化"
-
-msgid "Minimize window"
-msgstr "ウィンドウを最小化"
 
 msgid "Minimum contrast"
 msgstr "最小コントラスト"

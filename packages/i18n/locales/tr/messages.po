@@ -2040,6 +2040,9 @@ msgstr "Görünüm"
 msgid "Apple logo"
 msgstr "Apple logosu"
 
+msgid "Application menu"
+msgstr "Uygulama menüsü"
+
 msgid "Applies to"
 msgstr "Uygulanacak yer"
 
@@ -3383,9 +3386,6 @@ msgstr "Geçerli bölmeyi kapat"
 
 msgid "Close the current tab"
 msgstr "Geçerli sekmeyi kapat"
-
-msgid "Close window"
-msgstr "Pencereyi kapat"
 
 msgid "Close Window"
 msgstr "Pencereyi kapat"
@@ -8488,9 +8488,6 @@ msgstr "Kısayolları klavyenizdeki etiketlerle eşleştirin (örn. ⌘Z her zam
 msgid "Max"
 msgstr "En yüksek"
 
-msgid "Maximize window"
-msgstr "Pencereyi büyüt"
-
 msgid "Maximum"
 msgstr "En yüksek"
 
@@ -8650,9 +8647,6 @@ msgstr "Küçült"
 
 msgid "Minimize GitHub issues"
 msgstr "GitHub issue'larını küçült"
-
-msgid "Minimize window"
-msgstr "Pencereyi küçült"
 
 msgid "Minimum contrast"
 msgstr "En düşük kontrast"

@@ -2040,6 +2040,9 @@ msgstr "Appearance"
 msgid "Apple logo"
 msgstr "Apple logo"
 
+msgid "Application menu"
+msgstr "Application menu"
+
 msgid "Applies to"
 msgstr "Applies to"
 
@@ -3383,9 +3386,6 @@ msgstr "Close the current pane"
 
 msgid "Close the current tab"
 msgstr "Close the current tab"
-
-msgid "Close window"
-msgstr "Close window"
 
 msgid "Close Window"
 msgstr "Close Window"
@@ -8488,9 +8488,6 @@ msgstr "Match shortcuts to the labels on your keyboard (e.g. ⌘Z always fires o
 msgid "Max"
 msgstr "Max"
 
-msgid "Maximize window"
-msgstr "Maximize window"
-
 msgid "Maximum"
 msgstr "Maximum"
 
@@ -8650,9 +8647,6 @@ msgstr "Minimize"
 
 msgid "Minimize GitHub issues"
 msgstr "Minimize GitHub issues"
-
-msgid "Minimize window"
-msgstr "Minimize window"
 
 msgid "Minimum contrast"
 msgstr "Minimum contrast"
