@@ -4382,6 +4382,9 @@ msgstr "Kan wijzigingen niet stagen"
 msgid "Couldn't stage design feedback"
 msgstr "Kan designfeedback niet klaarzetten"
 
+msgid "Couldn't stage file"
+msgstr "Kan bestand niet stagen"
+
 msgid "Couldn't start a new agent session"
 msgstr "Kan geen nieuwe agentsessie starten"
 
@@ -4399,6 +4402,9 @@ msgstr "Kan werkruimte niet starten"
 
 msgid "Couldn't unstage changes"
 msgstr "Kan wijzigingen niet unstagen"
+
+msgid "Couldn't unstage file"
+msgstr "Kan bestand niet unstagen"
 
 msgid "Couldn't update pull request"
 msgstr "Kan pull request niet bijwerken"
@@ -13707,6 +13713,9 @@ msgstr "Gestapeld"
 msgid "Stage all"
 msgstr "Alles stagen"
 
+msgid "Stage file"
+msgstr "Bestand stagen"
+
 msgid "Staged"
 msgstr "Gestaged"
 
@@ -15632,6 +15641,9 @@ msgstr "Niet-opgeslagen wijzigingen"
 
 msgid "Unstage all"
 msgstr "Alles unstagen"
+
+msgid "Unstage file"
+msgstr "Bestand unstagen"
 
 msgid "Unstaged"
 msgstr "Niet gestaged"
