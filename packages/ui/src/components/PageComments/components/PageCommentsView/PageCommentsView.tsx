@@ -50,6 +50,7 @@ export function PageCommentsView({
 	const containerRef = useRef<HTMLDivElement>(null);
 	const [container, setContainer] = useState({ width: 0, height: 0 });
 	const [frameEpoch, setFrameEpoch] = useState(0);
+	const [readySrc, setReadySrc] = useState<string | null>(null);
 
 	const { i18n } = useLingui();
 	const {
@@ -169,6 +170,7 @@ export function PageCommentsView({
 			if (!data || data.channel !== FRAME_CHANNEL) return;
 
 			if (data.type === "ready") {
+				setReadySrc(src);
 				setFrameEpoch((epoch) => epoch + 1);
 				if (scrollYRef.current > 0) {
 					send({ type: "restore-scroll", y: scrollYRef.current });
@@ -209,8 +211,13 @@ export function PageCommentsView({
 		setActiveThreadId,
 		setHoverRect,
 		setRects,
+		src,
 		submitting,
 	]);
+
+	useEffect(() => {
+		send({ type: "ready" });
+	}, [send]);
 
 	// biome-ignore lint/correctness/useExhaustiveDependencies: frameEpoch is a resend trigger, not a value read here
 	useEffect(() => {
@@ -258,6 +265,7 @@ export function PageCommentsView({
 				ref={frameRef}
 				src={src}
 				title={title}
+				ready={readySrc === src}
 				onLoad={() => setFrameEpoch((epoch) => epoch + 1)}
 			/>
 
