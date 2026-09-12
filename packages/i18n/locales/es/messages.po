@@ -16266,6 +16266,9 @@ msgstr "¿En qué puesto estás?"
 msgid "Where does my code run?"
 msgstr "¿Dónde se ejecuta mi código?"
 
+msgid "Where Page links in terminals, chat messages, and task markdown open when clicked."
+msgstr "Dónde se abren los enlaces a páginas en terminales, mensajes de chat y markdown de tareas al hacer clic."
+
 msgid "Where serious teams are"
 msgstr "Donde están los equipos serios"
 

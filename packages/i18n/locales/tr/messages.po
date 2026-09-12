@@ -16266,6 +16266,9 @@ msgstr "Kaçıncı sıradasınız?"
 msgid "Where does my code run?"
 msgstr "Kodum nerede çalışıyor?"
 
+msgid "Where Page links in terminals, chat messages, and task markdown open when clicked."
+msgstr "Terminallerdeki, sohbet mesajlarındaki ve görev markdown'undaki Sayfa bağlantılarının tıklandığında nereye açılacağı."
+
 msgid "Where serious teams are"
 msgstr "Ciddi takımların bulunduğu yer"
 

@@ -16266,6 +16266,9 @@ msgstr "Waar sta jij?"
 msgid "Where does my code run?"
 msgstr "Waar draait mijn code?"
 
+msgid "Where Page links in terminals, chat messages, and task markdown open when clicked."
+msgstr "Waar Pagina-links in terminals, chatberichten en taak-markdown worden geopend bij een klik."
+
 msgid "Where serious teams are"
 msgstr "Waar serieuze teams staan"
 

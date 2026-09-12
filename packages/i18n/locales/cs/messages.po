@@ -16266,6 +16266,9 @@ msgstr "Jak si stojíte?"
 msgid "Where does my code run?"
 msgstr "Kde běží můj kód?"
 
+msgid "Where Page links in terminals, chat messages, and task markdown open when clicked."
+msgstr "Kam se po kliknutí otevřou odkazy na stránky v terminálech, chatových zprávách a markdownu úkolů."
+
 msgid "Where serious teams are"
 msgstr "Kde jsou seriózní týmy"
 
