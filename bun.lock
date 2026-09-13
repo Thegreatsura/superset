@@ -427,6 +427,21 @@
         "typescript": "6.0.3",
       },
     },
+    "apps/gate": {
+      "name": "@superset/gate",
+      "version": "0.1.0",
+      "dependencies": {
+        "@superset/shared": "workspace:*",
+        "jose": "6.2.2",
+        "zod": "4.4.3",
+      },
+      "devDependencies": {
+        "@cloudflare/workers-types": "5.20260801.1",
+        "@superset/typescript": "workspace:*",
+        "typescript": "6.0.3",
+        "wrangler": "4.118.0",
+      },
+    },
     "apps/marketing": {
       "name": "@superset/marketing",
       "version": "0.1.0",
@@ -3100,6 +3115,8 @@
     "@superset/docs": ["@superset/docs@workspace:apps/docs"],
 
     "@superset/email": ["@superset/email@workspace:packages/email"],
+
+    "@superset/gate": ["@superset/gate@workspace:apps/gate"],
 
     "@superset/host-client": ["@superset/host-client@workspace:packages/host-client"],
 
